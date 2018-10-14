@@ -9,7 +9,8 @@
       "r": {
         "title": "",
         "imageUrl": ""
-      }
+      },
+      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS"
     },
     {
       "qid": "career.002",
@@ -20,7 +21,8 @@
       "r": {
         "title": "",
         "imageUrl": ""
-      }
+      },
+      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS"
     },
     {
       "qid": "career.003",
@@ -35,7 +37,8 @@
       "r": {
         "title": "",
         "imageUrl": ""
-      }
+      },
+      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS"
     },
     {
       "qid": "career.004",
@@ -51,7 +54,8 @@
       "r": {
         "title": "",
         "imageUrl": ""
-      }
+      },
+      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS"
     },
     {
       "qid": "exchange.001",
@@ -63,7 +67,8 @@
       "r": {
         "title": "",
         "imageUrl": ""
-      }
+      },
+      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS"
     },
     {
       "qid": "exchange.002",
@@ -75,7 +80,8 @@
       "r": {
         "title": "",
         "imageUrl": ""
-      }
+      },
+      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS"
     },
     {
       "qid": "exchange.003",
@@ -87,7 +93,8 @@
       "r": {
         "title": "",
         "imageUrl": ""
-      }
+      },
+      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS"
     },
     {
       "qid": "exchange.004",
@@ -100,7 +107,8 @@
       "r": {
         "title": "",
         "imageUrl": ""
-      }
+      },
+      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS"
     },
     {
       "qid": "exchange.005",
@@ -112,7 +120,8 @@
       "r": {
         "title": "",
         "imageUrl": ""
-      }
+      },
+      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS"
     },
     {
       "qid": "exchange.006",
@@ -126,7 +135,8 @@
       "r": {
         "title": "",
         "imageUrl": ""
-      }
+      },
+      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS"
     },
     {
       "qid": "exchange.007",
@@ -139,7 +149,8 @@
       "r": {
         "title": "",
         "imageUrl": ""
-      }
+      },
+      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS"
     },
     {
       "qid": "exchange.008",
@@ -151,7 +162,8 @@
       "r": {
         "title": "",
         "imageUrl": ""
-      }
+      },
+      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS"
     },
     {
       "qid": "exchange.009",
@@ -164,7 +176,8 @@
       "r": {
         "title": "",
         "imageUrl": ""
-      }
+      },
+      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS"
     },
     {
       "qid": "facility.001",
@@ -176,7 +189,8 @@
       "r": {
         "title": "",
         "imageUrl": ""
-      }
+      },
+      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS"
     },
     {
       "qid": "facility.002",
@@ -188,7 +202,8 @@
       "r": {
         "title": "",
         "imageUrl": ""
-      }
+      },
+      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS"
     },
     {
       "qid": "financial.001",
@@ -200,7 +215,8 @@
       "r": {
         "title": "",
         "imageUrl": ""
-      }
+      },
+      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS"
     },
     {
       "qid": "financial.002",
@@ -212,7 +228,8 @@
       "r": {
         "title": "",
         "imageUrl": ""
-      }
+      },
+      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS"
     },
     {
       "qid": "it.001",
@@ -224,7 +241,8 @@
       "r": {
         "title": "",
         "imageUrl": ""
-      }
+      },
+      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS"
     },
     {
       "qid": "it.002",
@@ -236,7 +254,8 @@
       "r": {
         "title": "",
         "imageUrl": ""
-      }
+      },
+      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS"
     },
     {
       "qid": "it.003",
@@ -250,7 +269,8 @@
       "r": {
         "title": "",
         "imageUrl": ""
-      }
+      },
+      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS"
     },
     {
       "qid": "it.004",
@@ -262,7 +282,8 @@
       "r": {
         "title": "",
         "imageUrl": ""
-      }
+      },
+      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS"
     },
     {
       "qid": "library.001",
@@ -273,7 +294,8 @@
       "r": {
         "title": "",
         "imageUrl": ""
-      }
+      },
+      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS"
     },
     {
       "qid": "ungradAcademic.001",
@@ -291,7 +313,8 @@
       "r": {
         "title": "",
         "imageUrl": ""
-      }
+      },
+      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS"
     },
     {
       "qid": "ungradAcademic.002",
@@ -302,7 +325,8 @@
       "r": {
         "title": "",
         "imageUrl": ""
-      }
+      },
+      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS"
     },
     {
       "qid": "ungradAcademic.003",
@@ -315,7 +339,8 @@
       "r": {
         "title": "",
         "imageUrl": ""
-      }
+      },
+      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS"
     },
     {
       "qid": "ungradAcademic.004",
@@ -326,7 +351,8 @@
       "r": {
         "title": "",
         "imageUrl": ""
-      }
+      },
+      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS"
     },
     {
       "qid": "ungradAcademic.005",
@@ -339,7 +365,8 @@
       "r": {
         "title": "",
         "imageUrl": ""
-      }
+      },
+      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS"
     },
     {
       "qid": "ungradAcademic.006",
@@ -350,7 +377,8 @@
       "r": {
         "title": "",
         "imageUrl": ""
-      }
+      },
+      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS"
     },
     {
       "qid": "ungradAcademic.007",
@@ -361,7 +389,8 @@
       "r": {
         "title": "",
         "imageUrl": ""
-      }
+      },
+      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS"
     },
     {
       "qid": "ungradAcademic.008",
@@ -372,7 +401,8 @@
       "r": {
         "title": "",
         "imageUrl": ""
-      }
+      },
+      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS"
     },
     {
       "qid": "ungradAcademic.009",
@@ -383,7 +413,8 @@
       "r": {
         "title": "",
         "imageUrl": ""
-      }
+      },
+      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS"
     },
     {
       "qid": "ungradAcademic.010",
@@ -394,7 +425,8 @@
       "r": {
         "title": "",
         "imageUrl": ""
-      }
+      },
+      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS"
     },
     {
       "qid": "ungradAcademic.011",
@@ -407,7 +439,8 @@
       "r": {
         "title": "",
         "imageUrl": ""
-      }
+      },
+      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS"
     }
   ]
 }
