@@ -1,4 +1,6 @@
 const electron = require("electron");
+const express = require('express');
+const bodyParser = require('body-parser');
 
 const { app, BrowserWindow, ipcMain:ipc } = electron;
 
@@ -37,5 +39,30 @@ app.on("ready", _ => {
         // setTimeout(_ => {
         //     mainWindow.webContents.send("remove-headlines");
         // }, 1000 * 2);
+
+        // mainWindow.webContents.send("display-text", "Hi, there!");
+        changeTextCallBack("Hi, there!");
     });
+});
+
+function changeTextCallBack(text) {
+    mainWindow.webContents.send("display-text", text);
+}
+
+// test rest callback
+let _app = express();
+_app.use(bodyParser.json());
+_app.use(bodyParser.urlencoded({ extended: true }));
+_app.get('/', (_, res) => {
+    res.status(200).send('Welcome to RESTful APIs');
+    changeTextCallBack('Welcome to RESTful APIs');
+});
+_app.post('/showAnswer', (req, res) => {
+    console.log(req.body.res.message); // log received json
+    res.set('Content-Type', 'text/plain');
+    res.end("yes"); // echo response text
+    changeTextCallBack(req.body.res.message);
+});
+let server = _app.listen(3000, function() {
+    console.log('app running on port ', server.address().port);
 });
