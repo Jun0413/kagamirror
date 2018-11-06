@@ -94,7 +94,7 @@ function updateFeeds(startIndex, display) {
                 toggleDisplay(display);
                 toggleHandler = setInterval(_ => {
                     toggleDisplay(display);
-                }, 1000);
+                }, 5000);
 
             } else {
                 updateFeeds(++startIndex, display);
@@ -126,7 +126,7 @@ exports.displayHeadlines = (display) => {
     updateFeedsWrapperFunc(display);
     updateHandler = setInterval(_ => {
         updateFeedsWrapperFunc(display);
-    }, 10000);
+    }, 300000);
 
     // updateFeeds(0, display);
     //console.log(feeds[curFeed].name);
