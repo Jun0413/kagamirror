@@ -14,10 +14,13 @@ single CSV file, row attributes
 - speech_rate
 - unique_words_per_speech
 - transcribe_confidence
-- lang_score = 1
+- num_grammar_error
+
+(((RUN WITH PYTHON 3)))
 """
 import os
 import json
+import language_check
 from subprocess import check_output
 
 """
@@ -26,6 +29,7 @@ Configuration
 THRESH_HOLD = 70
 NUM_PERSONS = 18
 SPEECH_DUR = 20.0
+LANG_TOOL = language_check.LanguageTool("en-US")
 
 
 def concat(chunks):
@@ -49,6 +53,8 @@ def concat(chunks):
 def auditok_wrapper(wav_file_name):
     # get output
     output = check_output(["auditok", "-i%s"%wav_file_name, "-e%d"%THRESH_HOLD])
+    # necessary for python3
+    output = output.decode("utf-8")
     # convert output to chunks
     chunks = [" ".join(chk.split(" ")[1:]) for chk in output.split("\n")[:-1]]
     # concatenate chunks
@@ -112,7 +118,6 @@ def extract_features(person_id, question_id):
     fp = open(res_file_name, 'r')
     trans_res = json.load(fp)
     chunks = auditok_wrapper(audio_file_name)
-    fp.close()
 
     # get speech_rate and unique_words_per_speech
     speech_rate = -1
@@ -134,12 +139,19 @@ def extract_features(person_id, question_id):
     # get average transcribe confidence
     transcribe_confidence = sum([result['alternatives'][0]['confidence'] for result in results]) / len(results)
 
-    # substitute language score with 1
-    data = [avg_words_per_chunk, speech_rate, unique_words_per_speech, transcribe_confidence, 1]
+    # count number of grammar errors
+    num_grammar_error = 0
+    for result in results:
+        num_grammar_error += len(LANG_TOOL.check(result['alternatives'][0]["transcript"]))
+
+    # prepare data
+    data = [avg_words_per_chunk, speech_rate, unique_words_per_speech, transcribe_confidence, num_grammar_error]
     print(data)
+    
+    fp.close()
     return data
 
 
 if __name__ == '__main__':
     # test
-    extract_features(14, 3)
+    extract_features(14, 1)
