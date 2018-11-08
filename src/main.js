@@ -1,6 +1,8 @@
 const electron = require("electron");
 const express = require('express');
 const bodyParser = require('body-parser');
+const {spawn, exec} = require('child_process');
+let kill = require('tree-kill');
 
 const { app, BrowserWindow, ipcMain:ipc } = electron;
 
@@ -9,7 +11,8 @@ let mainWindow;
 app.on("ready", _ => {
 
     mainWindow = new BrowserWindow({
-        fullscreen: true
+        fullscreen: true,
+        autoHideMenuBar: true
     });
 
     mainWindow.loadURL(`file://${__dirname}/index.html`);
@@ -49,20 +52,65 @@ function changeTextCallBack(text) {
     mainWindow.webContents.send("display-text", text);
 }
 
+function launchAlexa() {
+    // all bash script
+    // npm start
+    // java client
+    // wakewordAgent
+}
+
+function stopWakewordAgent() {
+    // may need to find ps id first then kill it
+}
+
+function launchSpeechGrader() {
+    /**
+     * Remember to chmod +x <script>
+     */
+
+    /**
+     * Mac
+     */
+    exec('open -a Terminal ~/Desktop/FYP/my-smart-mirror/amadeus/launch.sh');
+
+    /**
+     * Raspberry Pi
+     */
+    // exec('lxterminal -e <command here>');
+}
+
 // test rest callback
 let _app = express();
 _app.use(bodyParser.json());
 _app.use(bodyParser.urlencoded({ extended: true }));
+
 _app.get('/', (_, res) => {
     res.status(200).send('Welcome to RESTful APIs');
     changeTextCallBack('Welcome to RESTful APIs');
 });
+
 _app.post('/showAnswer', (req, res) => {
     console.log(req.body.res.message); // log received json
     res.set('Content-Type', 'text/plain');
     res.end("yes"); // echo response text
     changeTextCallBack(req.body.res.message);
 });
+
+_app.post('/launchSpeechGrader', (_, res) => {
+    res.set('Content-Type', 'text/plain');
+    res.end("yes");
+    changeTextCallBack("Now Speech Grader");
+    launchSpeechGrader();
+});
+
+_app.post('/showQuestion', (req, res) => {
+    res.set('Content-Type', 'text/plain');
+    res.end("yes");
+    console.log(req.body.question);
+    changeTextCallBack(req.body.question);
+});
+
 let server = _app.listen(3000, function() {
     console.log('app running on port ', server.address().port);
+    spawn('bash', ['./rest/serveo.sh']);
 });

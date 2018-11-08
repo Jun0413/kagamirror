@@ -12,9 +12,11 @@
   "dependencies": {},
   "devDependencies": {
     "body-parser": "^1.18.3",
+    "child_process": "^1.0.2",
     "electron": "^2.0.8",
     "express": "^4.16.4",
     "feedme": "^1.2.0",
-    "moment": "^2.22.2"
+    "moment": "^2.22.2",
+    "tree-kill": "^1.2.1"
   }
 }
