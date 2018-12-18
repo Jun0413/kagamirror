@@ -2,7 +2,6 @@ const electron = require("electron");
 const express = require('express');
 const bodyParser = require('body-parser');
 const {spawn, exec} = require('child_process');
-let kill = require('tree-kill');
 
 const { app, BrowserWindow, ipcMain:ipc } = electron;
 
@@ -59,8 +58,12 @@ function launchAlexa() {
     // wakewordAgent
 }
 
+function startWakewordAgent() {
+    // N.A
+}
+
 function stopWakewordAgent() {
-    // may need to find ps id first then kill it
+    // N.A
 }
 
 function launchSpeechGrader() {
@@ -72,11 +75,6 @@ function launchSpeechGrader() {
      * Mac
      */
     exec('open -a Terminal ~/Desktop/FYP/my-smart-mirror/amadeus/launch.sh');
-
-    /**
-     * Raspberry Pi
-     */
-    // exec('lxterminal -e <command here>');
 }
 
 // test rest callback
