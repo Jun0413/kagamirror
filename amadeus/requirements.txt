@@ -1,0 +1,16 @@
+-- pip --
+speechrecognition
+gtts
+py4j
+python-dateutil
+pydub
+feedparser
+numpy
+google-api-python-client
+auditok
+grammar-check
+oauth2client
+six
+
+-- brew --
+portaudio
