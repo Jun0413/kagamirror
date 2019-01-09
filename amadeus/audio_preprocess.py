@@ -20,7 +20,7 @@ single CSV file, row attributes
 """
 import os
 import json
-import language_check
+import grammar_check
 from subprocess import check_output
 
 """
@@ -29,7 +29,7 @@ Configuration
 THRESH_HOLD = 70
 NUM_PERSONS = 18
 SPEECH_DUR = 20.0
-LANG_TOOL = language_check.LanguageTool("en-US")
+LANG_TOOL = grammar_check.LanguageTool("en-US")
 
 
 def concat(chunks):
