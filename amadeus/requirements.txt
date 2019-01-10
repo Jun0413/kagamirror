@@ -11,6 +11,9 @@ auditok
 grammar-check
 oauth2client
 six
+scipy
+scikit-learn
+pandas
 
 -- brew --
 portaudio
