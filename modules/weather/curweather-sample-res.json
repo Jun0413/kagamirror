@@ -1,0 +1,42 @@
+{
+    "coord": {
+        "lon": 103.8,
+        "lat": 1.37
+    },
+    "weather": [
+        {
+            "id": 521,
+            "main": "Rain",
+            "description": "shower rain",
+            "icon": "09d"
+        }
+    ],
+    "base": "stations",
+    "main": {
+        "temp": 303.96,
+        "pressure": 1009,
+        "humidity": 74,
+        "temp_min": 303.15,
+        "temp_max": 305.15
+    },
+    "visibility": 8000,
+    "wind": {
+        "speed": 7.2,
+        "deg": 50
+    },
+    "clouds": {
+        "all": 40
+    },
+    "dt": 1547188860,
+    "sys": {
+        "type": 1,
+        "id": 9470,
+        "message": 0.018,
+        "country": "SG",
+        "sunrise": 1547161867,
+        "sunset": 1547205246
+    },
+    "id": 1880251,
+    "name": "Republic of Singapore",
+    "cod": 200
+}

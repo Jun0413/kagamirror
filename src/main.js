@@ -30,10 +30,10 @@ app.on("ready", _ => {
         //     mainWindow.webContents.send("remove-clock");
         // }, 5000);
 
-        mainWindow.webContents.send("display-weather-now");
+        mainWindow.webContents.send("display-weather");
 
         // setTimeout(_ => {
-        //     mainWindow.webContents.send("remove-weather-now")
+        //     mainWindow.webContents.send("remove-weather")
         // }, 6000);
 
         mainWindow.webContents.send("display-headlines");

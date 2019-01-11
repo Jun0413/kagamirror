@@ -1,7 +1,5 @@
 const electron = require("electron");
 const moment = require("moment");
-const clock = require("../modules/essentials/clock");
-const weatherNow = require("../modules/essentials/weather_now");
 const headlines = require("../modules/essentials/headlines");
 
 const { ipcRenderer:ipc } = electron;
@@ -13,37 +11,24 @@ const textDiv = document.getElementsByClassName("block middle center")[0].firstC
 
 function displayClock() {
     console.log("[execute] displayClock()");
-    clock.startClocking((dateString, hour, minute, second) => {
-        if (minute < 10) {
-            minute = "0" + minute;
-        }
-        if (second < 10) {
-            second = "0" + second;
-        }
-        clockDiv.innerHTML = dateString + "<br>" + hour + ":" + minute + ":" + second;
-    });
+    startClocking(clockDiv);
 }
 
 function removeClock() {
     console.log("[execute] removeClock()");
-    clock.stopClocking(_ => {
-        clockDiv.innerHTML = "";
-    });
+    clockDiv.innerHTML = "";
+    stopClocking();
 }
 
-function displayWeatherNow() {
-    console.log("[execute] displayWeatherNow()");
-    weatherNow.displayWeatherNow((weather, temp) => {
-        weatherDiv.innerHTML = weather + "<br>" +
-            (temp - 273.15).toFixed(2) + "&deg;C";
-    });
+function displayWeather() {
+    console.log("[execute] displayWeather()");
+    startWeather(weatherDiv);
 }
 
-function removeWeatherNow() {
-    console.log("[execute] removeWeatherNow()");
-    weatherNow.stopWeatherNow(_ => {
-        weatherDiv.innerHTML = "";
-    });
+function removeWeather() {
+    console.log("[execute] removeWeather()");
+    weatherDiv.innerHTML = "";
+    stopWeather();
 }
 
 function displayHeadlines() {
@@ -74,14 +59,14 @@ ipc.on("remove-clock", _ => {
     removeClock();
 });
 
-ipc.on("display-weather-now", _ => {
-    console.log("[renderer] received display-weather-now");
-    displayWeatherNow();
+ipc.on("display-weather", _ => {
+    console.log("[renderer] received display-weather");
+    displayWeather();
 });
 
-ipc.on("remove-weather-now", _ => {
-    console.log("[renderer] received remove-weather-now");
-    removeWeatherNow();
+ipc.on("remove-weather", _ => {
+    console.log("[renderer] received remove-weather");
+    removeWeather();
 });
 
 ipc.on("display-headlines", _ => {
