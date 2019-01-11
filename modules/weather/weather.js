@@ -119,7 +119,7 @@ const weatherurl = "http://api.openweathermap.org/data/2.5/weather?id=1880251&AP
 function startWeather(containerElement) {
     console.log("[execute] startWeather()");
     // add HTML + CSS
-    $("head").append('<link rel="stylesheet" href="../modules/weather/weather.css">');
+    $("head").append('<link rel="stylesheet" href="../modules/weather/weather.css" id="style-weather">');
 
     // update weather
     containerElement.innerHTML = beforeSVGHTML + afterSVGHTML;
@@ -180,4 +180,5 @@ function whichSVG(id) {
 function stopWeather() {
     clearInterval(weatherhandler);
     weatherhandler = 0;
+    $("head").find("link#style-weather").remove();
 }

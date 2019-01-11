@@ -25,22 +25,24 @@ app.on("ready", _ => {
     mainWindow.webContents.on("did-finish-load", _ => {
 
         mainWindow.webContents.send("display-clock");
-
         // setTimeout(_ => {
         //     mainWindow.webContents.send("remove-clock");
         // }, 5000);
 
         mainWindow.webContents.send("display-weather");
-
         // setTimeout(_ => {
         //     mainWindow.webContents.send("remove-weather")
         // }, 6000);
 
         mainWindow.webContents.send("display-headlines");
-
         // setTimeout(_ => {
         //     mainWindow.webContents.send("remove-headlines");
-        // }, 1000 * 2);
+        // }, 1000 * 5);
+
+        mainWindow.webContents.send("display-quotes");
+        // setTimeout(_ => {
+        //     mainWindow.webContents.send("remove-quotes");
+        // }, 1000 * 15);
 
         // mainWindow.webContents.send("display-text", "Hi, there!");
         changeTextCallBack("Hi, there!");

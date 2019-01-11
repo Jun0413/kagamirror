@@ -67,7 +67,7 @@ body {
 
 .block.bottom.region {
     bottom: 0;
-    width: 70%;
+    width: 50%;
     text-align: center;
     left: 50%;
     -moz-transform: translateX(-50%);
@@ -85,20 +85,9 @@ body {
     position: relative;
 }
 
-.block.bottom .container {
+/* .block.bottom .container {
     margin-top: 25px;
-}
-
-.block.bottom.up .container {
-    font-size: 0.4em;
-}
-
-.block.bottom.down .container {
-    font-family: Palatino;
-    font-style: italic;
-    font-size: 0.5em;
-    margin-top: 5px;
-}
+} */
 
 .block.middle.region {
     top: 20%;

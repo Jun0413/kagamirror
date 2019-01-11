@@ -80,7 +80,7 @@ const clockHTML =
 function startClocking(containerElement) {
     console.log("[execute] startClocking()");
     // add HTML + CSS
-    $("head").append('<link rel="stylesheet" href="../modules/clock/clock.css">');
+    $("head").append('<link rel="stylesheet" href="../modules/clock/clock.css" id="style-clock">');
     containerElement.innerHTML = clockHTML;
 
     // start clock panel
@@ -140,4 +140,5 @@ function updateDate() {
 function stopClocking() {
     clearInterval(clockhandler);
     clockhandler = 0;
+    $("head").find("link#style-clock").remove();
 }
