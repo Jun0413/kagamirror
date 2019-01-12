@@ -93,6 +93,9 @@ body {
     top: 20%;
     bottom: 20%;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* .block.middle.left,
@@ -103,17 +106,19 @@ body {
 } */
 
 .block.middle.center {
+    color: white;
     font-size: 0.7em;
     width: 80%;
     line-height: normal;
-    bottom: 30%;
-    text-align: center;
-    -moz-transform: translateX(-50%);
+    top: 10%;
+    /* bottom: 30%; */
+    text-align: left;
+    /* -moz-transform: translateX(-50%);
     -o-transform: translateX(-50%);
     -webkit-transform: translateX(-50%);
     -ms-transform: translateX(-50%);
     transform: translateX(-50%);
-    left: 50%;
+    left: 50%; */
 }
 
 /* .block.middle.up {

@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="../lib/fonts/roboto.css">
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="voiceint.css">
     <script>
         window.$ = window.jQuery = require("../lib/jquery-3.3.1.min.js");
     </script>
@@ -20,7 +21,16 @@
             <div class="block middle left up"><div class="container">Mail List</div></div>
             <div class="block middle left down"><div class="container">Style Recommendation</div></div>
         </div> -->
-        <div class="block middle center"><div class="container"></div></div>
+        <div class="block middle center">
+            <div class="voiceint-title">
+                <div class="voiceint-title-left">
+                    <div class="dot"></div>
+                    <div class="voiceint-vendor"></div>
+                </div>
+                <div class="voiceint-title-right"></div>
+            </div>
+            <div class="voiceint-message"></div>
+        </div>
         <!-- <div class="block middle right">
             <div class="block middle right up"><div class="container">Playlist</div></div>
             <div class="block middle right down"><div class="container">Todo list</div></div>
@@ -34,6 +44,8 @@
 
     <script type="text/javascript" src="../modules/weather/weather.js"></script>
     <script type="text/javascript" src="../modules/clock/clock.js"></script>
+    <script type="text/javascript" src="../alexa/mirror_ui/faqbot.js"></script>
+    <script type="text/javascript" src="../amadeus/mirror_ui/speech_grader.js"></script>
     <script>require("./renderer")</script>
 </body>
 </html>

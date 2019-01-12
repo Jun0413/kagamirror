@@ -44,13 +44,25 @@ app.on("ready", _ => {
         //     mainWindow.webContents.send("remove-quotes");
         // }, 1000 * 15);
 
+        mainWindow.webContents.send("display-FAQbot");
+
         // mainWindow.webContents.send("display-text", "Hi, there!");
         changeTextCallBack("Hi, there!");
     });
 });
 
+//////////////////// Express Server ////////////////////
+
 function changeTextCallBack(text) {
     mainWindow.webContents.send("display-text", text);
+}
+
+function showAnswer(answer) { // for FAQBot
+    mainWindow.webContents.send("show-answer", answer);
+}
+
+function showQuestion(question) { // for SpeechGrader
+    mainWindow.webContents.send("show-question", question);
 }
 
 function launchAlexa() {
@@ -72,11 +84,12 @@ function launchSpeechGrader() {
     /**
      * Remember to chmod +x <script>
      */
-
+   
+    mainWindow.webContents.send("display-speechgrader");
     /**
      * Mac
      */
-    exec('open -a Terminal ~/Desktop/FYP/my-smart-mirror/amadeus/launch.sh');
+    exec('open -a Terminal -j ~/Desktop/FYP/kagamirror/amadeus/launch.sh');
 }
 
 // test rest callback
@@ -93,21 +106,20 @@ _app.post('/showAnswer', (req, res) => {
     console.log(req.body.res.message); // log received json
     res.set('Content-Type', 'text/plain');
     res.end("yes"); // echo response text
-    changeTextCallBack(req.body.res.message);
+    showAnswer(req.body.res.message);
 });
 
 _app.post('/launchSpeechGrader', (_, res) => {
     res.set('Content-Type', 'text/plain');
     res.end("yes");
-    changeTextCallBack("Now Speech Grader");
     launchSpeechGrader();
 });
 
 _app.post('/showQuestion', (req, res) => {
+    console.log("question received: ", req.body.question);
+    showQuestion(req.body.question);
     res.set('Content-Type', 'text/plain');
     res.end("yes");
-    console.log(req.body.question);
-    changeTextCallBack(req.body.question);
 });
 
 let server = _app.listen(3000, function() {

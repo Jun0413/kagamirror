@@ -68,10 +68,31 @@ function displayQuotes() {
 }
 
 function removeQuotes() {
+    console.log("[execute] removeQuotes()");
     quotes.stopQuotes(_ => {
         $(".block.bottom.down").find(".container").empty();
         $("head").find("link#style-quotes").remove();
     });
+}
+
+function displayFAQBot() {
+    console.log("[execute] displayFAQBot()");
+    startFAQBot();
+}
+
+function displayAnswer(answer) {
+    console.log("[execute] displayAnswer(answer)");
+    startAnswer(answer); // in ../alexa/mirror_ui/faqbot.js
+}
+
+function displaySpeechGrader() {
+    console.log("[execute] displaySpeechGrader()");
+    startSpeechGrader(); // in ../amadeus/mirror_ui/speech_grader.js
+}
+
+function displayQuestion(question) {
+    console.log("[execute] displaySpeechGrader()");
+    startQuestion(question);
 }
 
 function displayText(text) {
@@ -120,6 +141,27 @@ ipc.on("remove-quotes", _ => {
     console.log("[renderer] received remove-quotes");
     removeQuotes();
 });
+
+ipc.on("display-FAQbot", _ => {
+    console.log("[renderer] received display-FAQbot");
+    displayFAQBot();
+});
+
+ipc.on("show-answer", (_, answer) => {
+    console.log(`[renderer] received show-answer: ${answer}`);
+    displayAnswer(answer);
+});
+
+ipc.on("display-speechgrader", _ => {
+    console.log("[renderer] received display-speechgrader");
+    displaySpeechGrader();
+});
+
+ipc.on("show-question", (_, question) => {
+    console.log(`[renderer] received show-question: ${question}`);
+    displayQuestion(question);
+});
+
 
 ipc.on("display-text", (_, text) => {
     console.log(`[renderer] received display-text: ${text}`);
