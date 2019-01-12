@@ -91,8 +91,13 @@ function displaySpeechGrader() {
 }
 
 function displayQuestion(question) {
-    console.log("[execute] displaySpeechGrader()");
+    console.log("[execute] displayQuestion(question)");
     startQuestion(question);
+}
+
+function displayCountdown(text, duration) {
+    console.log("[execute] startCountdown(text, duration)");
+    startCountdown(text, duration);
 }
 
 function displayText(text) {
@@ -160,6 +165,11 @@ ipc.on("display-speechgrader", _ => {
 ipc.on("show-question", (_, question) => {
     console.log(`[renderer] received show-question: ${question}`);
     displayQuestion(question);
+});
+
+ipc.on("show-countdown", (_, text, duration) => {
+    console.log(`[renderer] received show-countdown: ${text}, ${duration}`);
+    displayCountdown(text, duration);
 });
 
 

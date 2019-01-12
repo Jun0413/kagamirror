@@ -472,6 +472,7 @@
 }
 .weather-iconinfo {
     display: flex;
+    justify-content: flex-end;
 }
 .weather-info {
     display: flex;

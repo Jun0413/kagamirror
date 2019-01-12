@@ -65,6 +65,10 @@ function showQuestion(question) { // for SpeechGrader
     mainWindow.webContents.send("show-question", question);
 }
 
+function showCountdown(text, duration) {
+    mainWindow.webContents.send("show-countdown", text, duration);
+}
+
 function launchAlexa() {
     // all bash script
     // npm start
@@ -118,6 +122,12 @@ _app.post('/launchSpeechGrader', (_, res) => {
 _app.post('/showQuestion', (req, res) => {
     console.log("question received: ", req.body.question);
     showQuestion(req.body.question);
+    res.set('Content-Type', 'text/plain');
+    res.end("yes");
+});
+
+_app.post('/showCountdown', (req, res) => {
+    showCountdown(req.body.text, req.body.duration);
     res.set('Content-Type', 'text/plain');
     res.end("yes");
 });

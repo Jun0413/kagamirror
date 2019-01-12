@@ -1,0 +1,25 @@
+/* countdown bar */
+.progressText {
+    margin-right: 10px;
+    font-size: 0.8em;
+}
+
+.progressBar {
+    width: 250px;
+    height: 15px;
+    background-color: #000;
+    border-radius: 15px;
+  }
+  
+  .progressBar div {
+    height: 100%;
+    text-align: right;
+    padding: 0 10px;
+    line-height: 15px; /* same as #progressBar height if we want text middle aligned */
+    width: 0;
+    background-color: #fff;
+    box-sizing: border-box;
+    border-radius: 15px;
+    font-size: 0.5em;
+    color: #000;
+  }
