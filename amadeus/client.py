@@ -11,5 +11,13 @@ def showCountdown(text, duration):
     res = requests.post(KM_API+"/showCountdown", data={'text': text, 'duration': duration})
     return res.status_code == 200
 
+def showLoading():
+    res = requests.post(KM_API+"/showLoading")
+    return res.status_code == 200
+
+def showGrade(grades):
+    res = requests.post(KM_API+"/showGrade", data={'grades': grades})
+    return res.status_code == 200
+
 if __name__ == "__main__":
     pass

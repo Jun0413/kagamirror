@@ -100,6 +100,16 @@ function displayCountdown(text, duration) {
     startCountdown(text, duration);
 }
 
+function displayLoading() {
+    console.log("[execute] displayLoading()");
+    startLoading();
+}
+
+function displayGrades(grades) {
+    console.log("[execute] displayGrades(grades)");
+    startGrades(grades);
+}
+
 function displayText(text) {
     console.log("[execute] displayText(text)");
     textDiv.innerHTML = text;
@@ -172,6 +182,15 @@ ipc.on("show-countdown", (_, text, duration) => {
     displayCountdown(text, duration);
 });
 
+ipc.on("show-loading", _ => {
+    console.log("[renderer] received show-loading");
+    displayLoading();
+});
+
+ipc.on("show-grades", (_, ...grades) => {
+    console.log("[renderer] received show-grades");
+    displayGrades(grades);
+});
 
 ipc.on("display-text", (_, text) => {
     console.log(`[renderer] received display-text: ${text}`);

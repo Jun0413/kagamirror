@@ -31,7 +31,7 @@ function startFAQBot() {
         $(this).html(faqbotTitleR).fadeIn("slow");
     });
     $(".voiceint-message").fadeOut("slow", function() {
-        $(this).html(faqbotPrompt).fadeIn("slow");
+        $(this).html(faqbotPrompt).fadeIn("slow", removeSpeechGraderStyling);
     });
 }
 

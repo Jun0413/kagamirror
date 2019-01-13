@@ -69,6 +69,14 @@ function showCountdown(text, duration) {
     mainWindow.webContents.send("show-countdown", text, duration);
 }
 
+function showLoading() {
+    mainWindow.webContents.send("show-loading");
+}
+
+function showGrade(grades) {
+    mainWindow.webContents.send("show-grades", ...grades);
+}
+
 function launchAlexa() {
     // all bash script
     // npm start
@@ -130,6 +138,18 @@ _app.post('/showCountdown', (req, res) => {
     showCountdown(req.body.text, req.body.duration);
     res.set('Content-Type', 'text/plain');
     res.end("yes");
+});
+
+_app.post('/showLoading', (_, res) => {
+    showLoading();
+    res.set('Content-Type', 'text/plain');
+    res.end("yes");
+});
+
+_app.post('/showGrade', (req, res) => {
+    showGrade(req.body.grades);
+    res.set('Content-Type', 'text/plain');
+    res.end('yes');
 });
 
 let server = _app.listen(3000, function() {
