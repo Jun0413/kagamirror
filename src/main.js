@@ -23,15 +23,15 @@ app.on("ready", _ => {
     mainWindow.webContents.openDevTools();
 
     mainWindow.webContents.on("did-finish-load", _ => {
-
+        
         mainWindow.webContents.send("display-clock");
         // setTimeout(_ => {
         //     mainWindow.webContents.send("remove-clock");
-        // }, 5000);
+        // }, 4000);
 
         mainWindow.webContents.send("display-weather");
         // setTimeout(_ => {
-        //     mainWindow.webContents.send("remove-weather")
+        //     mainWindow.webContents.send("remove-weather");
         // }, 6000);
 
         mainWindow.webContents.send("display-headlines");
@@ -47,7 +47,7 @@ app.on("ready", _ => {
         mainWindow.webContents.send("display-FAQbot");
 
         // mainWindow.webContents.send("display-text", "Hi, there!");
-        changeTextCallBack("Hi, there!");
+        // changeTextCallBack("Hi, there!");
     });
 });
 
@@ -75,6 +75,20 @@ function showLoading() {
 
 function showGrade(grades) {
     mainWindow.webContents.send("show-grades", ...grades);
+}
+
+function offAllModules() {
+    mainWindow.webContents.send("remove-clock");
+    mainWindow.webContents.send("remove-weather");
+    mainWindow.webContents.send("remove-headlines");
+    mainWindow.webContents.send("remove-quotes");
+}
+
+function onAllModules() {
+    mainWindow.webContents.send("display-clock");
+    mainWindow.webContents.send("display-weather");
+    mainWindow.webContents.send("display-headlines");
+    mainWindow.webContents.send("display-quotes");
 }
 
 function launchAlexa() {
@@ -148,6 +162,18 @@ _app.post('/showLoading', (_, res) => {
 
 _app.post('/showGrade', (req, res) => {
     showGrade(req.body.grades);
+    res.set('Content-Type', 'text/plain');
+    res.end('yes');
+});
+
+_app.post('/offAllModules', (_, res) => {
+    offAllModules();
+    res.set('Content-Type', 'text/plain');
+    res.end('yes');
+});
+
+_app.post('/onAllModules', (_, res) => {
+    onAllModules();
     res.set('Content-Type', 'text/plain');
     res.end('yes');
 });

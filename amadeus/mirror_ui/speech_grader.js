@@ -5,7 +5,7 @@ const sgPrompt = `<div style="text-align: center; font-size: 1.3em; line-height:
 const progBeforeHTML = `<div class="progressText">`;
 const progAfterHTML = `</div><div class="progressBar"><div></div></div>`;
 
-const loadingHTML = `<div class="loader"><div class="loader-dots"><div class="loader-dot loader-dot__1"></div><div class="loader-dot loader-dot__2"></div><div class="loader-dot loader-dot__3"></div><div class="loader__text">Loading</div></div></div>`;
+const loadingHTML = `<div class="loader"><div class="loader-dots"><div class="loader-dot loader-dot__1"></div><div class="loader-dot loader-dot__2"></div><div class="loader-dot loader-dot__3"></div><div class="loader__text">Processing</div></div></div>`;
 
 const gradeBeforeHTML = `<table class="grade-report"><caption>speech grade</caption>`;
 const gradeAfterHTML = `</table>`;
