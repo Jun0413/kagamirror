@@ -6,9 +6,11 @@ from sklearn.svm import SVC
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import confusion_matrix
 
-model_name = "model.pkl"
+model_name = "model-v3.pkl"
+TRAIN_PATH = "./dataset/train-v3.csv"
+TEST_PATH = "./dataset/test-v3.csv"
 
-def prepare_data(TRAIN_PATH = "./dataset/train-v1.csv", TEST_PATH = "./dataset/test-v1.csv"):
+def prepare_data():
     # load data
     train = pd.read_csv(TRAIN_PATH)
     test = pd.read_csv(TEST_PATH)
@@ -33,13 +35,15 @@ def train(save=True):
     X_train, y_train, X_test, y_test = prepare_data()
 
     # use SVM
+    # """
     clf = SVC(kernel='rbf')
     clf.fit(X_train, y_train)
     y_pred = clf.predict(X_test)
+    # """
 
     # use RandomForest
     """
-    clf = RandomForestClassifier(n_jobs=2, random_state=0)
+    clf = RandomForestClassifier(n_estimators=100)
     clf.fit(X_train, y_train)
     y_pred = clf.predict(X_test)
     """

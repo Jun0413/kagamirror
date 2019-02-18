@@ -1,15 +1,25 @@
-const http = require("http");
+const https = require("https");
 const FeedMe = require("feedme");
 
 let feeds = [
     {
         name: "New York Times",
-        url: "http://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml",
+        url: "https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml",
         headlines: [] // e.g. element: { pubdate: datestring, title: "news title" }
     },
     {
         name: "BBC Top Stories",
-        url: "http://feeds.bbci.co.uk/news/rss.xml",
+        url: "https://feeds.bbci.co.uk/news/rss.xml",
+        headlines: []
+    },
+    {
+        name: "Channel News Asia",
+        url: "https://www.channelnewsasia.com/rssfeeds/8396082",
+        headlines: []
+    },
+    {
+        name: "Straits Times",
+        url: "https://www.straitstimes.com/news/singapore/rss.xml",
         headlines: []
     }
 ];
@@ -18,10 +28,12 @@ let curFeed, curHeadline;
 
 let toggleHandler = 0, updateHandler = 0;
 
+const numHeadlinesInFeed = 2;
+
 function updateCurPointers() {
 
     let numFeeds = feeds.length;
-    let numHeadlines = feeds[curFeed].headlines.length;
+    let numHeadlines = feeds[curFeed].headlines.length > numHeadlinesInFeed ? numHeadlinesInFeed : feeds[curFeed].headlines.length;
 
     curHeadline += 1;
     if (curHeadline >= numHeadlines) {
@@ -58,7 +70,7 @@ function updateFeeds(startIndex, display) {
 
     let startFeed = feeds[startIndex];
 
-    http.get(startFeed.url, res => {
+    https.get(startFeed.url, res => {
         if (res.statusCode !== 200) {
             console.error(new Error(`unable to get feeds: statusCode ${res.statusCode}`));
             return; // stop updating headlines for this element
