@@ -1,7 +1,7 @@
 import requests
 import time
 
-KM_API = "http://localhost:3000"
+KM_API = "http://localhost:8000"
 
 def showQuestion(question):
     res = requests.post(KM_API+"/showQuestion", data={'question': question})

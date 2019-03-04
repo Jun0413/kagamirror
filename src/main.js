@@ -178,7 +178,7 @@ _app.post('/onAllModules', (_, res) => {
     res.end('yes');
 });
 
-let server = _app.listen(3000, function() {
+let server = _app.listen(8000, function() {
     console.log('app running on port ', server.address().port);
     spawn('bash', ['./rest/serveo.sh']);
 });

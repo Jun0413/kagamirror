@@ -1,1 +1,1 @@
-ssh -R kagamirror:80:localhost:3000 serveo.net
+ssh -R kagamirror:80:localhost:8000 serveo.net
