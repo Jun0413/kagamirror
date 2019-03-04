@@ -3,13 +3,8 @@ const FeedMe = require("feedme");
 
 let feeds = [
     {
-        name: "New York Times",
-        url: "https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml",
-        headlines: [] // e.g. element: { pubdate: datestring, title: "news title" }
-    },
-    {
-        name: "BBC Top Stories",
-        url: "https://feeds.bbci.co.uk/news/rss.xml",
+        name: "NTU news",
+        url: "https://www.ntu.edu.sg/common/NewsRSSFeeds.aspx?Type=News&Category=All&SiteID=2",
         headlines: []
     },
     {
@@ -22,13 +17,23 @@ let feeds = [
         url: "https://www.straitstimes.com/news/singapore/rss.xml",
         headlines: []
     }
+    // {
+    //     name: "New York Times",
+    //     url: "https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml",
+    //     headlines: [] // e.g. element: { pubdate: datestring, title: "news title" }
+    // },
+    // {
+    //     name: "BBC Top Stories",
+    //     url: "https://feeds.bbci.co.uk/news/rss.xml",
+    //     headlines: []
+    // }
 ];
 
 let curFeed, curHeadline;
 
 let toggleHandler = 0, updateHandler = 0;
 
-const numHeadlinesInFeed = 2;
+const numHeadlinesInFeed = 3;
 
 function updateCurPointers() {
 
@@ -73,6 +78,9 @@ function updateFeeds(startIndex, display) {
     https.get(startFeed.url, res => {
         if (res.statusCode !== 200) {
             console.error(new Error(`unable to get feeds: statusCode ${res.statusCode}`));
+            if (!isLast) {
+                updateFeeds(++startIndex, display);
+            }
             return; // stop updating headlines for this element
         }
 
