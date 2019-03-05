@@ -51,6 +51,11 @@ app.on("ready", _ => {
         //     mainWindow.webContents.send("remove-notification");
         // }, 1000 * 10);
 
+        mainWindow.webContents.send("display-school-events");
+        // setTimeout(_ => {
+        //     mainWindow.webContents.send("remove-school-events");
+        // }, 1000 * 15);
+
         // mainWindow.webContents.send("display-text", "Hi, there!");
         // changeTextCallBack("Hi, there!");
     });

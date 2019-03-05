@@ -1,0 +1,12 @@
+.block.bottom.left {
+    line-height: 1;
+}
+
+.events-table caption {
+    text-align: left;
+}
+
+.events-table td {
+    vertical-align: top;
+    padding-top: 1.2em;
+}

@@ -3,6 +3,7 @@ const moment = require("moment");
 
 const headlines = require("../modules/headlines/headlines");
 const quotes = require("../modules/quotes/quotes");
+const schoolEvents = require("../modules/school_events/school_events");
 
 const { ipcRenderer:ipc } = electron;
 
@@ -130,6 +131,49 @@ function removeNotificationContent() {
     stopNotificationContent();
 }
 
+function displaySchoolEvents(num, scrollInterval) {
+    console.log("[execute] displaySchoolEvents()");
+    $("head").append(`<link rel="stylesheet" href="../modules/school_events/school_events.css" id="style-school-events">`);
+    let eventTableHtml = `<table class="events-table"><caption>Recent Events</caption>`;
+    for (let i = 0; i < num; i++) { eventTableHtml += `<tr><td></td><td></td></tr>`; }
+    eventTableHtml += `</table>`;
+    $(".block.bottom.left").html(eventTableHtml).fadeIn("slow");
+
+    schoolEvents.startSchoolEvents(events => {
+        let eventIdx = 0, _emojiIdx = emojiIdx;
+        // display each event
+        let eventsDisplayed = events.slice(0, num);
+        $(".events-table tr").each(function() {
+            $(":nth-child(1)", this).html(eventsEmojis[(_emojiIdx++) % eventsEmojis.length]);
+            $(":nth-child(2)", this).html(eventsDisplayed[eventIdx++]);
+        });
+    });
+
+    // schedule scrolling event emojis
+    emojiScrollHandler = setInterval(_ => {
+        emojiIdx = (++emojiIdx) % eventsEmojis.length;
+        let _emojiIdx = emojiIdx;
+        $(".events-table td:nth-child(1)").each(function() {
+            $(this).fadeOut('slow', function() {
+                $(this).html(eventsEmojis[(_emojiIdx++) % eventsEmojis.length]).fadeIn('slow');
+            });
+        });
+    }, scrollInterval);
+}
+
+function removeSchoolEvents() {
+    console.log("[execute] removeSchoolEvents()");
+    schoolEvents.stopSchoolEvents(_ => {
+        $(".block.bottom.left").fadeOut("slow", function() {
+            $(this).empty();
+            $("head").find("link#style-school-events").remove();
+            clearInterval(emojiScrollHandler);
+            emojiScrollHandler = 0;
+            emojiIdx = 0;
+        });
+    });
+}
+
 function displayText(text) {
     console.log("[execute] displayText(text)");
     textDiv.innerHTML = text;
@@ -230,6 +274,16 @@ ipc.on("show-notification-content", (_, notification, date) => {
 ipc.on("remove-notification-content", _ => {
     console.log("[renderer] received remove-notification-content");
     removeNotificationContent();
+});
+
+ipc.on("display-school-events", _ => {
+    console.log("[renderer] received display-school-events");
+    displaySchoolEvents(3, 3 * 1000); // set # of events displayed & scrollInterval
+});
+
+ipc.on("remove-school-events", _ => {
+    console.log("[renderer] received remove-school-events");
+    removeSchoolEvents();
 });
 
 ipc.on("display-text", (_, text) => {
