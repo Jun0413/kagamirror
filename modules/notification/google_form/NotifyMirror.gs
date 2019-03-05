@@ -17,7 +17,6 @@ function sendNotification() {
 
 function requestMirror(date, message) {
     var data = {
-      'res': { 'message': message },
       'date': date,
       'text': message
     };
@@ -26,7 +25,7 @@ function requestMirror(date, message) {
       'contentType': 'application/json',
       'payload' : JSON.stringify(data)
     };
-    var mirrorResponse = UrlFetchApp.fetch('http://kagamirror.serveo.net:80/showAnswer', options);
+    var mirrorResponse = UrlFetchApp.fetch('http://kagamirror.serveo.net:80/showNotification', options);
     Logger.log(mirrorResponse);
     Logger.log("end of sendNotification()");
 }

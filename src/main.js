@@ -46,6 +46,11 @@ app.on("ready", _ => {
 
         mainWindow.webContents.send("display-FAQbot");
 
+        mainWindow.webContents.send("display-notification");
+        // setTimeout(_ => {
+        //     mainWindow.webContents.send("remove-notification");
+        // }, 1000 * 10);
+
         // mainWindow.webContents.send("display-text", "Hi, there!");
         // changeTextCallBack("Hi, there!");
     });
@@ -75,6 +80,14 @@ function showLoading() {
 
 function showGrade(grades) {
     mainWindow.webContents.send("show-grades", ...grades);
+}
+
+function showNotificationContent(notification, date) {
+    mainWindow.webContents.send("show-notification-content", notification, date);
+}
+
+function hideNotificationContent() {
+    mainWindow.webContents.send("remove-notification-content");
 }
 
 function offAllModules() {
@@ -118,7 +131,7 @@ function launchSpeechGrader() {
     exec('open -a Terminal -j ~/Desktop/FYP/kagamirror/amadeus/launch.sh');
 }
 
-// test rest callback
+// _app: app on express server
 let _app = express();
 _app.use(bodyParser.json());
 _app.use(bodyParser.urlencoded({ extended: true }));
@@ -163,7 +176,19 @@ _app.post('/showLoading', (_, res) => {
 _app.post('/showGrade', (req, res) => {
     showGrade(req.body.grades);
     res.set('Content-Type', 'text/plain');
-    res.end('yes');
+    res.end("yes");
+});
+
+_app.post('/showNotification', (req, res) => {
+    console.log("notification received: ", req.body.text);
+    showNotificationContent(req.body.text, req.body.date);
+    res.set('Content-Type', 'text/plain');
+    res.end("yes");
+});
+
+_app.get('/removeNotification', (_, res) => {
+    hideNotificationContent();
+    res.status(200).send('successfully removed notification');
 });
 
 _app.post('/offAllModules', (_, res) => {

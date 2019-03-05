@@ -110,6 +110,26 @@ function displayGrades(grades) {
     startGrades(grades);
 }
 
+function displayNotification() {
+    console.log("[execute] displayNotification()");
+    startNotification();
+}
+
+function removeNotification() {
+    console.log("[execute] removeNotification()");
+    stopNotification();
+}
+
+function displayNotificationContent(notification, date) {
+    console.log("[execute] displayNotificationContent(notification, date)");
+    startNotificationContent(notification, date);
+}
+
+function removeNotificationContent() {
+    console.log("[execute] removeNotificationContent()");
+    stopNotificationContent();
+}
+
 function displayText(text) {
     console.log("[execute] displayText(text)");
     textDiv.innerHTML = text;
@@ -190,6 +210,26 @@ ipc.on("show-loading", _ => {
 ipc.on("show-grades", (_, ...grades) => {
     console.log("[renderer] received show-grades");
     displayGrades(grades);
+});
+
+ipc.on("display-notification", _ => {
+    console.log("[renderer] received display-notification");
+    displayNotification();
+});
+
+ipc.on("remove-notification", _ => {
+    console.log("[renderer] received remove-notification");
+    removeNotification();
+});
+
+ipc.on("show-notification-content", (_, notification, date) => {
+    console.log("[renderer] received show-notification-content");
+    displayNotificationContent(notification, date);
+});
+
+ipc.on("remove-notification-content", _ => {
+    console.log("[renderer] received remove-notification-content");
+    removeNotificationContent();
 });
 
 ipc.on("display-text", (_, text) => {

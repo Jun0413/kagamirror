@@ -31,6 +31,10 @@ body {
     top: 0;
 }
 
+.block.bottom {
+    bottom: 0;
+}
+
 .block.right {
     right: 0;
     /*text-align: right;*/
@@ -65,11 +69,28 @@ body {
     margin-bottom: 25px;
 } */
 
-.block.bottom.region {
+/* .block.bottom.region {
     bottom: 0;
     width: 50%;
     text-align: center;
     left: 50%;
+    -moz-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+} */
+
+.block.bottom.region {
+    /* bottom: 0; */
+    width: 100%;
+}
+
+.block.bottom.center {
+    /* bottom: 0; */
+    width: 50%;
+    left: 50%;
+    text-align: center;
     -moz-transform: translateX(-50%);
     -o-transform: translateX(-50%);
     -webkit-transform: translateX(-50%);
@@ -83,6 +104,22 @@ body {
 
 .block.bottom.down {
     position: relative;
+}
+
+.block.bottom.left {
+    text-align: left;
+    left: 0;
+    width: 20%;
+    font-size: 0.5em;
+    /* bottom: 0; */
+}
+
+.block.bottom.right {
+    text-align: right;
+    right: 0;
+    width: 20%;
+    font-size: 0.5em;
+    /* bottom: 0; */
 }
 
 /* .block.bottom .container {
