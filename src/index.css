@@ -111,14 +111,17 @@ body {
     left: 0;
     width: 20%;
     font-size: 0.5em;
+    line-height: 1;
     /* bottom: 0; */
 }
 
 .block.bottom.right {
-    text-align: right;
+    vertical-align: bottom;
+    text-align: left;
     right: 0;
     width: 20%;
     font-size: 0.5em;
+    line-height: 1;
     /* bottom: 0; */
 }
 
