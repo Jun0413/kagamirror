@@ -1,0 +1,160 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "mirror controller",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "turnoffModulesIntent",
+                    "slots": [
+                        {
+                            "name": "MODULE_NAME",
+                            "type": "MODULE_NAME"
+                        }
+                    ],
+                    "samples": [
+                        "Turn off the {MODULE_NAME} module",
+                        "Switch off the {MODULE_NAME}",
+                        "Stop displaying {MODULE_NAME}",
+                        "Hide the {MODULE_NAME} module",
+                        "Hide {MODULE_NAME}",
+                        "Close the {MODULE_NAME} module",
+                        "Close {MODULE_NAME}",
+                        "Turn off {MODULE_NAME}",
+                        "Shut down the {MODULE_NAME} module",
+                        "Shut down {MODULE_NAME}"
+                    ]
+                },
+                {
+                    "name": "turnonModulesIntent",
+                    "slots": [
+                        {
+                            "name": "MODULE_NAME",
+                            "type": "MODULE_NAME"
+                        }
+                    ],
+                    "samples": [
+                        "Turn on the {MODULE_NAME} module",
+                        "Switch on the {MODULE_NAME}",
+                        "Open the {MODULE_NAME} module",
+                        "Open {MODULE_NAME}",
+                        "Show the {MODULE_NAME} module",
+                        "Show {MODULE_NAME}",
+                        "Display the {MODULE_NAME} module",
+                        "Display {MODULE_NAME}",
+                        "Launch the {MODULE_NAME} module",
+                        "Launch {MODULE_NAME}",
+                        "Start the {MODULE_NAME} module",
+                        "Turn on {MODULE_NAME}",
+                        "Start {MODULE_NAME}"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "MODULE_NAME",
+                    "values": [
+                        {
+                            "id": "5",
+                            "name": {
+                                "value": "quote",
+                                "synonyms": [
+                                    "daily quote"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "7",
+                            "name": {
+                                "value": "light",
+                                "synonyms": [
+                                    "all",
+                                    "all modules"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "6",
+                            "name": {
+                                "value": "recent events",
+                                "synonyms": [
+                                    "school events",
+                                    "events",
+                                    "triple E events"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "4",
+                            "name": {
+                                "value": "news",
+                                "synonyms": [
+                                    "news headlines",
+                                    "headlines"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "3",
+                            "name": {
+                                "value": "notification",
+                                "synonyms": [
+                                    "triple E announcement",
+                                    "triple E notification",
+                                    "announcement"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "2",
+                            "name": {
+                                "value": "q and a",
+                                "synonyms": [
+                                    "question answering",
+                                    "faq"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "1",
+                            "name": {
+                                "value": "weather",
+                                "synonyms": [
+                                    "temperature"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "0",
+                            "name": {
+                                "value": "clock",
+                                "synonyms": [
+                                    "date time"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

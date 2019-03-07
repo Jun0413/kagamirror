@@ -35,6 +35,13 @@ function startFAQBot() {
     });
 }
 
+function stopFAQBot() {
+    $(".voiceint-vendor").fadeOut("slow", function() { $(this).empty(); });
+    $(".voiceint-title-right").fadeOut("slow", function() { $(this).empty(); });
+    $(".voiceint-message").html("").fadeIn("slow");
+    $("head").find("link#style-faqbot").remove();
+}
+
 function startAnswer(answer) {
     $(".voiceint-message").fadeOut('slow', function() {
         $(this).html(answer).fadeIn('slow');

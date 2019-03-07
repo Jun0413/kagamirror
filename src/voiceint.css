@@ -67,6 +67,6 @@
     }
   }
 
-/* .voiceint-message {
-  height: 300px;
-} */
+.voiceint-message {
+  height: 200px;
+}

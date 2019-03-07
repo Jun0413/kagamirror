@@ -226,6 +226,11 @@ ipc.on("display-FAQbot", _ => {
     displayFAQBot();
 });
 
+ipc.on("remove-FAQbot", _ => {
+    console.log("[renderer] received remove-FAQbot");
+    stopFAQBot();
+});
+
 ipc.on("show-answer", (_, answer) => {
     console.log(`[renderer] received show-answer: ${answer}`);
     displayAnswer(answer);

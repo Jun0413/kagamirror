@@ -95,18 +95,52 @@ function hideNotificationContent() {
     mainWindow.webContents.send("remove-notification-content");
 }
 
-function offAllModules() {
-    mainWindow.webContents.send("remove-clock");
-    mainWindow.webContents.send("remove-weather");
-    mainWindow.webContents.send("remove-headlines");
-    mainWindow.webContents.send("remove-quotes");
+/**
+ * slot code <=> module
+ * 0: clock         4: news
+ * 1: weather       5: quote
+ * 2: q and a       6: recent events
+ * 3: notification  7: introduction
+ * 8: light (all)
+ */
+function turnonModule(slotCode) {
+    if (slotCode == "0") { mainWindow.webContents.send("display-clock"); }
+    else if (slotCode == "1") { mainWindow.webContents.send("display-weather"); }
+    else if (slotCode == "2") { mainWindow.webContents.send("display-FAQbot"); }
+    else if (slotCode == "3") { mainWindow.webContents.send("display-notification"); }
+    else if (slotCode == "4") { mainWindow.webContents.send("display-headlines"); }
+    else if (slotCode == "5") { mainWindow.webContents.send("display-quotes"); }
+    else if (slotCode == "6") { mainWindow.webContents.send("display-school-events"); }
+    else if (slotCode == "7") {
+        mainWindow.webContents.send("display-clock");
+        mainWindow.webContents.send("display-weather");
+        mainWindow.webContents.send("display-headlines");
+        mainWindow.webContents.send("display-quotes");
+        mainWindow.webContents.send("display-school-events");
+        mainWindow.webContents.send("display-notification");
+        mainWindow.webContents.send("display-FAQbot");
+    }
+    else console.error("invalid slotCode received: ", slotCode);
 }
 
-function onAllModules() {
-    mainWindow.webContents.send("display-clock");
-    mainWindow.webContents.send("display-weather");
-    mainWindow.webContents.send("display-headlines");
-    mainWindow.webContents.send("display-quotes");
+function turnoffModule(slotCode) {
+    if (slotCode == "0") { mainWindow.webContents.send("remove-clock"); }
+    else if (slotCode == "1") { mainWindow.webContents.send("remove-weather"); }
+    else if (slotCode == "2") { mainWindow.webContents.send("remove-FAQbot"); }
+    else if (slotCode == "3") { mainWindow.webContents.send("remove-notification"); }
+    else if (slotCode == "4") { mainWindow.webContents.send("remove-headlines"); }
+    else if (slotCode == "5") { mainWindow.webContents.send("remove-quotes"); }
+    else if (slotCode == "6") { mainWindow.webContents.send("remove-school-events"); }
+    else if (slotCode == "7") {
+        mainWindow.webContents.send("remove-clock");
+        mainWindow.webContents.send("remove-weather");
+        mainWindow.webContents.send("remove-headlines");
+        mainWindow.webContents.send("remove-quotes");
+        mainWindow.webContents.send("remove-school-events");
+        mainWindow.webContents.send("remove-notification");
+        mainWindow.webContents.send("remove-FAQbot");
+    }
+    else console.error("invalid slotCode received: ", slotCode);
 }
 
 function launchAlexa() {
@@ -196,14 +230,14 @@ _app.get('/removeNotification', (_, res) => {
     res.status(200).send('successfully removed notification');
 });
 
-_app.post('/offAllModules', (_, res) => {
-    offAllModules();
+_app.post('/turnonModule', (req, res) => {
+    turnonModule(req.body.slotCode);
     res.set('Content-Type', 'text/plain');
     res.end('yes');
 });
 
-_app.post('/onAllModules', (_, res) => {
-    onAllModules();
+_app.post('/turnoffModule', (req, res) => {
+    turnoffModule(req.body.slotCode);
     res.set('Content-Type', 'text/plain');
     res.end('yes');
 });
