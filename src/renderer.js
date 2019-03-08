@@ -135,7 +135,7 @@ function displaySchoolEvents(num, scrollInterval) {
     console.log("[execute] displaySchoolEvents()");
     $("head").append(`<link rel="stylesheet" href="../modules/school_events/school_events.css" id="style-school-events">`);
     let eventTableHtml = `<table class="events-table"><caption>Recent Events</caption>`;
-    for (let i = 0; i < num; i++) { eventTableHtml += `<tr><td></td><td></td></tr>`; }
+    for (let i = 0; i < num; i++) { eventTableHtml += `<tr><td><img/></td><td></td></tr>`; }
     eventTableHtml += `</table>`;
     $(".block.bottom.left").html(eventTableHtml).fadeIn("slow");
 
@@ -144,7 +144,9 @@ function displaySchoolEvents(num, scrollInterval) {
         // display each event
         let eventsDisplayed = events.slice(0, num);
         $(".events-table tr").each(function() {
-            $(":nth-child(1)", this).html(eventsEmojis[(_emojiIdx++) % eventsEmojis.length]);
+            $(":nth-child(1)", this).find("> img").attr("src",
+                "../modules/school_events/events_emojis_png/" +
+                eventsEmojis[(_emojiIdx++) % eventsEmojis.length] + ".png");
             $(":nth-child(2)", this).html(eventsDisplayed[eventIdx++]);
         });
     });
@@ -154,8 +156,10 @@ function displaySchoolEvents(num, scrollInterval) {
         emojiIdx = (++emojiIdx) % eventsEmojis.length;
         let _emojiIdx = emojiIdx;
         $(".events-table td:nth-child(1)").each(function() {
-            $(this).fadeOut('slow', function() {
-                $(this).html(eventsEmojis[(_emojiIdx++) % eventsEmojis.length]).fadeIn('slow');
+            $("> img", this).fadeOut('slow', function() {
+                $(this).attr("src",
+                "../modules/school_events/events_emojis_png/" +
+                eventsEmojis[(_emojiIdx++) % eventsEmojis.length] + ".png").fadeIn("slow");
             });
         });
     }, scrollInterval);
