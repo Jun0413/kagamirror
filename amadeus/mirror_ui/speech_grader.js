@@ -1,6 +1,6 @@
 const sgVendor = "<strong>Speech Grader</strong> powered by Google Speech API";
 
-const sgPrompt = `<div style="text-align: center; font-size: 1.3em; line-height: 1.5em;">To grade your speech, you need to answer 3 simple open-ended questions one by one.<br>For each question, you have 10 seconds to think and after beep you have 20 seconds to answer.<br>We evaluate based on grammar, speech rate, transcription confidence, but not answer content.<br>This is just a toy-version and does not claim responsibility for the result.</div>`;
+const sgPrompt = `<div style="text-align: left; font-size: 1.3em; line-height: 1.5em;">- You will answer 3 simple open-ended questions one by one.<br>- For each one, you have 5 seconds to prepare followed by 20 seconds to answer after beep.<br>- We evaluate based on communicative aspects not topic coherence.<br>- This is a proof-of-concept and does not claim responsibility for results.</div>`;
 
 const progBeforeHTML = `<div class="progressText">`;
 const progAfterHTML = `</div><div class="progressBar"><div></div></div>`;

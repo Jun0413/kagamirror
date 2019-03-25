@@ -7,7 +7,7 @@ function startNotification() {
     $(".notification-vendor").fadeOut("slow", function() {
         $(this).html(notificationVendor).fadeIn("slow");
     });
-    startNotificationContent("There is no notification currently. Oh there actually is, enjoy recess week!",  null);
+    startNotificationContent("There is no notification currently. Wait... there is actually - enjoy your recess week!",  null);
 }
 
 function stopNotification() {
