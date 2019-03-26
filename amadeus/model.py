@@ -7,9 +7,9 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import confusion_matrix
 from sklearn.preprocessing import StandardScaler
 
-model_name = "model-v4.pkl"
-TRAIN_PATH = "./dataset/train-v4.csv"
-TEST_PATH = "./dataset/test-v4.csv"
+model_name = "model-v5.pkl"
+TRAIN_PATH = "./dataset/train-v5.csv"
+TEST_PATH = "./dataset/test-v5.csv"
 
 def prepare_data():
     # load data
