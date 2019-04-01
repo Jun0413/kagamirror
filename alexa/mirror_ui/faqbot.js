@@ -1,4 +1,4 @@
-const faqbotVendor = "<strong>FAQ bot</strong> powered by Alexa &amp; AWS";
+const faqbotVendor = `<strong style="font-size: 1.2em;">FAQ bot</strong> <span style="font-size: 0.8em;">&nbsp; powered by Alexa &amp; AWS</span>`;
 
 const faqbotTitleR = `<div><i>Listening...</i></div>
 <svg class="audiowave" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 38.05">
@@ -17,7 +17,7 @@ const faqbotTitleR = `<div><i>Listening...</i></div>
 const faqbotPrompt = `<div style="text-align: center; font-size: 1.3em; line-height: 1.5em;">
 Step 1. "Alexa, open Q and A"<br>
 Step 2. Ask a question within EEE FAQ (<u>QRcode</u> below)<br>
-E.g. "Can you tell me what is ureca?"<br>
+E.g. "What is industrial attachment?"<br>
 <img src="../alexa/asset/qrcode/eeefaq.svg" style="width: 80px;height: 80px;margin-top: 10px">
 </div>`;
 
@@ -33,6 +33,7 @@ function startFAQBot() {
     $(".voiceint-message").fadeOut("slow", function() {
         $(this).html(faqbotPrompt).fadeIn("slow", removeSpeechGraderStyling);
     });
+    $("head").find("link#style-speechgrader").remove();
 }
 
 function stopFAQBot() {

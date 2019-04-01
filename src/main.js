@@ -45,6 +45,11 @@ app.on("ready", _ => {
         // }, 1000 * 15);
 
         mainWindow.webContents.send("display-FAQbot");
+        // mainWindow.webContents.send("display-speechgrader");
+        // showQuestion("Question one. What language have you learned?");
+        // setTimeout(_ => {
+        //     showCountdown("Preparation", 5);
+        // }, 3000);
 
         mainWindow.webContents.send("display-notification");
         // setTimeout(_ => {
@@ -85,6 +90,10 @@ function showLoading() {
 
 function showGrade(grades) {
     mainWindow.webContents.send("show-grades", ...grades);
+}
+
+function showError(message) {
+    mainWindow.webContents.send("show-error", message);
 }
 
 function showNotificationContent(notification, date) {
@@ -214,6 +223,12 @@ _app.post('/showLoading', (_, res) => {
 
 _app.post('/showGrade', (req, res) => {
     showGrade(req.body.grades);
+    res.set('Content-Type', 'text/plain');
+    res.end("yes");
+});
+
+_app.post('/showError', (req, res) => {
+    showError(req.body.message);
     res.set('Content-Type', 'text/plain');
     res.end("yes");
 });

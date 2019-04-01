@@ -111,6 +111,11 @@ function displayGrades(grades) {
     startGrades(grades);
 }
 
+function displayError(message) {
+    console.log("[execute] displayError(message)");
+    startError(message);
+}
+
 function displayNotification() {
     console.log("[execute] displayNotification()");
     startNotification();
@@ -263,6 +268,11 @@ ipc.on("show-loading", _ => {
 ipc.on("show-grades", (_, ...grades) => {
     console.log("[renderer] received show-grades");
     displayGrades(grades);
+});
+
+ipc.on("show-error", (_, message) => {
+    console.log("[renderer] received show-error");
+    displayError(message);
 });
 
 ipc.on("display-notification", _ => {

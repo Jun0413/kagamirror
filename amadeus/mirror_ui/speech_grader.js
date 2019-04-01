@@ -1,4 +1,4 @@
-const sgVendor = "<strong>Speech Grader</strong> powered by Google Speech API";
+const sgVendor = `<strong style="font-size: 1.2em;">Speech Grader</strong> <span style="font-size: 0.8em;">&nbsp; powered by Google Speech API</span>`;
 
 const sgPrompt = `<div style="text-align: left; font-size: 1.3em; line-height: 1.5em;">- You will answer 3 simple open-ended questions one by one.<br>- For each one, you have 5 seconds to prepare followed by 20 seconds to answer after beep.<br>- We evaluate based on communicative aspects not topic coherence.<br>- This is a proof-of-concept and does not claim responsibility for results.</div>`;
 
@@ -25,12 +25,12 @@ function startSpeechGrader() {
 
 function startQuestion(question) {
     $(".voiceint-message").fadeOut('slow', function() {
-        $(this).html(`<div style="text-align: center; font-size: 1.3em; line-height: 1.5em;">${question}</div>`).fadeIn('slow');
+        $(this).html(`<div style="text-align: center; font-size: 1.3em; line-height: 1.5em;">${question}</div><div class="progress-container" style="display: flex; flex-direction: row; align-items: center; justify-content: center; margin-top: 2em;"></div>`).fadeIn('slow');
     });
 }
 
 function startCountdown(text, duration) {
-    $(".voiceint-title-right").html(progBeforeHTML + text + progAfterHTML).fadeIn('slow');
+    $(".progress-container").html(progBeforeHTML + text + progAfterHTML).fadeIn('slow');
     progress(duration, duration, $('.progressBar'));
 }
 
@@ -42,7 +42,7 @@ function progress(timeleft, timetotal, $element) {
             progress(timeleft - 1, timetotal, $element);
         }, 1000);
     } else {
-        $('.voiceint-title-right').fadeOut('slow', _ => {
+        $('.progress-container').fadeOut('slow', _ => {
             $(this).empty();
         });
     }
@@ -69,7 +69,18 @@ function startGrades(grades) {
     // TODO
     setTimeout(_ => {
         startFAQBot();
-    }, 7000);
+    }, 10000);
+}
+
+function startError(message) {
+    $(".voiceint-message").fadeOut("slow", function() {
+        $(this).html(`<div style="text-align: center; font-size: 1.3em; line-height: 1.5em;">${message}</div>`).fadeIn("slow");
+    });
+
+    // TODO
+    setTimeout(_ => {
+        startFAQBot();
+    }, 10000);
 }
 
 /**

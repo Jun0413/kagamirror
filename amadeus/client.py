@@ -19,5 +19,9 @@ def showGrade(grades):
     res = requests.post(KM_API+"/showGrade", data={'grades': grades})
     return res.status_code == 200
 
+def showError(message):
+    res = requests.post(KM_API+"/showError", data={'message': message})
+    return res.status_code == 200
+
 if __name__ == "__main__":
     pass
