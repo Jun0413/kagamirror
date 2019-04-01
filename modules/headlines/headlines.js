@@ -33,7 +33,7 @@ let curFeed, curHeadline;
 
 let toggleHandler = 0, updateHandler = 0;
 
-const numHeadlinesInFeed = 3;
+const numHeadlinesInFeed = 10;
 
 function updateCurPointers() {
 
@@ -95,7 +95,7 @@ function updateFeeds(startIndex, display) {
             if (item.pubdate && item.title) {
                 startFeed.headlines.push({
                     pubdate: item.pubdate,
-                    title: item.title
+                    title: cleanHeadlineText(item.title)
                 });
             }
         });
@@ -141,12 +141,17 @@ function updateFeedsWrapperFunc(display) {
 
 }
 
+function cleanHeadlineText(text) {
+    // some agency puts &#160; in their headline title...
+    return text.replace(/&#160;/g, ' ');
+}
+
 exports.displayHeadlines = (display) => {
 
     updateFeedsWrapperFunc(display);
     updateHandler = setInterval(_ => {
         updateFeedsWrapperFunc(display);
-    }, 300000);
+    }, 900000); // update feeds every 15 minutes
 
     // updateFeeds(0, display);
     //console.log(feeds[curFeed].name);

@@ -33,7 +33,6 @@ function startFAQBot() {
     $(".voiceint-message").fadeOut("slow", function() {
         $(this).html(faqbotPrompt).fadeIn("slow", removeSpeechGraderStyling);
     });
-    $("head").find("link#style-speechgrader").remove();
 }
 
 function stopFAQBot() {
