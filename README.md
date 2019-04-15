@@ -29,4 +29,4 @@ Like TOEFL's auto-scoring system, launching speech grader puts users into an ora
 ***
 
 ## Frontend UI
-&nbsp; [click here](https://github.com/Jun0413/kagamirror/doc/architecture.png)
+&nbsp; [click here](https://github.com/Jun0413/kagamirror/blob/master/doc/mirror-ui.png)
