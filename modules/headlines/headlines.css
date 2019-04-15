@@ -1,0 +1,13 @@
+.newsagency {
+    font-size: 0.4em;
+    line-height: 3em;
+    font-weight: 500;
+    color: #999;
+    display: none;
+}
+
+.newsheadline {
+    font-size: 0.8em;
+    line-height: 1.4em;
+    display: none;
+}

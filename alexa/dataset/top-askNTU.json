@@ -1,0 +1,446 @@
+{
+  "qna": [
+    {
+      "qid": "career.001",
+      "q": [
+        "Is there a minimum allowance for P I"
+      ],
+      "a": "C A O recommends an allowance of 700 dollars per month. Most organizations pay our students 600 dollars and above. organizations that pay lower than this amount would be made known to students as a remark during the selection of organizations for P I.",
+      "r": {
+        "title": "",
+        "imageUrl": ""
+      },
+      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS"
+    },
+    {
+      "qid": "career.002",
+      "q": [
+        "What is it meant by non bonded only when applying for P I"
+      ],
+      "a": "Some of the interviewing organizations only want to consider students who are not bonded to any other organizations, i.e. they are not required to work for any particular organization after their graduation. This often because the organizations want to use P I to access the students' suitability for possible future employment.",
+      "r": {
+        "title": "",
+        "imageUrl": ""
+      },
+      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS"
+    },
+    {
+      "qid": "career.003",
+      "q": [
+        "If I was accepted by an organization in phase 1, can I still apply for organizations in phase 2",
+        "Can I apply in phase 2 if I already took the I A offer",
+        "Can I apply in phase 2 if I already took the P I offer",
+        "After taking the offer, can I apply for other I A companies",
+        "After taking the offer, can I apply for other P I companies"
+      ],
+      "a": "You can participate in phase 2 while still waiting for the results from phase 1 organizations. However, once you have been confirmed a place under phase 1, your choices made under phase 2 will be invalidated.",
+      "r": {
+        "title": "",
+        "imageUrl": ""
+      },
+      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS"
+    },
+    {
+      "qid": "career.004",
+      "q": [
+        "I am under a local scholarship, can I apply for an overseas I A",
+        "I am under a local scholarship, can I apply for an overseas P I",
+        "As a scholarship holder, is it possible to apply for the overseas P I",
+        "As a scholarship holder, is it possible to apply for the overseas I A",
+        "I am a scholar, can I apply for overseas I A",
+        "I am a scholar, can I apply for overseas P I"
+      ],
+      "a": "You have to check with you sponsor whether you are required to do P I with them or with other organization in Singapore. If so, then you are not allowed to apply for an overseas P I unless they agree to release you. The letter of release must be submitted to director, C A O, together with your application forms for overseas P I.",
+      "r": {
+        "title": "",
+        "imageUrl": ""
+      },
+      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS"
+    },
+    {
+      "qid": "exchange.001",
+      "q": [
+        "How do I look for housing for my gem explorer exchange semester",
+        "How do I look for housing during exchange"
+      ],
+      "a": "You will have to seek and arrange for your own housing unless your host university has explicitly guaranteed this to you.",
+      "r": {
+        "title": "",
+        "imageUrl": ""
+      },
+      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS"
+    },
+    {
+      "qid": "exchange.002",
+      "q": [
+        "How do I know my chances of getting selected for gem explorer",
+        "How do I know my chances of getting selected for exchange program"
+      ],
+      "a": "Your chances of getting selected are tied to your ranking of top 3 universities in your application, the number of available spots at a partner university which can lead to the priority in our selection criteria.",
+      "r": {
+        "title": "",
+        "imageUrl": ""
+      },
+      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS"
+    },
+    {
+      "qid": "exchange.003",
+      "q": [
+        "What is course matching in gem explorer",
+        "How do I match courses for gem explorer"
+      ],
+      "a": "When you are researching a partner university, you need to know if the courses there have equivalent courses or matches in N T U, such that you can transfer credits back to N T U after your exchange. It is best to select universities where there are at least 15 to 20 courses you can take. You may submit your 10 course preferences in the course matching system on the student link for your N T U school exchange coordinator to approve.",
+      "r": {
+        "title": "",
+        "imageUrl": ""
+      },
+      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS"
+    },
+    {
+      "qid": "exchange.004",
+      "q": [
+        "I missed the application deadline, can I still apply for gem explorer",
+        "Can I apply for exchange program after the deadline",
+        "Can I apply for gem explorer after the deadline"
+      ],
+      "a": "No late applications will be accepted.",
+      "r": {
+        "title": "",
+        "imageUrl": ""
+      },
+      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS"
+    },
+    {
+      "qid": "exchange.005",
+      "q": [
+        "Where do I get a letter of nomination for exchange program",
+        "Where do I get a letter of nomination for gem explorer"
+      ],
+      "a": "gem explorer will nominate you directly to your host university. You are not required to send any nomination letters.",
+      "r": {
+        "title": "",
+        "imageUrl": ""
+      },
+      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS"
+    },
+    {
+      "qid": "exchange.006",
+      "q": [
+        "Can I apply the exchange program for a future academic year",
+        "Can I apply the gem explorer for a future academic year",
+        "Can I apply for future year's gem explorer in advance",
+        "Can I apply for future year's exchange program in advance"
+      ],
+      "a": "You may not apply in advance.",
+      "r": {
+        "title": "",
+        "imageUrl": ""
+      },
+      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS"
+    },
+    {
+      "qid": "exchange.007",
+      "q": [
+        "In order to apply for a student visa, the embassy says that I need a letter from N T U. What is the letter",
+        "My visa application for gem explorer requires a letter from N T U. What is it",
+        "I am going for exchange and the embassy asks for a letter from NTU in order to issue me the visa. How do I get the letter"
+      ],
+      "a": "This letter is called a N T U letter of participation. gem explorer will only prepare this when we receive your acceptance letter.",
+      "r": {
+        "title": "",
+        "imageUrl": ""
+      },
+      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS"
+    },
+    {
+      "qid": "exchange.008",
+      "q": [
+        "How do I apply for gem explorer",
+        "How to apply for exchange program"
+      ],
+      "a": "After you have checked your eligibility and financial and course suitability, you may apply for gem explorer program via student link.",
+      "r": {
+        "title": "",
+        "imageUrl": ""
+      },
+      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS"
+    },
+    {
+      "qid": "exchange.009",
+      "q": [
+        "Can I apply for gem explorer if I had previously been in an overseas program that was not an exchange program",
+        "Can I apply for exchange program more than once",
+        "If I had been on exchange program, can I still apply for gem explorer"
+      ],
+      "a": "You can only apply for gem explorer if you had not been on an overseas exchange program.",
+      "r": {
+        "title": "",
+        "imageUrl": ""
+      },
+      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS"
+    },
+    {
+      "qid": "facility.001",
+      "q": [
+        "Where can I make a report of my lost item in campus",
+        "What should I do if I lost my item"
+      ],
+      "a": "You can make a report at student affairs office at student services centre, level 6 or at campus cecurity division at north spine, NS1-B1-01.",
+      "r": {
+        "title": "",
+        "imageUrl": ""
+      },
+      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS"
+    },
+    {
+      "qid": "facility.002",
+      "q": [
+        "Where can I hand over a found item",
+        "How do I hand over a found item"
+      ],
+      "a": "You can return it to student affairs office at student services centre, level 6. After office hours, you may hand it over to campus security division at north spine, NS1-B1-01.",
+      "r": {
+        "title": "",
+        "imageUrl": ""
+      },
+      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS"
+    },
+    {
+      "qid": "financial.001",
+      "q": [
+        "Am I liable to pay fees if I withdraw from my course",
+        "Do I need to pay fees if I drop my course"
+      ],
+      "a": "A student who leaves the University two weeks or more after the commencement of a semester, is liable for the payment of fees for the entire semester. Request for partial payment will not be considered.",
+      "r": {
+        "title": "",
+        "imageUrl": ""
+      },
+      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS"
+    },
+    {
+      "qid": "financial.002",
+      "q": [
+        "Can I have a list of useful contact numbers in office of finance",
+        "How can I contact office of finance"
+      ],
+      "a": "6 7 9 0 4 6 1 6 for student billing, and 6 7 9 0 4 6 1 9 for financial assistance",
+      "r": {
+        "title": "",
+        "imageUrl": ""
+      },
+      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS"
+    },
+    {
+      "qid": "it.001",
+      "q": [
+        "I have forgotten my network account password, what should I do",
+        "I have forgotten my email account password, what should I do"
+      ],
+      "a": "You can have your password reset by S M S, fax or walk-in at I T service counters. Please contact 9 3 7 2 2 8 3 0 for more information.",
+      "r": {
+        "title": "",
+        "imageUrl": ""
+      },
+      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS"
+    },
+    {
+      "qid": "it.002",
+      "q": [
+        "How can I unlock my network account",
+        "My network account is locked, what should I do"
+      ],
+      "a": "If your network account has been locked due to repeated failed login attempts or other reasons, you have to contact I T service counters. Please contact 9 3 7 2 2 8 3 0 for more information.",
+      "r": {
+        "title": "",
+        "imageUrl": ""
+      },
+      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS"
+    },
+    {
+      "qid": "it.003",
+      "q": [
+        "Why am I unable to log into  N T U",
+        "Why am I unable to log into  student link",
+        "Why am I unable to log into  N T U learn",
+        "Why am I unable to log into  blackboard learn"
+      ],
+      "a": "If you are a freshmen and this is the first time you are using your network account, please change your password first. If you are accessing using your own laptop or mobile device, please ensure that you have set the time and time zone correctly to Kuala Lumpur, Singapore. If you have done the above but still unable to access, please contact service desk.",
+      "r": {
+        "title": "",
+        "imageUrl": ""
+      },
+      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS"
+    },
+    {
+      "qid": "it.004",
+      "q": [
+        "How to reset my network account password",
+        "How to reset my email account password"
+      ],
+      "a": "Please refer to this site for details on how to do so. [url: https://tinyurl.com/yc7o4h2p]",
+      "r": {
+        "title": "",
+        "imageUrl": ""
+      },
+      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS"
+    },
+    {
+      "qid": "library.001",
+      "q": [
+        "What is the library's opening hours"
+      ],
+      "a": "As for Lee Wee Nam library, during semester, from monday to friday it is 08:30 to 21:30 and 08:30 to 17:00 on saturday. During vacation, from monday to friday it is 08:30 to 19:00 and 08:30 to 17:00 on saturday. Libraries are closed on sunday. Other libraries may vary and the opening hours are extended during exam period.",
+      "r": {
+        "title": "",
+        "imageUrl": ""
+      },
+      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS"
+    },
+    {
+      "qid": "ungradAcademic.001",
+      "q": [
+        "How do I obtain past year exam papers",
+        "Where can I find past year exam papers",
+        "Can I obtain answers for past year exam papers",
+        "Are there available answers for past year exam papers",
+        "How do I get P Y P papers",
+        "Where can I find P Y P papers",
+        "Where can I get answers for P Y P papers",
+        "Are there available answers for P Y P papers"
+      ],
+      "a": "You may download the softcopy of past year exam question papers from the N T U library website. And you can purchase answer scripts written by volunteering students at triple E printing room.",
+      "r": {
+        "title": "",
+        "imageUrl": ""
+      },
+      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS"
+    },
+    {
+      "qid": "ungradAcademic.002",
+      "q": [
+        "How do I apply for course exemption"
+      ],
+      "a": "Please submit your request and the supporting documents to your School for review. You may refer to [url: https://tinyurl.com/ycdmslrx]",
+      "r": {
+        "title": "",
+        "imageUrl": ""
+      },
+      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS"
+    },
+    {
+      "qid": "ungradAcademic.003",
+      "q": [
+        "I want to swop course with my friends but stars can only swop index number for same course",
+        "Can I swop index numbers for different courses",
+        "Why can't I swop different courses"
+      ],
+      "a": "There is no option to swop courses in stars. This is to prevent students from giving away registered courses for personal gain. Course allocation of places depends on the demand and supply.",
+      "r": {
+        "title": "",
+        "imageUrl": ""
+      },
+      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS"
+    },
+    {
+      "qid": "ungradAcademic.004",
+      "q": [
+        "How do I apply to do a second major"
+      ],
+      "a": "Eligible students from selected program may be invited to do a second major. Triple E students are offered to read business and social and urban systems as second majors. For more information, you may refer to here: [url: https://tinyurl.com/ybtk2ula].",
+      "r": {
+        "title": "",
+        "imageUrl": ""
+      },
+      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS"
+    },
+    {
+      "qid": "ungradAcademic.005",
+      "q": [
+        "Is the degree audit equivalent to the transcript",
+        "What is the difference between degree audit and transcript",
+        "What are degree audit and transcript"
+      ],
+      "a": "A degree audit is an record that enables the student and his academic counselor to assess the student's academic progress and unfulfilled degree requirements and other requirement. The audit is a tool for academic planning and course selection. A transcript is a record of the courses taken and grades earned of a student throughout a program.",
+      "r": {
+        "title": "",
+        "imageUrl": ""
+      },
+      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS"
+    },
+    {
+      "qid": "ungradAcademic.006",
+      "q": [
+        "How do I appeal for a review of my exam results"
+      ],
+      "a": "All appeals for the review of examination results must be submitted to the office of academic services through student link within 1 week from the release of the examination results.",
+      "r": {
+        "title": "",
+        "imageUrl": ""
+      },
+      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS"
+    },
+    {
+      "qid": "ungradAcademic.007",
+      "q": [
+        "What are admission requirements for Phd and master programs"
+      ],
+      "a": "For admission requirements of graduate programs, please visit: [url: https://tinyurl.com/ydch5mz4]",
+      "r": {
+        "title": "",
+        "imageUrl": ""
+      },
+      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS"
+    },
+    {
+      "qid": "ungradAcademic.008",
+      "q": [
+        "How do I qualify to be in the dean's list"
+      ],
+      "a": "The dean's list is compiled on a yearly basis. The top 5% of the cohort, subject to attaining a minimum Y G P A of 4.50 and the specified A U of graded courses by curriculum type taken in N T U in the academic year, is eligible for the dean's list. Full-time single degree students have to complete at least 15 A U of graded courses. Courses that are graded as satisfactory or unsatisfactory and pass or fail or those with grades exempted and leave of absence are not counted in the A U of graded courses for the purpose of determining the dean's list. Besides this, final year students must attain at least a second upper honours or honours degree in order to be considered for the dean's list.",
+      "r": {
+        "title": "",
+        "imageUrl": ""
+      },
+      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS"
+    },
+    {
+      "qid": "ungradAcademic.009",
+      "q": [
+        "How many intakes are there"
+      ],
+      "a": "N T U has only 1 intake per year. The academic term usually commence in early August.",
+      "r": {
+        "title": "",
+        "imageUrl": ""
+      },
+      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS"
+    },
+    {
+      "qid": "ungradAcademic.010",
+      "q": [
+        "Is class attendance compulsory"
+      ],
+      "a": "Attending classes is important when learning a new course so you should attend your classes regularly in order not to miss any lessons as this will lead to you begin unable to catch up.",
+      "r": {
+        "title": "",
+        "imageUrl": ""
+      },
+      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS"
+    },
+    {
+      "qid": "ungradAcademic.011",
+      "q": [
+        "If I am offered a program but I wish to appeal to change program, is it possible",
+        "How can I appeal for a change of program",
+        "How to change my program of study"
+      ],
+      "a": "You may submit your appeal online during the appeal period if you wish to change your offered program. Kindly note you need to satisfy certain requirements to be eligible.",
+      "r": {
+        "title": "",
+        "imageUrl": ""
+      },
+      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS"
+    }
+  ]
+}

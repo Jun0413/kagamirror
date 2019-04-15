@@ -1,0 +1,59 @@
+{
+    "results": [
+        {
+            "alternatives": [
+                {
+                    "confidence": 0.96680105, 
+                    "transcript": "blah blah blah blah blah blah blah blah blah", 
+                    "words": [
+                        {
+                            "endTime": "0.900s", 
+                            "word": "blah", 
+                            "startTime": "0.400s"
+                        }, 
+                        {
+                            "endTime": "1s", 
+                            "word": "blah", 
+                            "startTime": "0.900s"
+                        }, 
+                        {
+                            "endTime": "1.100s", 
+                            "word": "blah", 
+                            "startTime": "1s"
+                        }, 
+                        {
+                            "endTime": "1.300s", 
+                            "word": "blah", 
+                            "startTime": "1.100s"
+                        }, 
+                        {
+                            "endTime": "1.400s", 
+                            "word": "blah", 
+                            "startTime": "1.300s"
+                        }, 
+                        {
+                            "endTime": "1.700s", 
+                            "word": "blah", 
+                            "startTime": "1.400s"
+                        }, 
+                        {
+                            "endTime": "1.900s", 
+                            "word": "blah", 
+                            "startTime": "1.700s"
+                        }, 
+                        {
+                            "endTime": "2.200s", 
+                            "word": "blah", 
+                            "startTime": "1.900s"
+                        }, 
+                        {
+                            "endTime": "2.400s", 
+                            "word": "blah", 
+                            "startTime": "2.200s"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

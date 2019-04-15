@@ -1,0 +1,93 @@
+.notification-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-style: italic;
+}
+
+.notification-vendor {
+    margin-left: 10px;
+    font-size: 0.8em;
+}
+
+.notification-title-left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.notification-title-right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 0.8em;
+}
+
+/* bell */
+.bell {
+    position: relative;
+    width: 100px;
+    height: 100px;
+  }
+  .bell svg {
+    width: 100px;
+    height: 100px;
+  }
+  .bell svg > path {
+    fill: #FFFFFF;
+  }
+  .bell--bell {
+    animation: bellAnime 2.2s linear infinite;
+    transform-origin: 50% 0%;
+  }
+  .bell--bellClapper {
+    animation: bellClapperAnime 2.2s 0.1s linear infinite;
+  }
+  .bell--num {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    font-size: 1.2rem;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    background-color: #FF4C13;
+    border: 4px solid #FF4C13;
+    color: #FFFFFF;
+    text-align: center;
+  }
+
+  @keyframes bellAnime {
+    0%, 25%, 75%, 100% {
+      transform: rotate(0deg);
+    }
+    40% {
+      transform: rotate(10deg);
+    }
+    45% {
+      transform: rotate(-10deg);
+    }
+    55% {
+      transform: rotate(8deg);
+    }
+    60% {
+      transform: rotate(-8deg);
+    }
+  }
+  @keyframes bellClapperAnime {
+    0%, 25%, 75%, 100% {
+      transform: translateX(0);
+    }
+    40% {
+      transform: translateX(-0.15em);
+    }
+    45% {
+      transform: translateX(0.15em);
+    }
+    55% {
+      transform: translateX(-0.1em);
+    }
+    60% {
+      transform: translateX(0.1em);
+    }
+  }

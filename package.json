@@ -1,0 +1,24 @@
+{
+  "name": "my-smart-mirror",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "body-parser": "^1.18.3",
+    "cheerio": "^1.0.0-rc.2",
+    "child_process": "^1.0.2",
+    "electron": "^2.0.8",
+    "express": "^4.16.4",
+    "feedme": "^1.2.0",
+    "moment": "^2.22.2",
+    "request": "^2.88.0",
+    "tree-kill": "^1.2.1"
+  }
+}

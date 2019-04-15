@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../lib/fonts/roboto.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="voiceint.css">
+    <link rel="stylesheet" href="notification.css">
+    <link rel="stylesheet" href="about.css">
+    <script>
+        window.$ = window.jQuery = require("../lib/jquery-3.3.1.min.js");
+    </script>
+</head>
+<body>
+    <div class="block top region">
+        <div class="block top left"><div class="container"></div></div>
+        <!-- <div class="block top center"><img id="ntu-logo" src="ntu-logo.png" alt="ntu logo"></div> -->
+        <div class="block top right"><div class="container"></div></div>
+    </div>
+
+    <div class="block middle region">
+        <!-- <div class="block middle left">
+            <div class="block middle left up"><div class="container">Mail List</div></div>
+            <div class="block middle left down"><div class="container">Style Recommendation</div></div>
+        </div> -->
+        <div class="block middle center">
+            <div class="voiceint-title">
+                <div class="voiceint-title-left">
+                    <div class="dot"></div>
+                    <div class="voiceint-vendor"></div>
+                </div>
+                <div class="voiceint-title-right"></div>
+            </div>
+            <div class="voiceint-message"></div>
+            <div class="notification-title">
+                <div class="notification-title-left">
+                    <div class="bell"></div>
+                    <div class="notification-vendor"></div>
+                </div>
+                <div class="notification-title-right"></div>
+            </div>
+            <div class="notification-message"></div>
+        </div>
+        <!-- <div class="block middle right">
+            <div class="block middle right up"><div class="container">Playlist</div></div>
+            <div class="block middle right down"><div class="container">Todo list</div></div>
+        </div> -->
+    </div>
+
+    <div class="block bottom region">
+        <div class="block bottom left"></div>
+        <div class="block bottom center">
+            <div class="block bottom up"><div class="container"></div></div>
+            <div class="block bottom down"><div class="container"></div></div>
+        </div>
+        <div class="block bottom right">
+            <img id="ntu-logo" src="ntu-logo.png" alt="ntu logo">
+            <h4>About this Mirror<br>prototype for APO</h4>
+            <b>Functionalities</b><br>
+            1. Simple EEE-related question-answering<br>
+            2. Post notification by EEE admin<br>
+            3. Auto retrieve EEE events<br>
+            4. Show/hide modules ("Alexa, tell mirror controller to ...")<br>
+            <b>Hidden Function In-Dev</b><br>
+            "Alexa, open speech grader"<br>
+            <b>Developer</b> Jun0413@GitHub
+        </div>
+    </div>
+
+    <script type="text/javascript" src="../modules/weather/weather.js"></script>
+    <script type="text/javascript" src="../modules/clock/clock.js"></script>
+    <script type="text/javascript" src="../modules/notification/notification.js"></script>
+    <script type="text/javascript" src="../modules/school_events/event_emojis.js"></script>
+    <script type="text/javascript" src="../alexa/mirror_ui/faqbot.js"></script>
+    <script type="text/javascript" src="../amadeus/mirror_ui/speech_grader.js"></script>
+    <script>require("./renderer")</script>
+</body>
+</html>

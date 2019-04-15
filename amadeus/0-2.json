@@ -1,0 +1,199 @@
+{
+    "results": [
+        {
+            "alternatives": [
+                {
+                    "confidence": 0.94672775, 
+                    "transcript": "my favorite sport is definitely sold her at Friday since I was a very small Kate and my favorite soccer players are Lionel Messi and Cristiano Ronaldo that have really great skills and they are good Strikers", 
+                    "words": [
+                        {
+                            "endTime": "2.200s", 
+                            "word": "my", 
+                            "startTime": "1.800s"
+                        }, 
+                        {
+                            "endTime": "2.700s", 
+                            "word": "favorite", 
+                            "startTime": "2.200s"
+                        }, 
+                        {
+                            "endTime": "3.200s", 
+                            "word": "sport", 
+                            "startTime": "2.700s"
+                        }, 
+                        {
+                            "endTime": "3.300s", 
+                            "word": "is", 
+                            "startTime": "3.200s"
+                        }, 
+                        {
+                            "endTime": "4.200s", 
+                            "word": "definitely", 
+                            "startTime": "3.300s"
+                        }, 
+                        {
+                            "endTime": "4.700s", 
+                            "word": "sold", 
+                            "startTime": "4.200s"
+                        }, 
+                        {
+                            "endTime": "4.800s", 
+                            "word": "her", 
+                            "startTime": "4.700s"
+                        }, 
+                        {
+                            "endTime": "5.600s", 
+                            "word": "at", 
+                            "startTime": "4.800s"
+                        }, 
+                        {
+                            "endTime": "6s", 
+                            "word": "Friday", 
+                            "startTime": "5.600s"
+                        }, 
+                        {
+                            "endTime": "6.500s", 
+                            "word": "since", 
+                            "startTime": "6s"
+                        }, 
+                        {
+                            "endTime": "6.600s", 
+                            "word": "I", 
+                            "startTime": "6.500s"
+                        }, 
+                        {
+                            "endTime": "6.900s", 
+                            "word": "was", 
+                            "startTime": "6.600s"
+                        }, 
+                        {
+                            "endTime": "7.100s", 
+                            "word": "a", 
+                            "startTime": "6.900s"
+                        }, 
+                        {
+                            "endTime": "7.600s", 
+                            "word": "very", 
+                            "startTime": "7.100s"
+                        }, 
+                        {
+                            "endTime": "7.900s", 
+                            "word": "small", 
+                            "startTime": "7.600s"
+                        }, 
+                        {
+                            "endTime": "8.400s", 
+                            "word": "Kate", 
+                            "startTime": "7.900s"
+                        }, 
+                        {
+                            "endTime": "9.200s", 
+                            "word": "and", 
+                            "startTime": "8.400s"
+                        }, 
+                        {
+                            "endTime": "9.400s", 
+                            "word": "my", 
+                            "startTime": "9.200s"
+                        }, 
+                        {
+                            "endTime": "9.800s", 
+                            "word": "favorite", 
+                            "startTime": "9.400s"
+                        }, 
+                        {
+                            "endTime": "10.100s", 
+                            "word": "soccer", 
+                            "startTime": "9.800s"
+                        }, 
+                        {
+                            "endTime": "10.800s", 
+                            "word": "players", 
+                            "startTime": "10.100s"
+                        }, 
+                        {
+                            "endTime": "11.200s", 
+                            "word": "are", 
+                            "startTime": "10.800s"
+                        }, 
+                        {
+                            "endTime": "11.800s", 
+                            "word": "Lionel", 
+                            "startTime": "11.200s"
+                        }, 
+                        {
+                            "endTime": "12.400s", 
+                            "word": "Messi", 
+                            "startTime": "11.800s"
+                        }, 
+                        {
+                            "endTime": "12.800s", 
+                            "word": "and", 
+                            "startTime": "12.400s"
+                        }, 
+                        {
+                            "endTime": "13.600s", 
+                            "word": "Cristiano", 
+                            "startTime": "12.800s"
+                        }, 
+                        {
+                            "endTime": "14.200s", 
+                            "word": "Ronaldo", 
+                            "startTime": "13.600s"
+                        }, 
+                        {
+                            "endTime": "15.200s", 
+                            "word": "that", 
+                            "startTime": "14.200s"
+                        }, 
+                        {
+                            "endTime": "15.400s", 
+                            "word": "have", 
+                            "startTime": "15.200s"
+                        }, 
+                        {
+                            "endTime": "15.900s", 
+                            "word": "really", 
+                            "startTime": "15.400s"
+                        }, 
+                        {
+                            "endTime": "16.200s", 
+                            "word": "great", 
+                            "startTime": "15.900s"
+                        }, 
+                        {
+                            "endTime": "16.700s", 
+                            "word": "skills", 
+                            "startTime": "16.200s"
+                        }, 
+                        {
+                            "endTime": "17s", 
+                            "word": "and", 
+                            "startTime": "16.700s"
+                        }, 
+                        {
+                            "endTime": "17.100s", 
+                            "word": "they", 
+                            "startTime": "17s"
+                        }, 
+                        {
+                            "endTime": "17.800s", 
+                            "word": "are", 
+                            "startTime": "17.100s"
+                        }, 
+                        {
+                            "endTime": "18.100s", 
+                            "word": "good", 
+                            "startTime": "17.800s"
+                        }, 
+                        {
+                            "endTime": "18.900s", 
+                            "word": "Strikers", 
+                            "startTime": "18.100s"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
