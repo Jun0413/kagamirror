@@ -1,8 +1,11 @@
 .events-table caption {
+    color: white;
+    font-weight: 500;
     text-align: left;
 }
 
 .events-table td {
+    color: white;
     vertical-align: top;
     padding-top: 1.2em;
 }
