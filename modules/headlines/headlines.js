@@ -95,7 +95,7 @@ function updateFeeds(startIndex, display) {
             if (item.pubdate && item.title) {
                 startFeed.headlines.push({
                     pubdate: item.pubdate,
-                    title: item.title
+                    title: cleanHeadlineText(item.title)
                 });
             }
         });
@@ -139,6 +139,11 @@ function updateFeedsWrapperFunc(display) {
     console.log("do actual update");
     updateFeeds(0, display);
 
+}
+
+function cleanHeadlineText(text) {
+    // some agency puts &#160; in their headline title...
+    return text.replace(/&#160;/g, ' ');
 }
 
 exports.displayHeadlines = (display) => {
