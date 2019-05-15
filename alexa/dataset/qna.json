@@ -1,0 +1,1538 @@
+﻿{
+  "qna": [
+    {
+      "next": "",
+      "args": [
+        ""
+      ],
+      "a": "Fulltime N T U undergraduates who are admitted into triple E are automatically members of the triple E club. The club is a constituent body of the N T U students’ union, which caters for students’ welfare. The club organizes a variety of events to suit the different needs of our active students. They also organize leisure events like cruise dinners, movie screenings and holiday getaways at subsidised rates. In addition, they co‐organize events like bowling rendezvous and graduates’ evening with the triple E alumni to encourage interaction and networking between undergraduates and alumni members. The club also serves as a bridge between the school and the students.",
+      "r": {
+        "subTitle": "",
+        "imageUrl": "",
+        "title": ""
+      },
+      "t": "",
+      "alt": {
+        "markdown": "",
+        "ssml": "<speak>Fulltime <say-as interpret-as=\"spell-out\">NTU</say-as> undergraduates who are admitted into triple E are automatically members of the triple E club. The club is a constituent body of the <say-as interpret-as=\"spell-out\">NTU</say-as> students’ union, which caters for students’ welfare. The club organizes a variety of events to suit the different needs of our active students. They also organize leisure events like cruise dinners, movie screenings and holiday getaways at subsidised rates. In addition, they co‐organize events like bowling rendezvous and graduates’ evening with the triple E alumni to encourage interaction and networking between undergraduates and alumni members. The club also serves as a bridge between the school and the students.</speak>"
+      },
+      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS",
+      "qid": "eeefaq.025",
+      "type": "qna",
+      "q": [
+        "What is triple E club",
+        "What does triple E club do",
+        "How does triple E club work",
+        "What is EEE club"
+      ]
+    },
+    {
+      "next": "",
+      "args": [
+        ""
+      ],
+      "a": "Students can purchase notes from the Lee Wee Name library printing room. However, you have to check whether the notes for the courses are available. Alternatively, students can download and print the notes via N T U learn. Students may collect their laboratory manuals at the triple E undergraduate program office.",
+      "r": {
+        "subTitle": "",
+        "imageUrl": "",
+        "title": ""
+      },
+      "t": "",
+      "alt": {
+        "markdown": "",
+        "ssml": "<speak>Students can purchase notes from the Lee Wee Name library printing room. However, you have to check whether the notes for the courses are available. Alternatively, students can download and print the notes via <say-as interpret-as=\"spell-out\">NTU</say-as> learn. Students may collect their laboratory manuals at the triple E undergraduate program office.</speak>"
+      },
+      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS",
+      "qid": "eeefaq.002",
+      "type": "qna",
+      "q": [
+        "Where do I get lecture notes",
+        "How do I get lecture notes",
+        "Where do I get laboratory manuals",
+        "Where do I get lab manuals"
+      ]
+    },
+    {
+      "next": "",
+      "args": [
+        ""
+      ],
+      "a": "Counseling refers to an interactive learning process of addressing students’ intimate concerns, issues or behaviours facilitated by a professionally trained counselor within a private and confidential setting. If the personal issues or challenges you are facing are affecting your quality of life in the areas of your health, relationship, daily activities, academic performance or eating and sleeping patterns, it is recommended that you seek professional counseling.",
+      "r": {
+        "subTitle": "",
+        "imageUrl": "",
+        "title": ""
+      },
+      "t": "",
+      "alt": {
+        "markdown": "",
+        "ssml": ""
+      },
+      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS",
+      "qid": "eeefaq.016",
+      "type": "qna",
+      "q": [
+        "What is counseling service",
+        "What does counseling service mean",
+        "What is the meaning of counseling service"
+      ]
+    },
+    {
+      "next": "",
+      "args": [
+        ""
+      ],
+      "a": "C A O recommends an allowance of 700 dollars per month. Most organizations pay our students 600 dollars and above. organizations that pay lower than this amount would be made known to students as a remark during the selection of organizations for P I.",
+      "r": {
+        "subTitle": "",
+        "imageUrl": "",
+        "title": ""
+      },
+      "t": "",
+      "alt": {
+        "markdown": "",
+        "ssml": "<speak><say-as interpret-as=\"spell-out\">CAO</say-as> recommends an allowance of 700 dollars per month. Most organizations pay our students 600 dollars and above. organizations that pay lower than this amount would be made known to students as a remark during the selection of organizations for <say-as interpret-as=\"spell-out\">PI</say-as>.</speak>"
+      },
+      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS",
+      "qid": "career.001",
+      "type": "qna",
+      "q": [
+        "Is there a minimum allowance for PI",
+        "What is the minimum allowance for PI",
+        "Is there a minimum allowance for professional internship",
+        "What is the minimum allowance for professional internship",
+        "Is there any subsidy for professional internship"
+      ]
+    },
+    {
+      "next": "",
+      "args": [
+        ""
+      ],
+      "a": "All matriculated full time undergraduate, who have paid the student health service fee, are eligible for the medical scheme. This fee is collected through the student bill. You may seek outpatient medical attention at Fullerton healthcare on campus. It is located at 36 Nanyang Avenue, level 1. It operates from 8:30am 9pm from monday to friday, and 9am to 12 noon on saturday.",
+      "r": {
+        "subTitle": "",
+        "imageUrl": "",
+        "title": ""
+      },
+      "t": "",
+      "alt": {
+        "markdown": "",
+        "ssml": ""
+      },
+      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS",
+      "qid": "eeefaq.018",
+      "type": "qna",
+      "q": [
+        "I am sick",
+        "Where can I get medical attention",
+        "Where can I get medical treatment",
+        "How to get medical treatment"
+      ]
+    },
+    {
+      "next": "",
+      "args": [
+        ""
+      ],
+      "a": "If your network account has been locked due to repeated failed login attempts or other reasons, you have to contact I T service counters. Please contact 9 3 7 2 2 8 3 0 for more information.",
+      "r": {
+        "subTitle": "",
+        "imageUrl": "",
+        "title": ""
+      },
+      "t": "",
+      "alt": {
+        "markdown": "",
+        "ssml": "<speak>If your network account has been locked due to repeated failed login attempts or other reasons, you have to contact <say-as interpret-as=\"spell-out\">IT</say-as> service counters. Please contact <say-as interpret-as=\"spell-out\">93722830</say-as> for more information.</speak>"
+      },
+      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS",
+      "qid": "it.002",
+      "type": "qna",
+      "q": [
+        "How can I unlock my network account",
+        "My network account is locked, what should I do",
+        "My account is locked, what can I do"
+      ]
+    },
+    {
+      "next": "",
+      "args": [
+        ""
+      ],
+      "a": "You can return it to student affairs office at student services centre, level 6. After office hours, you may hand it over to campus security division at north spine, NS1-B1-01.",
+      "r": {
+        "subTitle": "",
+        "imageUrl": "",
+        "title": ""
+      },
+      "t": "",
+      "alt": {
+        "markdown": "",
+        "ssml": ""
+      },
+      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS",
+      "qid": "facility.002",
+      "type": "qna",
+      "q": [
+        "Where can I hand over a found item",
+        "How do I hand over a found item",
+        "I found a lost item, what should I do"
+      ]
+    },
+    {
+      "next": "",
+      "args": [
+        ""
+      ],
+      "a": "The design and innovation project program is a compulsory program for all triple E based full‐time third year students, held during semester 2.",
+      "r": {
+        "subTitle": "",
+        "imageUrl": "",
+        "title": ""
+      },
+      "t": "",
+      "alt": {
+        "markdown": "",
+        "ssml": ""
+      },
+      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS",
+      "qid": "eeefaq.003",
+      "type": "qna",
+      "q": [
+        "What is DIP",
+        "What does DIP stand for",
+        "What is design and innovative project",
+        "I want to know about DIP",
+        "I want to know about design and innovative project"
+      ]
+    },
+    {
+      "next": "",
+      "args": [
+        ""
+      ],
+      "a": "If you are a freshmen and this is the first time you are using your network account, please change your password first. If you are accessing using your own laptop or mobile device, please ensure that you have set the time and time zone correctly to Kuala Lumpur, Singapore. If you have done the above but still unable to access, please contact service desk.",
+      "r": {
+        "subTitle": "",
+        "imageUrl": "",
+        "title": ""
+      },
+      "t": "",
+      "alt": {
+        "markdown": "",
+        "ssml": ""
+      },
+      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS",
+      "qid": "it.003",
+      "type": "qna",
+      "q": [
+        "Why am I unable to log into NTU",
+        "Why am I unable to log into student link",
+        "I cannot log into NTU learn",
+        "I am not able to log into blackboard learn"
+      ]
+    },
+    {
+      "next": "",
+      "args": [
+        ""
+      ],
+      "a": "You know what, Dan Zadra has said that worry is a misuse of the imagination. We are always with you. If it is career related, you might want to contact Career and Attachment office. You could either email them at cao@ntu.edu.sg, or make a call at 67905242.",
+      "r": {
+        "subTitle": "",
+        "imageUrl": "",
+        "title": "",
+        "text": "",
+        "url": ""
+      },
+      "t": "",
+      "alt": {
+        "markdown": "",
+        "ssml": "<speak>\nYou know what, Dan Zadra has said that worry is a misuse of the imagination. We are always with you. If it is career related, you might want to contact Career and Attachment office. You could either email them at <say-as interpret-as=\"spell-out\">cao@ntu.edu.sg</say-as>, or make a call at <say-as interpret-as=\"spell-out\">67905242</say-as>.\n</speak>"
+      },
+      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS",
+      "qid": "others.001",
+      "type": "qna",
+      "q": [
+        "I worry about my future",
+        "I lose my hope about my future, what should I do",
+        "I am hopeless about my future, please help me",
+        "I want to commit suicide"
+      ]
+    },
+    {
+      "next": "",
+      "args": [
+        ""
+      ],
+      "a": "There is no option to swop courses in stars. This is to prevent students from giving away registered courses for personal gain. Course allocation of places depends on the demand and supply.",
+      "r": {
+        "subTitle": "",
+        "imageUrl": "",
+        "title": ""
+      },
+      "t": "",
+      "alt": {
+        "markdown": "",
+        "ssml": ""
+      },
+      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS",
+      "qid": "ungradAcademic.003",
+      "type": "qna",
+      "q": [
+        "I want to swop course with my friends but stars can only swop index number for same course",
+        "Can I swop index numbers for different courses",
+        "Why can't I swap different courses",
+        "How to swap two courses"
+      ]
+    },
+    {
+      "next": "",
+      "args": [
+        ""
+      ],
+      "a": "Eligible students from selected program may be invited to do a second major. Triple E students are offered to read business and social and urban systems as second majors. For more information, you may refer to here: tinyurl.com/ybtk2ula",
+      "r": {
+        "subTitle": "",
+        "imageUrl": "",
+        "title": ""
+      },
+      "t": "",
+      "alt": {
+        "markdown": "",
+        "ssml": "<speak>Eligible students from selected program may be invited to do a second major. Triple E students are offered to read business and social and urban systems as second majors. For more information, you may refer to here: tiny<say-as interpret-as=\"spell-out\">url</say-as>.com/<say-as interpret-as=\"spell-out\">ybtk2ula</say-as></speak>"
+      },
+      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS",
+      "qid": "ungradAcademic.004",
+      "type": "qna",
+      "q": [
+        "How do I apply to do a second major",
+        "I would like to apply for a second major"
+      ]
+    },
+    {
+      "next": "",
+      "args": [
+        ""
+      ],
+      "a": "The eight N T U libraries on campus provide space, resources and services to support learning and research. They are arts, design and media Library, business library, Chinese library, communication and information library, humanities and social sciences library, Lee Wee Nam library, library outpost, and Wang Gung Wu Library. There is a range of library materials that cater to various learning needs and preferences. The print collection stands at more than half a million books now and is growing about 40000 volumes per year. There is also a good selection of audio visual materials, numbering about 26000 items. N T U community is also endowed with the rich collection of N I E Library and information services centre, which provides a strong collection in education, humanities and science.",
+      "r": {
+        "subTitle": "",
+        "imageUrl": "",
+        "title": ""
+      },
+      "t": "",
+      "alt": {
+        "markdown": "",
+        "ssml": "<speak>The eight <say-as interpret-as=\"spell-out\">NTU</say-as> libraries on campus provide space, resources and services to support learning and research. They are arts, design and media Library, business library, Chinese library, communication and information library, humanities and social sciences library, Lee Wee Nam library, library outpost, and Wang Gung Wu Library. There is a range of library materials that cater to various learning needs and preferences. The print collection stands at more than half a million books now and is growing about 40000 volumes per year. There is also a good selection of audio visual materials, numbering about 26000 items. <say-as interpret-as=\"spell-out\">NTU</say-as> community is also endowed with the rich collection of <say-as interpret-as=\"spell-out\">NIE</say-as> Library and information services centre, which provides a strong collection in education, humanities and science.</speak>"
+      },
+      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS",
+      "qid": "eeefaq.013",
+      "type": "qna",
+      "q": [
+        "What are the libraries on campus",
+        "What are the library services",
+        "Tell me about the libraries",
+        "What kind of libraries does N T U have"
+      ]
+    },
+    {
+      "next": "",
+      "args": [
+        ""
+      ],
+      "a": "You can participate in numerous sporting activities at the N T U sports centre. The NTU sports centre is well equipped with a swimming pool, badminton, squash, basketball, and volleyball courts and soccer fields, among other things. There are also religious, cultural, academic and sports societies in NTU for students’ participation. Many of these activities held throughout the year are displayed by banners in the university canteens.",
+      "r": {
+        "subTitle": "",
+        "imageUrl": "",
+        "title": ""
+      },
+      "t": "",
+      "alt": {
+        "markdown": "",
+        "ssml": "<speak>You can participate in numerous sporting activities at the <say-as interpret-as=\"spell-out\">NTU</say-as> sports centre. The <say-as interpret-as=\"spell-out\">NTU</say-as> sports centre is well equipped with a swimming pool, badminton, squash, basketball, and volleyball courts and soccer fields, among other things. There are also religious, cultural, academic and sports societies in <say-as interpret-as=\"spell-out\">NTU</say-as> for students’ participation. Many of these activities held throughout the year are displayed by banners in the university canteens.</speak>"
+      },
+      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS",
+      "qid": "eeefaq.022",
+      "type": "qna",
+      "q": [
+        "Are there any interesting things to do",
+        "I don't want to study, I need to take a break.",
+        "What are some extracurricular activities on campus",
+        "Are there any CCA in school"
+      ]
+    },
+    {
+      "next": "",
+      "args": [
+        ""
+      ],
+      "a": "You must first seek counsel from your academic mentor who would advise you on the available options. Students, whose C G P A score is above 2, may overload an additional course, not exceeding 22 A U. However, you are advised not to overload by more than one course.",
+      "r": {
+        "subTitle": "",
+        "imageUrl": "",
+        "title": ""
+      },
+      "t": "",
+      "alt": {
+        "markdown": "",
+        "ssml": "<speak>You must first seek counsel from your academic mentor who would advise you on the available options. Students, whose <say-as interpret-as=\"spell-out\">CGPA</say-as> score is above 2, may overload an additional course, not exceeding 22 <say-as interpret-as=\"spell-out\">AU</say-as>. However, you are advised not to overload by more than one course.</speak>"
+      },
+      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS",
+      "qid": "eeefaq.007",
+      "type": "qna",
+      "q": [
+        "How much overloading can I take",
+        "What is the overloading policy",
+        "How do I qualify to overload courses",
+        "Can I overload additional courses",
+        "How many AU can I overload"
+      ]
+    },
+    {
+      "next": "",
+      "args": [
+        ""
+      ],
+      "a": "There are several financial schemes available to needy students. The information on loan schemes, scholarships and bursaries administered by N T U can be obtained from the Student and Academic Services Department. Or you may want to take a look on this website: tinyurl.com/y824vp2j",
+      "r": {
+        "subTitle": "",
+        "imageUrl": "",
+        "title": ""
+      },
+      "t": "",
+      "alt": {
+        "markdown": "",
+        "ssml": "<speak>There are several financial schemes available to needy students. The information on loan schemes, scholarships and bursaries administered by <say-as interpret-as=\"spell-out\">NTU</say-as> can be obtained from the Student and Academic Services Department. Or you may want to take a look on this website: tiny<say-as interpret-as=\"spell-out\">url</say-as>.com/<say-as interpret-as=\"spell-out\">y824vp2j</say-as></speak>"
+      },
+      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS",
+      "qid": "eeefaq.010",
+      "type": "qna",
+      "q": [
+        "How can I get financial assistance",
+        "Can I apply for financial assistance",
+        "What are the available financial assistance",
+        "Where can I get financial assistance"
+      ]
+    },
+    {
+      "next": "",
+      "args": [
+        ""
+      ],
+      "a": "This is triple E academic program office. As the main campus is a 200 hectare residential, garden campus, it is understandable that students may get lost during the first few days. For a quick lookup, browse the interactive N T U map. You can go to maps.ntu.edu.sg/maps",
+      "r": {
+        "subTitle": "",
+        "imageUrl": "",
+        "title": ""
+      },
+      "t": "",
+      "alt": {
+        "markdown": "",
+        "ssml": "<speak>This is triple E academic program office. As the main campus is a 200 hectare residential, garden campus, it is understandable that students may get lost during the first few days. For a quick lookup, browse the interactive <say-as interpret-as=\"spell-out\">NTU</say-as> map. You can go to maps<say-as interpret-as=\"spell-out\">.ntu.edu.sg/</say-as>maps</speak>"
+      },
+      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS",
+      "qid": "eeefaq.011",
+      "type": "qna",
+      "q": [
+        "I am lost where am I",
+        "What is this place",
+        "Where is this place",
+        "I am lost",
+        "where am I"
+      ]
+    },
+    {
+      "next": "",
+      "args": [
+        ""
+      ],
+      "a": "Some of the interviewing organizations only want to consider students who are not bonded to any other organizations, i.e. they are not required to work for any particular organization after their graduation. This often because the organizations want to use P I to access the students' suitability for possible future employment.",
+      "r": {
+        "subTitle": "",
+        "imageUrl": "",
+        "title": ""
+      },
+      "t": "",
+      "alt": {
+        "markdown": "",
+        "ssml": "<speak>Some of the interviewing organizations only want to consider students who are not bonded to any other organizations, i.e. they are not required to work for any particular organization after their graduation. This often because the organizations want to use <say-as interpret-as=\"spell-out\">PI</say-as> to access the students' suitability for possible future employment.</speak>"
+      },
+      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS",
+      "qid": "career.002",
+      "type": "qna",
+      "q": [
+        "What is it meant by non bonded only when applying for PI"
+      ]
+    },
+    {
+      "next": "",
+      "args": [
+        ""
+      ],
+      "a": "You can make a report at student affairs office at student services centre, level 6 or at campus cecurity division at north spine, NS1-B1-01.",
+      "r": {
+        "subTitle": "",
+        "imageUrl": "",
+        "title": ""
+      },
+      "t": "",
+      "alt": {
+        "markdown": "",
+        "ssml": ""
+      },
+      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS",
+      "qid": "facility.001",
+      "type": "qna",
+      "q": [
+        "Where can I make a report of my lost item in campus",
+        "What should I do if I lost my item",
+        "I lost my item"
+      ]
+    },
+    {
+      "qid": "QnABot.002",
+      "a": "Create and administer your questions and answers using the Q and A Bot Content Designer UI. End users ask questions using the Lex web UI which supports voice or chat, or using Alexa devices for hands free voice interaction. ",
+      "r": {
+        "title": "",
+        "imageUrl": ""
+      },
+      "type": "qna",
+      "q": [
+        "How do I use Q and A bot"
+      ]
+    },
+    {
+      "qid": "Media.001",
+      "a": "Add an image attachment to the item using the Content Designer.",
+      "r": {
+        "title": "",
+        "imageUrl": ""
+      },
+      "type": "qna",
+      "q": [
+        "How can I include pictures in Q and A Bot answers"
+      ]
+    },
+    {
+      "qid": "library.001",
+      "a": "As for Lee Wee Nam library, during semester, from monday to friday it is 08:30 to 21:30 and 08:30 to 17:00 on saturday. During vacation, from monday to friday it is 08:30 to 19:00 and 08:30 to 17:00 on saturday. Libraries are closed on sunday. Other libraries may vary and the opening hours are extended during exam period.",
+      "r": {
+        "title": "",
+        "imageUrl": ""
+      },
+      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS",
+      "type": "qna",
+      "q": [
+        "What is the library's opening hours"
+      ]
+    },
+    {
+      "next": "",
+      "args": [
+        ""
+      ],
+      "a": "Please refer to this site for details on how to do so: tinyurl.com/yc7o4h2p",
+      "r": {
+        "subTitle": "",
+        "imageUrl": "",
+        "title": ""
+      },
+      "t": "",
+      "alt": {
+        "markdown": "",
+        "ssml": "<speak>Please refer to this site for details on how to do so: tiny<say-as interpret-as=\"spell-out\">url</say-as>.com/<say-as interpret-as=\"spell-out\">yc7o4h2p</say-as></speak>"
+      },
+      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS",
+      "qid": "it.004",
+      "type": "qna",
+      "q": [
+        "How to reset my network account password",
+        "How can I reset my email account password",
+        "How do I reset student account password"
+      ]
+    },
+    {
+      "next": "",
+      "args": [
+        ""
+      ],
+      "a": "Please submit your request and the supporting documents to your school for review. You may refer to tinyurl.com/ycdmslrx",
+      "r": {
+        "subTitle": "",
+        "imageUrl": "",
+        "title": ""
+      },
+      "t": "",
+      "alt": {
+        "markdown": "",
+        "ssml": "<speak>Please submit your request and the supporting documents to your school for review. You may refer to tiny<say-as interpret-as=\"spell-out\">url</say-as>.com/<say-as interpret-as=\"spell-out\">ycdmslrx</say-as></speak>"
+      },
+      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS",
+      "qid": "ungradAcademic.002",
+      "type": "qna",
+      "q": [
+        "How do I apply for course exemption",
+        "I want to exempt a course, what do I do",
+        "How does course exemption work"
+      ]
+    },
+    {
+      "next": "",
+      "args": [
+        ""
+      ],
+      "a": "Attending classes is important when learning a new course so you should attend your classes regularly in order not to miss any lessons as this will lead to you begin unable to catch up.",
+      "r": {
+        "subTitle": "",
+        "imageUrl": "",
+        "title": ""
+      },
+      "t": "",
+      "alt": {
+        "markdown": "",
+        "ssml": ""
+      },
+      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS",
+      "qid": "ungradAcademic.010",
+      "type": "qna",
+      "q": [
+        "Is class attendance compulsory",
+        "Do I have to attend class and lectures"
+      ]
+    },
+    {
+      "next": "",
+      "args": [
+        ""
+      ],
+      "a": "Applications from local and international students are to be made online after acceptance of the offer of admission to N T U. Students who are offered admission after the application deadline will be given a hardcopy application form in their admission package. New students are guaranteed admission when they apply by the closing date for hall applications and are randomly assigned a room in a hall. Senior students who need to apply for halls are required to satisfy campus life involvement criterion by earning E C A points. For more information on this, you may refer to: tinyurl.com/y8b49pnb",
+      "r": {
+        "subTitle": "",
+        "imageUrl": "",
+        "title": ""
+      },
+      "t": "",
+      "alt": {
+        "markdown": "",
+        "ssml": "<speak>Applications from local and international students are to be made online after acceptance of the offer of admission to <say-as interpret-as=\"spell-out\">NTU</say-as>. Students who are offered admission after the application deadline will be given a hardcopy application form in their admission package. New students are guaranteed admission when they apply by the closing date for hall applications and are randomly assigned a room in a hall. Senior students who need to apply for halls are required to satisfy campus life involvement criterion by earning <say-as interpret-as=\"spell-out\">ECA</say-as> points. For more information on this, you may refer to: tiny<say-as interpret-as=\"spell-out\">url</say-as>.com/<say-as interpret-as=\"spell-out\">y8b49pnb</say-as></speak>"
+      },
+      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS",
+      "qid": "eeefaq.015",
+      "type": "qna",
+      "q": [
+        "I want to live in the halls, what do I need to do to qualify",
+        "How to qualify to live in the halls",
+        "How do I apply for halls",
+        "How to apply to live in hall of residence"
+      ]
+    },
+    {
+      "qid": "exchange.009",
+      "a": "You can only apply for gem explorer if you had not been on an overseas exchange program.",
+      "r": {
+        "title": "",
+        "imageUrl": ""
+      },
+      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS",
+      "type": "qna",
+      "q": [
+        "Can I apply for gem explorer if I had previously been in an overseas program that was not an exchange program",
+        "Can I apply for exchange program more than once",
+        "If I had been on exchange program, can I still apply for gem explorer"
+      ]
+    },
+    {
+      "qid": "ungradAcademic.006",
+      "a": "All appeals for the review of examination results must be submitted to the office of academic services through student link within 1 week from the release of the examination results.",
+      "r": {
+        "title": "",
+        "imageUrl": ""
+      },
+      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS",
+      "type": "qna",
+      "q": [
+        "How do I appeal for a review of my exam results"
+      ]
+    },
+    {
+      "qid": "ungradAcademic.011",
+      "a": "You may submit your appeal online during the appeal period if you wish to change your offered program. Kindly note you need to satisfy certain requirements to be eligible.",
+      "r": {
+        "title": "",
+        "imageUrl": ""
+      },
+      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS",
+      "type": "qna",
+      "q": [
+        "If I am offered a program but I wish to appeal to change program, is it possible",
+        "How can I appeal for a change of program",
+        "How to change my program of study"
+      ]
+    },
+    {
+      "next": "",
+      "args": [
+        ""
+      ],
+      "a": "The alumni was set up in december 1996 by our triple E graduates and its main objectives are to organise educational, social, cultural, recreational, sporting and civic activities among alumni triple E members. It is a great networking channel for N T U triple E graduates. This association also serves as a body for members in the promotion and advancement of electrical and electronic engineering education and knowledge. It also promotes closer interaction between the association, industry and other alumni associations.",
+      "r": {
+        "subTitle": "",
+        "imageUrl": "",
+        "title": ""
+      },
+      "t": "",
+      "alt": {
+        "markdown": "",
+        "ssml": "<speak>The alumni was set up in December 1996 by our triple E graduates and its main objectives are to organise educational, social, cultural, recreational, sporting and civic activities among alumni triple E members. It is a great networking channel for <say-as interpret-as=\"spell-out\">NTU</say-as> triple E graduates. This association also serves as a body for members in the promotion and advancement of electrical and electronic engineering education and knowledge. It also promotes closer interaction between the association, industry and other alumni associations.</speak>"
+      },
+      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS",
+      "qid": "eeefaq.026",
+      "type": "qna",
+      "q": [
+        "What is the NTU triple E alumni association",
+        "What is EEE alumni association",
+        "Are there any alumni associations"
+      ]
+    },
+    {
+      "next": "",
+      "args": [
+        ""
+      ],
+      "a": "When you are researching a partner university, you need to know if the courses there have equivalent courses or matches in N T U, such that you can transfer credits back to N T U after your exchange. It is best to select universities where there are at least 15 to 20 courses you can take. You may submit your 10 course preferences in the course matching system on the student link for your N T U school exchange coordinator to approve.",
+      "r": {
+        "subTitle": "",
+        "imageUrl": "",
+        "title": ""
+      },
+      "t": "",
+      "alt": {
+        "markdown": "",
+        "ssml": "<speak>When you are researching a partner university, you need to know if the courses there have equivalent courses or matches in <say-as interpret-as=\"spell-out\">NTU</say-as>, such that you can transfer credits back to <say-as interpret-as=\"spell-out\">NTU</say-as> after your exchange. It is best to select universities where there are at least 15 to 20 courses you can take. You may submit your 10 course preferences in the course matching system on the student link for your <say-as interpret-as=\"spell-out\">NTU</say-as> school exchange coordinator to approve.</speak>"
+      },
+      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS",
+      "qid": "exchange.003",
+      "type": "qna",
+      "q": [
+        "What is course matching in gem explorer",
+        "How do I match courses for gem explorer",
+        "How to match courses during exchange"
+      ]
+    },
+    {
+      "next": "",
+      "args": [
+        ""
+      ],
+      "a": "You have to check with you sponsor whether you are required to do P I with them or with other organization in Singapore. If so, then you are not allowed to apply for an overseas P I unless they agree to release you. The letter of release must be submitted to director, C A O, together with your application forms for overseas P I.",
+      "r": {
+        "subTitle": "",
+        "imageUrl": "",
+        "title": ""
+      },
+      "t": "",
+      "alt": {
+        "markdown": "",
+        "ssml": "<speak>You have to check with you sponsor whether you are required to do <say-as interpret-as=\"spell-out\">PI</say-as> with them or with other organization in Singapore. If so, then you are not allowed to apply for an overseas <say-as interpret-as=\"spell-out\">PI</say-as> unless they agree to release you. The letter of release must be submitted to director, <say-as interpret-as=\"spell-out\">CAO</say-as>, together with your application forms for overseas <say-as interpret-as=\"spell-out\">PI</say-as>.</speak>"
+      },
+      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS",
+      "qid": "career.004",
+      "type": "qna",
+      "q": [
+        "I am under a local scholarship, can I apply for an overseas IA",
+        "I am under a local scholarship, can I apply for an overseas PI",
+        "As a scholarship holder, is it possible to apply for the overseas PI",
+        "As a scholarship holder, is it possible to apply for the overseas IA",
+        "I am a scholar, can I apply for overseas IA",
+        "I am a scholar, can I apply for overseas PI"
+      ]
+    },
+    {
+      "next": "",
+      "args": [
+        ""
+      ],
+      "a": "The bookstore in N T U, which is the book link, is located at north spine plaza, just besides prime supermarket. You can buy your books, stationery, stamps, greeting cards there. Some textbooks are also available at the book shop.",
+      "r": {
+        "subTitle": "",
+        "imageUrl": "",
+        "title": ""
+      },
+      "t": "",
+      "alt": {
+        "markdown": "",
+        "ssml": "<speak>The bookstore in <say-as interpret-as=\"spell-out\">NTU</say-as>, which is the book link, is located at north spine plaza, just besides prime supermarket. You can buy your books, stationery, stamps, greeting cards there. Some textbooks are also available at the book shop.</speak>"
+      },
+      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS",
+      "qid": "eeefaq.014",
+      "type": "qna",
+      "q": [
+        "Where can I buy books",
+        "Can I buy books on campus",
+        "Where can I purchase textbooks",
+        "Where can I get textbooks",
+        "Where is book link",
+        "Where is the book store"
+      ]
+    },
+    {
+      "next": "",
+      "args": [
+        ""
+      ],
+      "a": "Triple E students are automatically members of the N T U triple E club. To become subcommittee members, you will need to go through interviews by main committee members. Main committee members are selected based on triple E student election.",
+      "r": {
+        "subTitle": "",
+        "imageUrl": "",
+        "title": ""
+      },
+      "t": "",
+      "alt": {
+        "markdown": "",
+        "ssml": "<speak>Triple E students are automatically members of the <say-as interpret-as=\"spell-out\">NTU</say-as> triple E club. To become subcommittee members, you will need to go through interviews by main committee members. Main committee members are selected based on triple E student election.</speak>"
+      },
+      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS",
+      "qid": "eeefaq.024",
+      "type": "qna",
+      "q": [
+        "How to join triple E club",
+        "How can I join triple E club",
+        "Are there anyways to join triple E club",
+        "I want to join triple E club, what should I do"
+      ]
+    },
+    {
+      "next": "",
+      "args": [
+        ""
+      ],
+      "a": "A student is assigned a personal academic mentor from triple E. Alternatively, you may seek counseling services offered by student wellbeing centre or from hall counselors if you are residing in a hall of residence.",
+      "r": {
+        "subTitle": "",
+        "imageUrl": "",
+        "title": ""
+      },
+      "t": "",
+      "alt": {
+        "markdown": "",
+        "ssml": ""
+      },
+      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS",
+      "qid": "eeefaq.017",
+      "type": "qna",
+      "q": [
+        "How do I get counseling service",
+        "How is the counseling service provided",
+        "Who should I approach to for counseling"
+      ]
+    },
+    {
+      "a": "The Q and A Bot uses Amazon Lex and Alexa to provide a natural language interface for your FAQ knowledge base, so your users can just ask a question and get a quick and relevant answer.",
+      "r": {
+        "title": "",
+        "imageUrl": ""
+      },
+      "qid": "QnABot.001",
+      "type": "qna",
+      "q": [
+        "What is Q and A Bot"
+      ]
+    },
+    {
+      "qid": "Admin.002",
+      "a": "Yes. Use the Content Designer to export your content as a JSON file. Maintain this file in your version control system or S3 bucket. Use the Designer UI Import feature to restore content from the JSON file.",
+      "r": {
+        "title": "",
+        "imageUrl": ""
+      },
+      "type": "qna",
+      "q": [
+        "Can I backup Q and A Bot content"
+      ]
+    },
+    {
+      "qid": "Admin.003",
+      "a": "Yes, the Content Designer has an import function which lets you load items from a formatted JSON file. You can create JSON files using the Export feature, or you can write your own tools to create JSON files from existing content such as a website FAQ page.",
+      "r": {
+        "title": "",
+        "imageUrl": ""
+      },
+      "type": "qna",
+      "q": [
+        "Can I import Q and A Bot content from a file"
+      ]
+    },
+    {
+      "qid": "eeefaq.023",
+      "a": "There are a few triple E professional societies worth joining. The prominent ones include the institution of engineering and technology and institution of electrical and electronic engineers.",
+      "r": {
+        "title": "",
+        "imageUrl": ""
+      },
+      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS",
+      "type": "qna",
+      "q": [
+        "Are there any triple E professional societies",
+        "What are the triple E professional societies",
+        "Are there any triple E professional clubs",
+        "What are the triple E professional clubs",
+        "Are there any triple E academic societies",
+        "What are the triple E academic societies"
+      ]
+    },
+    {
+      "next": "",
+      "args": [
+        ""
+      ],
+      "a": "GEM explorer will nominate you directly to your host university. You are not required to send any nomination letters.",
+      "r": {
+        "subTitle": "",
+        "imageUrl": "",
+        "title": ""
+      },
+      "t": "",
+      "alt": {
+        "markdown": "",
+        "ssml": ""
+      },
+      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS",
+      "qid": "exchange.005",
+      "type": "qna",
+      "q": [
+        "Where do I get a letter of nomination for exchange program",
+        "Where do I get a letter of nomination for gem explorer"
+      ]
+    },
+    {
+      "next": "",
+      "args": [
+        ""
+      ],
+      "a": "After you have checked your eligibility and financial and course suitability, you may apply for gem explorer program via student link.",
+      "r": {
+        "subTitle": "",
+        "imageUrl": "",
+        "title": ""
+      },
+      "t": "",
+      "alt": {
+        "markdown": "",
+        "ssml": ""
+      },
+      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS",
+      "qid": "exchange.008",
+      "type": "qna",
+      "q": [
+        "How do I apply for gem explorer",
+        "How to apply for exchange program",
+        "How do I apply for jan explorer"
+      ]
+    },
+    {
+      "next": "",
+      "args": [
+        ""
+      ],
+      "a": "You may download the softcopy of past year exam question papers from the N T U library website. And you can purchase answer scripts written by volunteering students at triple E printing room.",
+      "r": {
+        "subTitle": "",
+        "imageUrl": "",
+        "title": ""
+      },
+      "t": "",
+      "alt": {
+        "markdown": "",
+        "ssml": "<speak>You may download the softcopy of past year exam question papers from the <say-as interpret-as=\"spell-out\">NTU</say-as> library website. And you can purchase answer scripts written by volunteering students at triple E printing room.</speak>"
+      },
+      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS",
+      "qid": "ungradAcademic.001",
+      "type": "qna",
+      "q": [
+        "How do I obtain past year exam papers",
+        "Where can I find past year exam papers",
+        "Can I obtain answers for past year exam papers",
+        "Are there available answers for past year exam papers",
+        "How do I get PYP papers",
+        "Where can I find PYP papers",
+        "Where can I get answers for PYP papers",
+        "Are there available answers for PYP papers"
+      ]
+    },
+    {
+      "next": "",
+      "args": [
+        ""
+      ],
+      "a": "All new N T U undergraduate and graduate students are automatically members of the library. No separate library registration is necessary. You may borrow physical books with your matriculation card.",
+      "r": {
+        "subTitle": "",
+        "imageUrl": "",
+        "title": ""
+      },
+      "t": "",
+      "alt": {
+        "markdown": "",
+        "ssml": "<speak>All new <say-as interpret-as=\"spell-out\">NTU</say-as> undergraduate and graduate students are automatically members of the library. No separate library registration is necessary. You may borrow physical books with your matriculation card.</speak>"
+      },
+      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS",
+      "qid": "eeefaq.012",
+      "type": "qna",
+      "q": [
+        "I want to borrow books from library, what do I need to do",
+        "How do I borrow books from library",
+        "I am a new student, can I borrow books from library"
+      ]
+    },
+    {
+      "next": "",
+      "args": [
+        ""
+      ],
+      "a": "This letter is called a N T U letter of participation. gem explorer will only prepare this when we receive your acceptance letter.",
+      "r": {
+        "subTitle": "",
+        "imageUrl": "",
+        "title": ""
+      },
+      "t": "",
+      "alt": {
+        "markdown": "",
+        "ssml": "<speak>This letter is called a <say-as interpret-as=\"spell-out\">NTU</say-as> letter of participation. GEM explorer will only prepare this when we receive your acceptance letter.</speak>"
+      },
+      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS",
+      "qid": "exchange.007",
+      "type": "qna",
+      "q": [
+        "In order to apply for a student visa, the embassy says that I need a letter from NTU. What is the letter",
+        "My visa application for gem explorer requires a letter from NTU. What is it",
+        "I am going for exchange and the embassy asks for a letter from NTU in order to issue me the visa. How do I get the letter"
+      ]
+    },
+    {
+      "qid": "exchange.006",
+      "a": "You may not apply in advance.",
+      "r": {
+        "title": "",
+        "imageUrl": ""
+      },
+      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS",
+      "type": "qna",
+      "q": [
+        "Can I apply the exchange program for a future academic year",
+        "Can I apply the gem explorer for a future academic year",
+        "Can I apply for future year's gem explorer in advance",
+        "Can I apply for future year's exchange program in advance"
+      ]
+    },
+    {
+      "qid": "ungradAcademic.005",
+      "a": "A degree audit is an record that enables the student and his academic counselor to assess the student's academic progress and unfulfilled degree requirements and other requirement. The audit is a tool for academic planning and course selection. A transcript is a record of the courses taken and grades earned of a student throughout a program.",
+      "r": {
+        "title": "",
+        "imageUrl": ""
+      },
+      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS",
+      "type": "qna",
+      "q": [
+        "Is the degree audit equivalent to the transcript",
+        "What is the difference between degree audit and transcript",
+        "What are degree audit and transcript"
+      ]
+    },
+    {
+      "next": "",
+      "args": [
+        ""
+      ],
+      "a": "The academic unit is a measure of the students’ workload associated with both class attendance and preparation. Under the academic unit system, each course is assigned a certain number of academic units. The associate chair will discuss the A U distribution during the orientation day program.",
+      "r": {
+        "subTitle": "",
+        "imageUrl": "",
+        "title": ""
+      },
+      "t": "",
+      "alt": {
+        "markdown": "",
+        "ssml": "<speak>The academic unit is a measure of the students’ workload associated with both class attendance and preparation. Under the academic unit system, each course is assigned a certain number of academic units. The associate chair will discuss the <say-as interpret-as=\"spell-out\">AU</say-as> distribution during the orientation day program.</speak>"
+      },
+      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS",
+      "qid": "eeefaq.001",
+      "type": "qna",
+      "q": [
+        "What is an AU",
+        "How does AU work",
+        "What is academic unit",
+        "How does the academic unit work"
+      ]
+    },
+    {
+      "next": "",
+      "args": [
+        ""
+      ],
+      "a": "The undergraduate research opportunities program, abbreviated as U R O P, has been established to promote research culture among able students. Unlike eureka, this program is offered to all interested second and third year students.",
+      "r": {
+        "subTitle": "",
+        "imageUrl": "",
+        "title": ""
+      },
+      "t": "",
+      "alt": {
+        "markdown": "",
+        "ssml": "<speak>The undergraduate research opportunities program, abbreviated as <phoneme alphabet=\"ipa\" ph=\"'jʊrəp\">UROP</phoneme>, has been established to promote research culture among able students. Unlike <phoneme alphabet=\"ipa\" ph=\"jʊ'rikə\">URECA</phoneme>, this program is offered to all interested second and third year students.</speak>"
+      },
+      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS",
+      "qid": "eeefaq.006",
+      "type": "qna",
+      "q": [
+        "What is UROP",
+        "What is europe",
+        "What does UROP stand for",
+        "I want to know about europe",
+        "I want to know about UROP"
+      ]
+    },
+    {
+      "next": "",
+      "args": [
+        ""
+      ],
+      "a": "There are a few handbooks published by the school and other administrative and academic branches of N T U. For detailed information, please refer to this link: tinyurl.com/ybyartyc.",
+      "r": {
+        "subTitle": "",
+        "imageUrl": "",
+        "title": ""
+      },
+      "t": "",
+      "alt": {
+        "markdown": "",
+        "ssml": "<speak>There are a few handbooks published by the school and other administrative and academic branches of <say-as interpret-as=\"spell-out\">NTU</say-as>. For detailed information, please refer to this link: tiny<say-as interpret-as=\"spell-out\">url</say-as>.com/<say-as interpret-as=\"spell-out\">ybyartyc</say-as></speak>"
+      },
+      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS",
+      "qid": "eeefaq.009",
+      "type": "qna",
+      "q": [
+        "What are the useful handbooks available",
+        "How can I find some useful handbooks",
+        "I want to get some handbooks about school",
+        "Are there any school handbooks",
+        "Are there any school brochures"
+      ]
+    },
+    {
+      "next": "",
+      "args": [
+        ""
+      ],
+      "a": "You can participate in phase 2 while still waiting for the results from phase 1 organizations. However, once you have been confirmed a place under phase 1, your choices made under phase 2 will be invalidated.",
+      "r": {
+        "subTitle": "",
+        "imageUrl": "",
+        "title": ""
+      },
+      "t": "",
+      "alt": {
+        "markdown": "",
+        "ssml": ""
+      },
+      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS",
+      "qid": "career.003",
+      "type": "qna",
+      "q": [
+        "If I was accepted by an organization in phase 1, can I still apply for organizations in phase 2",
+        "Can I apply in phase 2 if I already took the IA offer",
+        "Can I apply in phase 2 if I already took the PI offer",
+        "After taking the offer, can I apply for other IA companies",
+        "After taking the offer, can I apply for other PI companies"
+      ]
+    },
+    {
+      "next": "",
+      "args": [
+        ""
+      ],
+      "a": "Professional internship, conducted during the third year, is designed to enhance your understanding of the courses you have learnt by a one semester internship",
+      "r": {
+        "subTitle": "",
+        "imageUrl": "",
+        "title": ""
+      },
+      "t": "",
+      "alt": {
+        "markdown": "",
+        "ssml": ""
+      },
+      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS",
+      "qid": "eeefaq.004",
+      "type": "qna",
+      "q": [
+        "What is PI",
+        "What is IA",
+        "What does PI stand for",
+        "What does IA stand for",
+        "What is industrial attachment",
+        "What is professional internship",
+        "I want to know about PI",
+        "I want to know about IA",
+        "I want to know about industrial attachment",
+        "I want to know about professional internship"
+      ]
+    },
+    {
+      "qid": "Admin.005",
+      "a": "Use the Filter feature in the Questions tab to filter the items list based on the ID field. Or use the Test tab to list all the items that match a question.",
+      "r": {
+        "title": "",
+        "imageUrl": ""
+      },
+      "type": "qna",
+      "q": [
+        "How can I find specific Q and A items in the Designer UI"
+      ]
+    },
+    {
+      "qid": "eeefaq.021",
+      "a": "The computer room in the school of triple E is named triple E i hub. It is located at S2.2‐B4‐05. The opening hours are from 8.30am to 11.00pm, mondays to fridays, during term time and from 8.30am to 5.30pm, mondays to fridays, during vacation period. Students may surf the internet and print lecture notes or other materials in triple E i hub. Alternatively, students may purchase photocopied lecture notes in the photocopy room located at S2.2‐B4‐01. Two self‐service photocopy machines are available in the photocopy room. Students may request assistance for bulk photocopy. ",
+      "r": {
+        "title": "",
+        "imageUrl": ""
+      },
+      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS",
+      "type": "qna",
+      "q": [
+        "Where can I print lecture notes",
+        "Where can I get hardcopies of lecture notes",
+        "Where can I get photocopies of lecture notes",
+        "Are there any printing services",
+        "Where can I use printers"
+      ]
+    },
+    {
+      "next": "",
+      "args": [
+        ""
+      ],
+      "a": "6 7 9 0 4 6 1 6 for student billing, and 6 7 9 0 4 6 1 9 for financial assistance",
+      "r": {
+        "subTitle": "",
+        "imageUrl": "",
+        "title": ""
+      },
+      "t": "",
+      "alt": {
+        "markdown": "",
+        "ssml": "<speak><say-as interpret-as=\"spell-out\">67904616</say-as> for student billing, and <say-as interpret-as=\"spell-out\">67904619</say-as> for financial assistance</speak>"
+      },
+      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS",
+      "qid": "financial.002",
+      "type": "qna",
+      "q": [
+        "Can I have a list of useful contact numbers in office of finance",
+        "How can I contact office of finance",
+        "What is the contact number for office of finance"
+      ]
+    },
+    {
+      "next": "",
+      "args": [
+        ""
+      ],
+      "a": "You can have your password reset by S M S, fax or walk-in at I T service counters. Please contact 9 3 7 2 2 8 3 0 for more information.",
+      "r": {
+        "subTitle": "",
+        "imageUrl": "",
+        "title": ""
+      },
+      "t": "",
+      "alt": {
+        "markdown": "",
+        "ssml": "<speak>You can have your password reset by <say-as interpret-as=\"spell-out\">SMS</say-as>, fax or walk-in at <say-as interpret-as=\"spell-out\">IT</say-as> service counters. Please contact <say-as interpret-as=\"spell-out\">93722830</say-as> for more information.</speak>"
+      },
+      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS",
+      "qid": "it.001",
+      "type": "qna",
+      "q": [
+        "I have forgotten my network account password, what should I do",
+        "I have forgotten my email account password, what should I do",
+        "What do I need to do if I forgot my student account password",
+        "I don't remember my account password"
+      ]
+    },
+    {
+      "next": "",
+      "args": [
+        ""
+      ],
+      "a": "The dean's list is compiled on a yearly basis. The top 5% of the cohort, subject to attaining a minimum Y G P A of 4.50 and the specified A U of graded courses by curriculum type taken in N T U in the academic year, is eligible for the dean's list. Full-time single degree students have to complete at least 15 A U of graded courses. Courses that are graded as satisfactory or unsatisfactory and pass or fail or those with grades exempted and leave of absence are not counted in the A U of graded courses for the purpose of determining the dean's list. Besides this, final year students must attain at least a second upper honours or honours degree in order to be considered for the dean's list.",
+      "r": {
+        "subTitle": "",
+        "imageUrl": "",
+        "title": ""
+      },
+      "t": "",
+      "alt": {
+        "markdown": "",
+        "ssml": "<speak>The dean's list is compiled on a yearly basis. The top 5% of the cohort, subject to attaining a minimum <say-as interpret-as=\"spell-out\">YGPA</say-as> of 4.50 and the specified <say-as interpret-as=\"spell-out\">AU</say-as> of graded courses by curriculum type taken in <say-as interpret-as=\"spell-out\">NTU</say-as> in the academic year, is eligible for the dean's list. Full-time single degree students have to complete at least 15 <say-as interpret-as=\"spell-out\">AU</say-as> of graded courses. Courses that are graded as satisfactory or unsatisfactory and pass or fail or those with grades exempted and leave of absence are not counted in the <say-as interpret-as=\"spell-out\">AU</say-as> of graded courses for the purpose of determining the dean's list. Besides this, final year students must attain at least a second upper honours or honours degree in order to be considered for the dean's list.</speak>"
+      },
+      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS",
+      "qid": "ungradAcademic.008",
+      "type": "qna",
+      "q": [
+        "How do I qualify to be in the dean's list",
+        "What is the criteria for dean's list",
+        "What is dean's list"
+      ]
+    },
+    {
+      "next": "",
+      "args": [
+        ""
+      ],
+      "a": "N T U has only 1 intake per year. The academic term usually commence in early August.",
+      "r": {
+        "subTitle": "",
+        "imageUrl": "",
+        "title": ""
+      },
+      "t": "",
+      "alt": {
+        "markdown": "",
+        "ssml": "<speak><say-as interpret-as=\"spell-out\">NTU</say-as> has only 1 intake per year. The academic term usually commence in early August.</speak>"
+      },
+      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS",
+      "qid": "ungradAcademic.009",
+      "type": "qna",
+      "q": [
+        "How many intakes are there every year",
+        "How many admission periods are there"
+      ]
+    },
+    {
+      "qid": "Admin.004",
+      "a": "Use the Content Designer test tool to test a question, and check what items are returned, ranked in order of score. If the desired item does not have the highest score, then add the question to the item and run the test again. The desired item should now have the highest score. Take care not to create items with duplicate questions, to avoid unpredictable responses.",
+      "r": {
+        "title": "",
+        "imageUrl": ""
+      },
+      "type": "qna",
+      "q": [
+        "How do I troubleshoot and fix problems with Q and A Bot."
+      ]
+    },
+    {
+      "next": "",
+      "args": [
+        ""
+      ],
+      "a": "Use the Content Designer Question and Test tools to find your existing documents and edit them directly in the console. You can also export existing documents as a JSON file, make changes to the file, and re-import.",
+      "r": {
+        "subTitle": "",
+        "imageUrl": "",
+        "title": ""
+      },
+      "t": "",
+      "alt": {
+        "markdown": "",
+        "ssml": ""
+      },
+      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS",
+      "qid": "Admin.001",
+      "type": "qna",
+      "q": [
+        "How do I modify Q and A Bot content"
+      ]
+    },
+    {
+      "qid": "exchange.001",
+      "a": "You will have to seek and arrange for your own housing unless your host university has explicitly guaranteed this to you.",
+      "r": {
+        "title": "",
+        "imageUrl": ""
+      },
+      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS",
+      "type": "qna",
+      "q": [
+        "How do I look for housing for my gem explorer exchange semester",
+        "How do I look for housing during exchange"
+      ]
+    },
+    {
+      "qid": "exchange.004",
+      "a": "No late applications will be accepted.",
+      "r": {
+        "title": "",
+        "imageUrl": ""
+      },
+      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS",
+      "type": "qna",
+      "q": [
+        "I missed the application deadline, can I still apply for gem explorer",
+        "Can I apply for exchange program after the deadline",
+        "Can I apply for gem explorer after the deadline"
+      ]
+    },
+    {
+      "qid": "eeefaq.008",
+      "a": "You can refer to the recommended textbooks and references for all your registered courses. Students are encouraged to read beyond the lecture notes. You may also wish to discuss certain topics with your tutors and professors.",
+      "r": {
+        "title": "",
+        "imageUrl": ""
+      },
+      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS",
+      "type": "qna",
+      "q": [
+        "I want to read more than just my lecture notes. What should I do",
+        "Are there any reading materials besides lecture notes",
+        "I want to study more than just lecture notes, what can I do"
+      ]
+    },
+    {
+      "qid": "eeefaq.020",
+      "a": "Students must apply for short leave of absence or medical leave with the undergraduate programme office, if they cannot attend classes on the following occasions: On days when there are laboratory sessions. On days when quizzes or tests are conducted during classes. On any other occasions that tutor or lecturer deemed as compulsory for students' attendance. Compassionate leave will be granted in the event of the demise of an immediate family member. Normally absence from School within 7 days of the event and on the day of the funeral is accepted as valid leave of absence on compassionate ground. Categories of leave not approved: Returning to home country during festive period. Participating in activities organized by student bodies during the various occasions mentioned in the point above.",
+      "r": {
+        "title": "",
+        "imageUrl": ""
+      },
+      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS",
+      "type": "qna",
+      "q": [
+        "I am unable to attend classes during term time, what should I do",
+        "I need to leave school for a period of time, what do I need to do",
+        "Can I apply for leave of school for a period of time",
+        "How do I apply for leave of absence"
+      ]
+    },
+    {
+      "next": "",
+      "args": [
+        ""
+      ],
+      "a": "The undergraduate research experience on campus, or eureka, has been established to promote research culture among able students. Eureka is eligible only to second and third year undergraduates who have excelled in their examinations, so it is by invitation only.",
+      "r": {
+        "subTitle": "",
+        "imageUrl": "",
+        "title": ""
+      },
+      "t": "",
+      "alt": {
+        "markdown": "",
+        "ssml": "<speak>The undergraduate research experience on campus, or <phoneme alphabet=\"ipa\" ph=\"jʊ'rikə\">URECA</phoneme>, has been established to promote research culture among able students. <phoneme alphabet=\"ipa\" ph=\"jʊ'rikə\">URECA</phoneme> is eligible only to second and third year undergraduates who have excelled in their examinations, so it is by invitation only.</speak>"
+      },
+      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS",
+      "qid": "eeefaq.005",
+      "type": "qna",
+      "q": [
+        "What is URECA",
+        "What does URECA stand for",
+        "I want to know about undergraduate research experience on campus",
+        "What is undergraduate research experience on campus",
+        "What is eureka"
+      ]
+    },
+    {
+      "next": "",
+      "args": [
+        ""
+      ],
+      "a": "All full time students who have missed classes due to illness must send the original medical certificate to the triple E undergraduate programme office no later than 7 working days after their medical leave. Students who missed any quiz or lab sessions on the grounds of medical leave would be allowed to do a makeup for the missed session, unless stated otherwise by the tutors. Students are also advised not to give their original M C to the respective tutors. The medical certificate submission form is available at the undergraduate programme office.",
+      "r": {
+        "subTitle": "",
+        "imageUrl": "",
+        "title": ""
+      },
+      "t": "",
+      "alt": {
+        "markdown": "",
+        "ssml": "<speak>All full time students who have missed classes due to illness must send the original medical certificate to the triple E undergraduate programme office no later than 7 working days after their medical leave. Students who missed any quiz or lab sessions on the grounds of medical leave would be allowed to do a makeup for the missed session, unless stated otherwise by the tutors. Students are also advised not to give their original <say-as interpret-as=\"spell-out\">MC</say-as> to the respective tutors. The medical certificate submission form is available at the undergraduate programme office.</speak>"
+      },
+      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS",
+      "qid": "eeefaq.019",
+      "type": "qna",
+      "q": [
+        "How do I submit my MC",
+        "Where can I submit my MC",
+        "Who should I submit my MC to",
+        "How do I submit my medical certificate",
+        "Where can I submit my medical certificate",
+        "Who should I submit my medical certificate to"
+      ]
+    },
+    {
+      "next": "",
+      "args": [
+        ""
+      ],
+      "a": "Your chances of getting selected are tied to your ranking of top 3 universities in your application, the number of available spots at a partner university which can lead to the priority in our selection criteria.",
+      "r": {
+        "subTitle": "",
+        "imageUrl": "",
+        "title": ""
+      },
+      "t": "",
+      "alt": {
+        "markdown": "",
+        "ssml": ""
+      },
+      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS",
+      "qid": "exchange.002",
+      "type": "qna",
+      "q": [
+        "How do I know my chances of getting selected for gem explorer",
+        "How do I know my chances of getting selected for exchange program",
+        "What are my chances of selected into exchange program"
+      ]
+    },
+    {
+      "next": "",
+      "args": [
+        ""
+      ],
+      "a": "A student who leaves the University two weeks or more after the commencement of a semester, is liable for the payment of fees for the entire semester. Request for partial payment will not be considered.",
+      "r": {
+        "subTitle": "",
+        "imageUrl": "",
+        "title": ""
+      },
+      "t": "",
+      "alt": {
+        "markdown": "",
+        "ssml": ""
+      },
+      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS",
+      "qid": "financial.001",
+      "type": "qna",
+      "q": [
+        "Am I liable to pay fees if I withdraw from my course",
+        "Do I need to pay fees if I drop my course",
+        "Is it free to drop a course"
+      ]
+    },
+    {
+      "next": "",
+      "args": [
+        ""
+      ],
+      "a": "For admission requirements of graduate programs, please visit: tinyurl.com/ydch5mz4",
+      "r": {
+        "subTitle": "",
+        "imageUrl": "",
+        "title": ""
+      },
+      "t": "",
+      "alt": {
+        "markdown": "",
+        "ssml": "<speak>For admission requirements of graduate programs, please visit: tiny<say-as interpret-as=\"spell-out\">url</say-as>.com/<say-as interpret-as=\"spell-out\">ydch5mz4</say-as></speak>"
+      },
+      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS",
+      "qid": "ungradAcademic.007",
+      "type": "qna",
+      "q": [
+        "What are admission requirements for PHD and master programs",
+        "What is the graduate school admission requirement"
+      ]
+    }
+  ]
+}

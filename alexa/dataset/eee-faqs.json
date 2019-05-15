@@ -1,0 +1,395 @@
+{
+  "qna": [
+    {
+      "qid": "eeefaq.001",
+      "q": [
+        "What is a A U",
+        "How does A U work"
+      ],
+      "a": "The academic unit is a measure of the students’ workload associated with both class attendance and preparation. Under the academic unit system, each course is assigned a certain number of academic units. The associate chair will discuss the A U distribution during the orientation day program.",
+      "r": {
+        "title": "",
+        "imageUrl": ""
+      },
+      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS"
+    },
+    {
+      "qid": "eeefaq.002",
+      "q": [
+        "Where do I get lecture notes",
+        "How do I get lecture notes",
+        "Where do I get laboratory manuals",
+        "Where do I get lab manuals"
+      ],
+      "a": "Students can purchase notes from the Lee Wee Name library printing room. However, you have to check whether the notes for the courses are available. Alternatively, students can download and print the notes via N T U learn. Students may collect their laboratory manuals at the triple E undergraduate program office.",
+      "r": {
+        "title": "",
+        "imageUrl": ""
+      },
+      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS"
+    },
+    {
+      "qid": "eeefaq.003",
+      "q": [
+        "What is D I P",
+        "What does D I P stand for",
+        "What is design and innovative project",
+        "I want to know about D I P",
+        "I want to know about design and innovative project",
+        ", Professional Internship, UROP and URECA. "
+      ],
+      "a": "The design and innovation project program is a compulsory program for all triple E based full‐time third year students, held during semester 2.",
+      "r": {
+        "title": "",
+        "imageUrl": ""
+      },
+      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS"
+    },
+    {
+      "qid": "eeefaq.004",
+      "q": [
+        "What is P I",
+        "What is I A",
+        "What does P I stand for",
+        "What does I A stand for",
+        "What is industrial attachment",
+        "What is professional internship",
+        "I want to know about P I",
+        "I want to know about I A",
+        "I want to know about industrial attachment",
+        "I want to know about professional internship"
+      ],
+      "a": "Professional internship, conducted during the third year, is designed to enhance your understanding of the courses you have learnt by a one semester internship",
+      "r": {
+        "title": "",
+        "imageUrl": ""
+      },
+      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS"
+    },
+    {
+      "qid": "eeefaq.005",
+      "q": [
+        "What is eureka",
+        "What is U R E C A",
+        "What does U R E C A stand for",
+        "I want to know about eureka",
+        "I want to know about U R E C A"
+      ],
+      "a": "The undergraduate research experience on campus, or eureka, has been established to promote research culture among able students. Eureka is eligible only to second and third year undergraduates who have excelled in their examinations, so it is by invitation only.",
+      "r": {
+        "title": "",
+        "imageUrl": ""
+      },
+      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS"
+    },
+    {
+      "qid": "eeefaq.006",
+      "q": [
+        "What is U R O P",
+        "What is europe",
+        "What does U R O P stand for",
+        "I want to know about europe",
+        "I want to know about U R O P"
+      ],
+      "a": "The undergraduate research opportunities program, abbreviated as U R O P, has been established to promote research culture among able students. Unlike eureka, this program is offered to all interested second and third year students.",
+      "r": {
+        "title": "",
+        "imageUrl": ""
+      },
+      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS"
+    },
+    {
+      "qid": "eeefaq.007",
+      "q": [
+        "How much overloading can I take",
+        "What is the overloading policy",
+        "How do I qualify to overload courses",
+        "Can I overload additional courses",
+        "How many A U can I overload"
+      ],
+      "a": "You must first seek counsel from your academic mentor who would advise you on the available options. Students, whose C G P A score is above 2, may overload an additional course, not exceeding 22 A U. However, you are advised not to overload by more than one course.",
+      "r": {
+        "title": "",
+        "imageUrl": ""
+      },
+      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS"
+    },
+    {
+      "qid": "eeefaq.008",
+      "q": [
+        "I want to read more than just my lecture notes. What should I do",
+        "Are there any reading materials besides lecture notes",
+        "I want to study more than just lecture notes, what can I do"
+      ],
+      "a": "You can refer to the recommended textbooks and references for all your registered courses. Students are encouraged to read beyond the lecture notes. You may also wish to discuss certain topics with your tutors and professors.",
+      "r": {
+        "title": "",
+        "imageUrl": ""
+      },
+      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS"
+    },
+    {
+      "qid": "eeefaq.009",
+      "q": [
+        "What are the useful handbooks available",
+        "How can I find some useful handbooks",
+        "I want to get some handbooks about school"
+      ],
+      "a": "There are a few handbooks published by the school and other administrative and academic branches of N T U. For detailed information, please refer to this link: [url: https://tinyurl.com/ybyartyc]",
+      "r": {
+        "title": "",
+        "imageUrl": ""
+      },
+      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS"
+    },
+    {
+      "qid": "eeefaq.010",
+      "q": [
+        "How can I get financial assistance",
+        "Can I apply for financial assistance",
+        "What are the available financial assistance",
+        "Where can I get financial assistance"
+      ],
+      "a": "There are several financial schemes available to needy students. The information on loan schemes, scholarships and bursaries administered by N T U can be obtained from the Student and Academic Services Department. Or you may want to take a look on this website: [url: https://tinyurl.com/y824vp2j]",
+      "r": {
+        "title": "",
+        "imageUrl": ""
+      },
+      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS"
+    },
+    {
+      "qid": "eeefaq.011",
+      "q": [
+        "I am lost. Where am I",
+        "What is this place"
+      ],
+      "a": "This is triple E undergraduate office. As the main campus is a 200 hectare residential, garden campus, it is understandable that students may get lost during the first few days. For a quick lookup, browse the interactive N T U map. You can go to [url: http://maps.ntu.edu.sg/maps]",
+      "r": {
+        "title": "",
+        "imageUrl": ""
+      },
+      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS"
+    },
+    {
+      "qid": "eeefaq.012",
+      "q": [
+        "I want to borrow books from library, what do I need to do",
+        "How do I borrow books from library",
+        "I am a new student, can I borrow books from library"
+      ],
+      "a": "All new N T U undergraduate and graduate students are automatically members of the library. No separate library registration is necessary. You may borrow physical books with your matriculation card.",
+      "r": {
+        "title": "",
+        "imageUrl": ""
+      },
+      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS"
+    },
+    {
+      "qid": "eeefaq.013",
+      "q": [
+        "What are the libraries on campus",
+        "What are the library services",
+        "Tell me about the libraries",
+        "What kind of libraries does N T U have"
+      ],
+      "a": "The eight N T U libraries on campus provide space, resources and services to support learning and research. They are arts, design and media Library, business library, chinese library, communication and information library, humanities and social sciences library, Lee Wee Nam library, library outpost, and Wang Gung Wu Library. There is a range of library materials that cater to various learning needs and preferences. The print collection stands at more than half a million books now and is growing about 40000 volumes per year. There is also a good selection of audio visual materials, numbering about 26000 items. N T U community is also endowed with the rich collection of N I E Library and information services centre, which provides a strong collection in education, humanities and science. ",
+      "r": {
+        "title": "",
+        "imageUrl": ""
+      },
+      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS"
+    },
+    {
+      "qid": "eeefaq.014",
+      "q": [
+        "Where can I buy books",
+        "Can I buy books on campus",
+        "Where can I purchase textbooks",
+        "Where can I get textbooks",
+        "Where is book link",
+        "Where is the book store"
+      ],
+      "a": "The bookstore in N T U, which is the book link, is located at north spine plaza, just besides prime supermarket. You can buy your books, stationery, stamps, greeting cards there. Some textbooks are also available at the book shop.",
+      "r": {
+        "title": "",
+        "imageUrl": ""
+      },
+      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS"
+    },
+    {
+      "qid": "eeefaq.015",
+      "q": [
+        "I want to live in the halls, what do I need to do to qualify",
+        "How to qualify to live in the halls"
+      ],
+      "a": "Applications from local and international students are to be made online after acceptance of the offer of admission to N T U. Students who are offered admission after the application deadline will be given a hardcopy application form in their admission package. New students are guaranteed admission when they apply by the closing date for hall applications and are randomly assigned a room in a hall. Senior students who need to apply for halls are required to satisfy campus life involvement criterion by earning E C A points. For more information on this, you may refer to: [url: https://tinyurl.com/y8b49pnb]",
+      "r": {
+        "title": "",
+        "imageUrl": ""
+      },
+      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS"
+    },
+    {
+      "qid": "eeefaq.016",
+      "q": [
+        "What is counseling service"
+      ],
+      "a": "Counseling refers to an interactive learning process of addressing students’ intimate concerns, issues or behaviours facilitated by a professionally trained counselor within a private and confidential setting. If the personal issues or challenges you are facing are affecting your quality of life in the areas of your health, relationship, daily activities, academic performance or eating and sleeping patterns, it is recommended that you seek professional counseling.",
+      "r": {
+        "title": "",
+        "imageUrl": ""
+      },
+      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS"
+    },
+    {
+      "qid": "eeefaq.017",
+      "q": [
+        "How do I get counseling service",
+        "Where can I have counseling service",
+        "Who should I approach to for counseling"
+      ],
+      "a": "A student is assigned a personal academic mentor from triple E. Alternatively, you may seek counseling services offered by student wellbeing centre or from hall counselors if you are residing in a hall of residence.",
+      "r": {
+        "title": "",
+        "imageUrl": ""
+      },
+      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS"
+    },
+    {
+      "qid": "eeefaq.018",
+      "q": [
+        "I am sick",
+        "Where can I get medical attention",
+        "Where can I get medical treatment"
+      ],
+      "a": "All matriculated full time undergraduate, who have paid the student health service fee, are eligible for the medical scheme. This fee is collected through the student bill. You may seek outpatient medical attention at Fullerton healthcare on campus. It is located at 36 Nanyang Avenue, level 1. It operates from 8:30am 9pm from monday to friday, and 9am to 12 noon on saturday.",
+      "r": {
+        "title": "",
+        "imageUrl": ""
+      },
+      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS"
+    },
+    {
+      "qid": "eeefaq.019",
+      "q": [
+        "How do I submit my M C",
+        "Where can I submit my M C",
+        "Who should I submit my M C to",
+        "How do I submit my medical certificate",
+        "Where can I submit my medical certificate",
+        "Who should I submit my medical certificate to"
+      ],
+      "a": "All full time students who have missed classes due to illness must send the original medical certificate to the triple E undergraduate programme office no later than 7 working days after their medical leave. Students who missed any quiz or lab sessions on the grounds of medical leave would be allowed to do a makeup for the missed session, unless stated otherwise by the tutors. Students are also advised not to give their original M C to the respective tutors. The medical certificate submission form is available at the undergraduate programme office.",
+      "r": {
+        "title": "",
+        "imageUrl": ""
+      },
+      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS"
+    },
+    {
+      "qid": "eeefaq.020",
+      "q": [
+        "I am unable to attend classes during term time, what should I do",
+        "I need to leave school for a period of time, what do I need to do",
+        "Can I apply for leave of school for a period of time",
+        "How do I apply for leave of absence"
+      ],
+      "a": "Students must apply for short leave of absence or medical leave with the undergraduate programme office, if they cannot attend classes on the following occasions: On days when there are laboratory sessions. On days when quizzes or tests are conducted during classes. On any other occasions that tutor or lecturer deemed as compulsory for students' attendance. Compassionate leave will be granted in the event of the demise of an immediate family member. Normally absence from School within 7 days of the event and on the day of the funeral is accepted as valid leave of absence on compassionate ground. Categories of leave not approved: Returning to home country during festive period. Participating in activities organized by student bodies during the various occasions mentioned in the point above.",
+      "r": {
+        "title": "",
+        "imageUrl": ""
+      },
+      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS"
+    },
+    {
+      "qid": "eeefaq.021",
+      "q": [
+        "Where can I print lecture notes",
+        "Where can I get hardcopies of lecture notes",
+        "Where can I get photocopies of lecture notes",
+        "Are there any printing services",
+        "Where can I use printers"
+      ],
+      "a": "The computer room in the school of triple E is named triple E i hub. It is located at S2.2‐B4‐05. The opening hours are from 8.30am to 11.00pm, mondays to fridays, during term time and from 8.30am to 5.30pm, mondays to fridays, during vacation period. Students may surf the internet and print lecture notes or other materials in triple E i hub. Alternatively, students may purchase photocopied lecture notes in the photocopy room located at S2.2‐B4‐01. Two self‐service photocopy machines are available in the photocopy room. Students may request assistance for bulk photocopy. ",
+      "r": {
+        "title": "",
+        "imageUrl": ""
+      },
+      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS"
+    },
+    {
+      "qid": "eeefaq.022",
+      "q": [
+        "Are there any interesting things to do",
+        "I don't want to study, I need to take a break.",
+        "What are some extracurricular activities on campus",
+        "Are there any C C A in school"
+      ],
+      "a": "You can participate in numerous sporting activities at the N T U sports centre. The NTU sports centre is well equipped with a swimming pool, badminton, squash, basketball, and volleyball courts and soccer fields, among other things. There are also religious, cultural, academic and sports societies in NTU for students’ participation. Many of these activities held throughout the year are displayed by banners in the university canteens.",
+      "r": {
+        "title": "",
+        "imageUrl": ""
+      },
+      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS"
+    },
+    {
+      "qid": "eeefaq.023",
+      "q": [
+        "Are there any triple E professional societies",
+        "What are the triple E professional societies",
+        "Are there any triple E professional clubs",
+        "What are the triple E professional clubs",
+        "Are there any triple E academic societies",
+        "What are the triple E academic societies"
+      ],
+      "a": "There are a few triple E professional societies worth joining. The prominent ones include the institution of engineering and technology and institution of electrical and electronic engineers.",
+      "r": {
+        "title": "",
+        "imageUrl": ""
+      },
+      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS"
+    },
+    {
+      "qid": "eeefaq.024",
+      "q": [
+        "How to join triple E club",
+        "How can I join triple E club",
+        "Are there anyways to join triple E club",
+        "I want to join triple E club, what should I do"
+      ],
+      "a": "Triple E students are automatically members of the N T U triple E club. To become subcommittee members, you will need to go through interviews by main committee members. Main committee members are selected based on triple E student election.",
+      "r": {
+        "title": "",
+        "imageUrl": ""
+      },
+      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS"
+    },
+    {
+      "qid": "eeefaq.025",
+      "q": [
+        "What is triple E club",
+        "What does triple E club do",
+        "How does triple E club work"
+      ],
+      "a": "Fulltime N T U undergraduates who are admitted into triple E are automatically members of the triple E club. The club is a constituent body of the N T U students’ union, which caters for students’ welfare. The club organizes a variety of events to suit the different needs of our active students. They also organize leisure events like cruise dinners, movie screenings and holiday getaways at subsidised rates. In addition, they co‐organize events like bowling rendezvous and graduates’ evening with the triple E alumni to encourage interaction and networking between undergraduates and alumni members. The club also serves as a bridge between the school and the students.",
+      "r": {
+        "title": "",
+        "imageUrl": ""
+      },
+      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS"
+    },
+    {
+      "qid": "eeefaq.026",
+      "q": [
+        "What is the N T U triple E alumni association",
+        "What is triple E alumni association"
+      ],
+      "a": "The alumni was set up in december 1996 by our triple E graduates and its main objectives are to organise educational, social, cultural, recreational, sporting and civic activities among alumni triple E members. It is a great networking channel for N T U triple E graduates. This association also serves as a body for members in the promotion and advancement of electrical and electronic engineering education and knowledge. It also promotes closer interaction between the association, industry and other alumni associations.",
+      "r": {
+        "title": "",
+        "imageUrl": ""
+      },
+      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS"
+    }
+  ]
+}
