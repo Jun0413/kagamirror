@@ -1,3 +1,7 @@
+"""
+test speech recognition on Pi
+"""
+
 import speech_recognition as sr
 
 # instantiate a recognizer
