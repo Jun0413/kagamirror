@@ -18,7 +18,7 @@
           "markdown": "",
           "ssml": "<speak>\nYou know what, Dan Zadra has said that worry is a misuse of the imagination. We are always with you. If it is career related, you might want to contact Career and Attachment office. You could either email them at <say-as interpret-as=\"spell-out\">cao@ntu.edu.sg</say-as>, or make a call at <say-as interpret-as=\"spell-out\">67905242</say-as>.\n</speak>"
         },
-        "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS",
+        "l": "arn:aws:lambda:us-east-1:263578347602:function:qna-elasticsearch-hook",
         "qid": "others.001",
         "type": "qna",
         "q": [

@@ -11,7 +11,7 @@
         "title": "",
         "imageUrl": ""
       },
-      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS"
+      "l": "arn:aws:lambda:us-east-1:263578347602:function:qna-elasticsearch-hook"
     },
     {
       "qid": "eeefaq.002",
@@ -26,7 +26,7 @@
         "title": "",
         "imageUrl": ""
       },
-      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS"
+      "l": "arn:aws:lambda:us-east-1:263578347602:function:qna-elasticsearch-hook"
     },
     {
       "qid": "eeefaq.003",
@@ -43,7 +43,7 @@
         "title": "",
         "imageUrl": ""
       },
-      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS"
+      "l": "arn:aws:lambda:us-east-1:263578347602:function:qna-elasticsearch-hook"
     },
     {
       "qid": "eeefaq.004",
@@ -64,7 +64,7 @@
         "title": "",
         "imageUrl": ""
       },
-      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS"
+      "l": "arn:aws:lambda:us-east-1:263578347602:function:qna-elasticsearch-hook"
     },
     {
       "qid": "eeefaq.005",
@@ -80,7 +80,7 @@
         "title": "",
         "imageUrl": ""
       },
-      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS"
+      "l": "arn:aws:lambda:us-east-1:263578347602:function:qna-elasticsearch-hook"
     },
     {
       "qid": "eeefaq.006",
@@ -96,7 +96,7 @@
         "title": "",
         "imageUrl": ""
       },
-      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS"
+      "l": "arn:aws:lambda:us-east-1:263578347602:function:qna-elasticsearch-hook"
     },
     {
       "qid": "eeefaq.007",
@@ -112,7 +112,7 @@
         "title": "",
         "imageUrl": ""
       },
-      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS"
+      "l": "arn:aws:lambda:us-east-1:263578347602:function:qna-elasticsearch-hook"
     },
     {
       "qid": "eeefaq.008",
@@ -126,7 +126,7 @@
         "title": "",
         "imageUrl": ""
       },
-      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS"
+      "l": "arn:aws:lambda:us-east-1:263578347602:function:qna-elasticsearch-hook"
     },
     {
       "qid": "eeefaq.009",
@@ -140,7 +140,7 @@
         "title": "",
         "imageUrl": ""
       },
-      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS"
+      "l": "arn:aws:lambda:us-east-1:263578347602:function:qna-elasticsearch-hook"
     },
     {
       "qid": "eeefaq.010",
@@ -155,7 +155,7 @@
         "title": "",
         "imageUrl": ""
       },
-      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS"
+      "l": "arn:aws:lambda:us-east-1:263578347602:function:qna-elasticsearch-hook"
     },
     {
       "qid": "eeefaq.011",
@@ -168,7 +168,7 @@
         "title": "",
         "imageUrl": ""
       },
-      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS"
+      "l": "arn:aws:lambda:us-east-1:263578347602:function:qna-elasticsearch-hook"
     },
     {
       "qid": "eeefaq.012",
@@ -182,7 +182,7 @@
         "title": "",
         "imageUrl": ""
       },
-      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS"
+      "l": "arn:aws:lambda:us-east-1:263578347602:function:qna-elasticsearch-hook"
     },
     {
       "qid": "eeefaq.013",
@@ -197,7 +197,7 @@
         "title": "",
         "imageUrl": ""
       },
-      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS"
+      "l": "arn:aws:lambda:us-east-1:263578347602:function:qna-elasticsearch-hook"
     },
     {
       "qid": "eeefaq.014",
@@ -214,7 +214,7 @@
         "title": "",
         "imageUrl": ""
       },
-      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS"
+      "l": "arn:aws:lambda:us-east-1:263578347602:function:qna-elasticsearch-hook"
     },
     {
       "qid": "eeefaq.015",
@@ -227,7 +227,7 @@
         "title": "",
         "imageUrl": ""
       },
-      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS"
+      "l": "arn:aws:lambda:us-east-1:263578347602:function:qna-elasticsearch-hook"
     },
     {
       "qid": "eeefaq.016",
@@ -239,7 +239,7 @@
         "title": "",
         "imageUrl": ""
       },
-      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS"
+      "l": "arn:aws:lambda:us-east-1:263578347602:function:qna-elasticsearch-hook"
     },
     {
       "qid": "eeefaq.017",
@@ -253,7 +253,7 @@
         "title": "",
         "imageUrl": ""
       },
-      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS"
+      "l": "arn:aws:lambda:us-east-1:263578347602:function:qna-elasticsearch-hook"
     },
     {
       "qid": "eeefaq.018",
@@ -267,7 +267,7 @@
         "title": "",
         "imageUrl": ""
       },
-      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS"
+      "l": "arn:aws:lambda:us-east-1:263578347602:function:qna-elasticsearch-hook"
     },
     {
       "qid": "eeefaq.019",
@@ -284,7 +284,7 @@
         "title": "",
         "imageUrl": ""
       },
-      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS"
+      "l": "arn:aws:lambda:us-east-1:263578347602:function:qna-elasticsearch-hook"
     },
     {
       "qid": "eeefaq.020",
@@ -299,7 +299,7 @@
         "title": "",
         "imageUrl": ""
       },
-      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS"
+      "l": "arn:aws:lambda:us-east-1:263578347602:function:qna-elasticsearch-hook"
     },
     {
       "qid": "eeefaq.021",
@@ -315,7 +315,7 @@
         "title": "",
         "imageUrl": ""
       },
-      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS"
+      "l": "arn:aws:lambda:us-east-1:263578347602:function:qna-elasticsearch-hook"
     },
     {
       "qid": "eeefaq.022",
@@ -330,7 +330,7 @@
         "title": "",
         "imageUrl": ""
       },
-      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS"
+      "l": "arn:aws:lambda:us-east-1:263578347602:function:qna-elasticsearch-hook"
     },
     {
       "qid": "eeefaq.023",
@@ -347,7 +347,7 @@
         "title": "",
         "imageUrl": ""
       },
-      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS"
+      "l": "arn:aws:lambda:us-east-1:263578347602:function:qna-elasticsearch-hook"
     },
     {
       "qid": "eeefaq.024",
@@ -362,7 +362,7 @@
         "title": "",
         "imageUrl": ""
       },
-      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS"
+      "l": "arn:aws:lambda:us-east-1:263578347602:function:qna-elasticsearch-hook"
     },
     {
       "qid": "eeefaq.025",
@@ -376,7 +376,7 @@
         "title": "",
         "imageUrl": ""
       },
-      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS"
+      "l": "arn:aws:lambda:us-east-1:263578347602:function:qna-elasticsearch-hook"
     },
     {
       "qid": "eeefaq.026",
@@ -389,7 +389,7 @@
         "title": "",
         "imageUrl": ""
       },
-      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS"
+      "l": "arn:aws:lambda:us-east-1:263578347602:function:qna-elasticsearch-hook"
     }
   ]
 }

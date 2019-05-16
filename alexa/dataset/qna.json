@@ -16,7 +16,7 @@
         "markdown": "",
         "ssml": "<speak>Fulltime <say-as interpret-as=\"spell-out\">NTU</say-as> undergraduates who are admitted into triple E are automatically members of the triple E club. The club is a constituent body of the <say-as interpret-as=\"spell-out\">NTU</say-as> students’ union, which caters for students’ welfare. The club organizes a variety of events to suit the different needs of our active students. They also organize leisure events like cruise dinners, movie screenings and holiday getaways at subsidised rates. In addition, they co‐organize events like bowling rendezvous and graduates’ evening with the triple E alumni to encourage interaction and networking between undergraduates and alumni members. The club also serves as a bridge between the school and the students.</speak>"
       },
-      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS",
+      "l": "arn:aws:lambda:us-east-1:263578347602:function:qna-elasticsearch-hook",
       "qid": "eeefaq.025",
       "type": "qna",
       "q": [
@@ -42,7 +42,7 @@
         "markdown": "",
         "ssml": "<speak>Students can purchase notes from the Lee Wee Name library printing room. However, you have to check whether the notes for the courses are available. Alternatively, students can download and print the notes via <say-as interpret-as=\"spell-out\">NTU</say-as> learn. Students may collect their laboratory manuals at the triple E undergraduate program office.</speak>"
       },
-      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS",
+      "l": "arn:aws:lambda:us-east-1:263578347602:function:qna-elasticsearch-hook",
       "qid": "eeefaq.002",
       "type": "qna",
       "q": [
@@ -68,7 +68,7 @@
         "markdown": "",
         "ssml": ""
       },
-      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS",
+      "l": "arn:aws:lambda:us-east-1:263578347602:function:qna-elasticsearch-hook",
       "qid": "eeefaq.016",
       "type": "qna",
       "q": [
@@ -93,7 +93,7 @@
         "markdown": "",
         "ssml": "<speak><say-as interpret-as=\"spell-out\">CAO</say-as> recommends an allowance of 700 dollars per month. Most organizations pay our students 600 dollars and above. organizations that pay lower than this amount would be made known to students as a remark during the selection of organizations for <say-as interpret-as=\"spell-out\">PI</say-as>.</speak>"
       },
-      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS",
+      "l": "arn:aws:lambda:us-east-1:263578347602:function:qna-elasticsearch-hook",
       "qid": "career.001",
       "type": "qna",
       "q": [
@@ -120,7 +120,7 @@
         "markdown": "",
         "ssml": ""
       },
-      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS",
+      "l": "arn:aws:lambda:us-east-1:263578347602:function:qna-elasticsearch-hook",
       "qid": "eeefaq.018",
       "type": "qna",
       "q": [
@@ -146,7 +146,7 @@
         "markdown": "",
         "ssml": "<speak>If your network account has been locked due to repeated failed login attempts or other reasons, you have to contact <say-as interpret-as=\"spell-out\">IT</say-as> service counters. Please contact <say-as interpret-as=\"spell-out\">93722830</say-as> for more information.</speak>"
       },
-      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS",
+      "l": "arn:aws:lambda:us-east-1:263578347602:function:qna-elasticsearch-hook",
       "qid": "it.002",
       "type": "qna",
       "q": [
@@ -171,7 +171,7 @@
         "markdown": "",
         "ssml": ""
       },
-      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS",
+      "l": "arn:aws:lambda:us-east-1:263578347602:function:qna-elasticsearch-hook",
       "qid": "facility.002",
       "type": "qna",
       "q": [
@@ -196,7 +196,7 @@
         "markdown": "",
         "ssml": ""
       },
-      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS",
+      "l": "arn:aws:lambda:us-east-1:263578347602:function:qna-elasticsearch-hook",
       "qid": "eeefaq.003",
       "type": "qna",
       "q": [
@@ -223,7 +223,7 @@
         "markdown": "",
         "ssml": ""
       },
-      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS",
+      "l": "arn:aws:lambda:us-east-1:263578347602:function:qna-elasticsearch-hook",
       "qid": "it.003",
       "type": "qna",
       "q": [
@@ -251,7 +251,7 @@
         "markdown": "",
         "ssml": "<speak>\nYou know what, Dan Zadra has said that worry is a misuse of the imagination. We are always with you. If it is career related, you might want to contact Career and Attachment office. You could either email them at <say-as interpret-as=\"spell-out\">cao@ntu.edu.sg</say-as>, or make a call at <say-as interpret-as=\"spell-out\">67905242</say-as>.\n</speak>"
       },
-      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS",
+      "l": "arn:aws:lambda:us-east-1:263578347602:function:qna-elasticsearch-hook",
       "qid": "others.001",
       "type": "qna",
       "q": [
@@ -277,7 +277,7 @@
         "markdown": "",
         "ssml": ""
       },
-      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS",
+      "l": "arn:aws:lambda:us-east-1:263578347602:function:qna-elasticsearch-hook",
       "qid": "ungradAcademic.003",
       "type": "qna",
       "q": [
@@ -303,7 +303,7 @@
         "markdown": "",
         "ssml": "<speak>Eligible students from selected program may be invited to do a second major. Triple E students are offered to read business and social and urban systems as second majors. For more information, you may refer to here: tiny<say-as interpret-as=\"spell-out\">url</say-as>.com/<say-as interpret-as=\"spell-out\">ybtk2ula</say-as></speak>"
       },
-      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS",
+      "l": "arn:aws:lambda:us-east-1:263578347602:function:qna-elasticsearch-hook",
       "qid": "ungradAcademic.004",
       "type": "qna",
       "q": [
@@ -327,7 +327,7 @@
         "markdown": "",
         "ssml": "<speak>The eight <say-as interpret-as=\"spell-out\">NTU</say-as> libraries on campus provide space, resources and services to support learning and research. They are arts, design and media Library, business library, Chinese library, communication and information library, humanities and social sciences library, Lee Wee Nam library, library outpost, and Wang Gung Wu Library. There is a range of library materials that cater to various learning needs and preferences. The print collection stands at more than half a million books now and is growing about 40000 volumes per year. There is also a good selection of audio visual materials, numbering about 26000 items. <say-as interpret-as=\"spell-out\">NTU</say-as> community is also endowed with the rich collection of <say-as interpret-as=\"spell-out\">NIE</say-as> Library and information services centre, which provides a strong collection in education, humanities and science.</speak>"
       },
-      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS",
+      "l": "arn:aws:lambda:us-east-1:263578347602:function:qna-elasticsearch-hook",
       "qid": "eeefaq.013",
       "type": "qna",
       "q": [
@@ -353,7 +353,7 @@
         "markdown": "",
         "ssml": "<speak>You can participate in numerous sporting activities at the <say-as interpret-as=\"spell-out\">NTU</say-as> sports centre. The <say-as interpret-as=\"spell-out\">NTU</say-as> sports centre is well equipped with a swimming pool, badminton, squash, basketball, and volleyball courts and soccer fields, among other things. There are also religious, cultural, academic and sports societies in <say-as interpret-as=\"spell-out\">NTU</say-as> for students’ participation. Many of these activities held throughout the year are displayed by banners in the university canteens.</speak>"
       },
-      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS",
+      "l": "arn:aws:lambda:us-east-1:263578347602:function:qna-elasticsearch-hook",
       "qid": "eeefaq.022",
       "type": "qna",
       "q": [
@@ -379,7 +379,7 @@
         "markdown": "",
         "ssml": "<speak>You must first seek counsel from your academic mentor who would advise you on the available options. Students, whose <say-as interpret-as=\"spell-out\">CGPA</say-as> score is above 2, may overload an additional course, not exceeding 22 <say-as interpret-as=\"spell-out\">AU</say-as>. However, you are advised not to overload by more than one course.</speak>"
       },
-      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS",
+      "l": "arn:aws:lambda:us-east-1:263578347602:function:qna-elasticsearch-hook",
       "qid": "eeefaq.007",
       "type": "qna",
       "q": [
@@ -406,7 +406,7 @@
         "markdown": "",
         "ssml": "<speak>There are several financial schemes available to needy students. The information on loan schemes, scholarships and bursaries administered by <say-as interpret-as=\"spell-out\">NTU</say-as> can be obtained from the Student and Academic Services Department. Or you may want to take a look on this website: tiny<say-as interpret-as=\"spell-out\">url</say-as>.com/<say-as interpret-as=\"spell-out\">y824vp2j</say-as></speak>"
       },
-      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS",
+      "l": "arn:aws:lambda:us-east-1:263578347602:function:qna-elasticsearch-hook",
       "qid": "eeefaq.010",
       "type": "qna",
       "q": [
@@ -432,7 +432,7 @@
         "markdown": "",
         "ssml": "<speak>This is triple E academic program office. As the main campus is a 200 hectare residential, garden campus, it is understandable that students may get lost during the first few days. For a quick lookup, browse the interactive <say-as interpret-as=\"spell-out\">NTU</say-as> map. You can go to maps<say-as interpret-as=\"spell-out\">.ntu.edu.sg/</say-as>maps</speak>"
       },
-      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS",
+      "l": "arn:aws:lambda:us-east-1:263578347602:function:qna-elasticsearch-hook",
       "qid": "eeefaq.011",
       "type": "qna",
       "q": [
@@ -459,7 +459,7 @@
         "markdown": "",
         "ssml": "<speak>Some of the interviewing organizations only want to consider students who are not bonded to any other organizations, i.e. they are not required to work for any particular organization after their graduation. This often because the organizations want to use <say-as interpret-as=\"spell-out\">PI</say-as> to access the students' suitability for possible future employment.</speak>"
       },
-      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS",
+      "l": "arn:aws:lambda:us-east-1:263578347602:function:qna-elasticsearch-hook",
       "qid": "career.002",
       "type": "qna",
       "q": [
@@ -482,7 +482,7 @@
         "markdown": "",
         "ssml": ""
       },
-      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS",
+      "l": "arn:aws:lambda:us-east-1:263578347602:function:qna-elasticsearch-hook",
       "qid": "facility.001",
       "type": "qna",
       "q": [
@@ -522,7 +522,7 @@
         "title": "",
         "imageUrl": ""
       },
-      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS",
+      "l": "arn:aws:lambda:us-east-1:263578347602:function:qna-elasticsearch-hook",
       "type": "qna",
       "q": [
         "What is the library's opening hours"
@@ -544,7 +544,7 @@
         "markdown": "",
         "ssml": "<speak>Please refer to this site for details on how to do so: tiny<say-as interpret-as=\"spell-out\">url</say-as>.com/<say-as interpret-as=\"spell-out\">yc7o4h2p</say-as></speak>"
       },
-      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS",
+      "l": "arn:aws:lambda:us-east-1:263578347602:function:qna-elasticsearch-hook",
       "qid": "it.004",
       "type": "qna",
       "q": [
@@ -569,7 +569,7 @@
         "markdown": "",
         "ssml": "<speak>Please submit your request and the supporting documents to your school for review. You may refer to tiny<say-as interpret-as=\"spell-out\">url</say-as>.com/<say-as interpret-as=\"spell-out\">ycdmslrx</say-as></speak>"
       },
-      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS",
+      "l": "arn:aws:lambda:us-east-1:263578347602:function:qna-elasticsearch-hook",
       "qid": "ungradAcademic.002",
       "type": "qna",
       "q": [
@@ -594,7 +594,7 @@
         "markdown": "",
         "ssml": ""
       },
-      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS",
+      "l": "arn:aws:lambda:us-east-1:263578347602:function:qna-elasticsearch-hook",
       "qid": "ungradAcademic.010",
       "type": "qna",
       "q": [
@@ -618,7 +618,7 @@
         "markdown": "",
         "ssml": "<speak>Applications from local and international students are to be made online after acceptance of the offer of admission to <say-as interpret-as=\"spell-out\">NTU</say-as>. Students who are offered admission after the application deadline will be given a hardcopy application form in their admission package. New students are guaranteed admission when they apply by the closing date for hall applications and are randomly assigned a room in a hall. Senior students who need to apply for halls are required to satisfy campus life involvement criterion by earning <say-as interpret-as=\"spell-out\">ECA</say-as> points. For more information on this, you may refer to: tiny<say-as interpret-as=\"spell-out\">url</say-as>.com/<say-as interpret-as=\"spell-out\">y8b49pnb</say-as></speak>"
       },
-      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS",
+      "l": "arn:aws:lambda:us-east-1:263578347602:function:qna-elasticsearch-hook",
       "qid": "eeefaq.015",
       "type": "qna",
       "q": [
@@ -635,7 +635,7 @@
         "title": "",
         "imageUrl": ""
       },
-      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS",
+      "l": "arn:aws:lambda:us-east-1:263578347602:function:qna-elasticsearch-hook",
       "type": "qna",
       "q": [
         "Can I apply for gem explorer if I had previously been in an overseas program that was not an exchange program",
@@ -650,7 +650,7 @@
         "title": "",
         "imageUrl": ""
       },
-      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS",
+      "l": "arn:aws:lambda:us-east-1:263578347602:function:qna-elasticsearch-hook",
       "type": "qna",
       "q": [
         "How do I appeal for a review of my exam results"
@@ -663,7 +663,7 @@
         "title": "",
         "imageUrl": ""
       },
-      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS",
+      "l": "arn:aws:lambda:us-east-1:263578347602:function:qna-elasticsearch-hook",
       "type": "qna",
       "q": [
         "If I am offered a program but I wish to appeal to change program, is it possible",
@@ -687,7 +687,7 @@
         "markdown": "",
         "ssml": "<speak>The alumni was set up in December 1996 by our triple E graduates and its main objectives are to organise educational, social, cultural, recreational, sporting and civic activities among alumni triple E members. It is a great networking channel for <say-as interpret-as=\"spell-out\">NTU</say-as> triple E graduates. This association also serves as a body for members in the promotion and advancement of electrical and electronic engineering education and knowledge. It also promotes closer interaction between the association, industry and other alumni associations.</speak>"
       },
-      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS",
+      "l": "arn:aws:lambda:us-east-1:263578347602:function:qna-elasticsearch-hook",
       "qid": "eeefaq.026",
       "type": "qna",
       "q": [
@@ -712,7 +712,7 @@
         "markdown": "",
         "ssml": "<speak>When you are researching a partner university, you need to know if the courses there have equivalent courses or matches in <say-as interpret-as=\"spell-out\">NTU</say-as>, such that you can transfer credits back to <say-as interpret-as=\"spell-out\">NTU</say-as> after your exchange. It is best to select universities where there are at least 15 to 20 courses you can take. You may submit your 10 course preferences in the course matching system on the student link for your <say-as interpret-as=\"spell-out\">NTU</say-as> school exchange coordinator to approve.</speak>"
       },
-      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS",
+      "l": "arn:aws:lambda:us-east-1:263578347602:function:qna-elasticsearch-hook",
       "qid": "exchange.003",
       "type": "qna",
       "q": [
@@ -737,7 +737,7 @@
         "markdown": "",
         "ssml": "<speak>You have to check with you sponsor whether you are required to do <say-as interpret-as=\"spell-out\">PI</say-as> with them or with other organization in Singapore. If so, then you are not allowed to apply for an overseas <say-as interpret-as=\"spell-out\">PI</say-as> unless they agree to release you. The letter of release must be submitted to director, <say-as interpret-as=\"spell-out\">CAO</say-as>, together with your application forms for overseas <say-as interpret-as=\"spell-out\">PI</say-as>.</speak>"
       },
-      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS",
+      "l": "arn:aws:lambda:us-east-1:263578347602:function:qna-elasticsearch-hook",
       "qid": "career.004",
       "type": "qna",
       "q": [
@@ -765,7 +765,7 @@
         "markdown": "",
         "ssml": "<speak>The bookstore in <say-as interpret-as=\"spell-out\">NTU</say-as>, which is the book link, is located at north spine plaza, just besides prime supermarket. You can buy your books, stationery, stamps, greeting cards there. Some textbooks are also available at the book shop.</speak>"
       },
-      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS",
+      "l": "arn:aws:lambda:us-east-1:263578347602:function:qna-elasticsearch-hook",
       "qid": "eeefaq.014",
       "type": "qna",
       "q": [
@@ -793,7 +793,7 @@
         "markdown": "",
         "ssml": "<speak>Triple E students are automatically members of the <say-as interpret-as=\"spell-out\">NTU</say-as> triple E club. To become subcommittee members, you will need to go through interviews by main committee members. Main committee members are selected based on triple E student election.</speak>"
       },
-      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS",
+      "l": "arn:aws:lambda:us-east-1:263578347602:function:qna-elasticsearch-hook",
       "qid": "eeefaq.024",
       "type": "qna",
       "q": [
@@ -819,7 +819,7 @@
         "markdown": "",
         "ssml": ""
       },
-      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS",
+      "l": "arn:aws:lambda:us-east-1:263578347602:function:qna-elasticsearch-hook",
       "qid": "eeefaq.017",
       "type": "qna",
       "q": [
@@ -871,7 +871,7 @@
         "title": "",
         "imageUrl": ""
       },
-      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS",
+      "l": "arn:aws:lambda:us-east-1:263578347602:function:qna-elasticsearch-hook",
       "type": "qna",
       "q": [
         "Are there any triple E professional societies",
@@ -898,7 +898,7 @@
         "markdown": "",
         "ssml": ""
       },
-      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS",
+      "l": "arn:aws:lambda:us-east-1:263578347602:function:qna-elasticsearch-hook",
       "qid": "exchange.005",
       "type": "qna",
       "q": [
@@ -922,7 +922,7 @@
         "markdown": "",
         "ssml": ""
       },
-      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS",
+      "l": "arn:aws:lambda:us-east-1:263578347602:function:qna-elasticsearch-hook",
       "qid": "exchange.008",
       "type": "qna",
       "q": [
@@ -947,7 +947,7 @@
         "markdown": "",
         "ssml": "<speak>You may download the softcopy of past year exam question papers from the <say-as interpret-as=\"spell-out\">NTU</say-as> library website. And you can purchase answer scripts written by volunteering students at triple E printing room.</speak>"
       },
-      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS",
+      "l": "arn:aws:lambda:us-east-1:263578347602:function:qna-elasticsearch-hook",
       "qid": "ungradAcademic.001",
       "type": "qna",
       "q": [
@@ -977,7 +977,7 @@
         "markdown": "",
         "ssml": "<speak>All new <say-as interpret-as=\"spell-out\">NTU</say-as> undergraduate and graduate students are automatically members of the library. No separate library registration is necessary. You may borrow physical books with your matriculation card.</speak>"
       },
-      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS",
+      "l": "arn:aws:lambda:us-east-1:263578347602:function:qna-elasticsearch-hook",
       "qid": "eeefaq.012",
       "type": "qna",
       "q": [
@@ -1002,7 +1002,7 @@
         "markdown": "",
         "ssml": "<speak>This letter is called a <say-as interpret-as=\"spell-out\">NTU</say-as> letter of participation. GEM explorer will only prepare this when we receive your acceptance letter.</speak>"
       },
-      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS",
+      "l": "arn:aws:lambda:us-east-1:263578347602:function:qna-elasticsearch-hook",
       "qid": "exchange.007",
       "type": "qna",
       "q": [
@@ -1018,7 +1018,7 @@
         "title": "",
         "imageUrl": ""
       },
-      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS",
+      "l": "arn:aws:lambda:us-east-1:263578347602:function:qna-elasticsearch-hook",
       "type": "qna",
       "q": [
         "Can I apply the exchange program for a future academic year",
@@ -1034,7 +1034,7 @@
         "title": "",
         "imageUrl": ""
       },
-      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS",
+      "l": "arn:aws:lambda:us-east-1:263578347602:function:qna-elasticsearch-hook",
       "type": "qna",
       "q": [
         "Is the degree audit equivalent to the transcript",
@@ -1058,7 +1058,7 @@
         "markdown": "",
         "ssml": "<speak>The academic unit is a measure of the students’ workload associated with both class attendance and preparation. Under the academic unit system, each course is assigned a certain number of academic units. The associate chair will discuss the <say-as interpret-as=\"spell-out\">AU</say-as> distribution during the orientation day program.</speak>"
       },
-      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS",
+      "l": "arn:aws:lambda:us-east-1:263578347602:function:qna-elasticsearch-hook",
       "qid": "eeefaq.001",
       "type": "qna",
       "q": [
@@ -1084,7 +1084,7 @@
         "markdown": "",
         "ssml": "<speak>The undergraduate research opportunities program, abbreviated as <phoneme alphabet=\"ipa\" ph=\"'jʊrəp\">UROP</phoneme>, has been established to promote research culture among able students. Unlike <phoneme alphabet=\"ipa\" ph=\"jʊ'rikə\">URECA</phoneme>, this program is offered to all interested second and third year students.</speak>"
       },
-      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS",
+      "l": "arn:aws:lambda:us-east-1:263578347602:function:qna-elasticsearch-hook",
       "qid": "eeefaq.006",
       "type": "qna",
       "q": [
@@ -1111,7 +1111,7 @@
         "markdown": "",
         "ssml": "<speak>There are a few handbooks published by the school and other administrative and academic branches of <say-as interpret-as=\"spell-out\">NTU</say-as>. For detailed information, please refer to this link: tiny<say-as interpret-as=\"spell-out\">url</say-as>.com/<say-as interpret-as=\"spell-out\">ybyartyc</say-as></speak>"
       },
-      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS",
+      "l": "arn:aws:lambda:us-east-1:263578347602:function:qna-elasticsearch-hook",
       "qid": "eeefaq.009",
       "type": "qna",
       "q": [
@@ -1138,7 +1138,7 @@
         "markdown": "",
         "ssml": ""
       },
-      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS",
+      "l": "arn:aws:lambda:us-east-1:263578347602:function:qna-elasticsearch-hook",
       "qid": "career.003",
       "type": "qna",
       "q": [
@@ -1165,7 +1165,7 @@
         "markdown": "",
         "ssml": ""
       },
-      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS",
+      "l": "arn:aws:lambda:us-east-1:263578347602:function:qna-elasticsearch-hook",
       "qid": "eeefaq.004",
       "type": "qna",
       "q": [
@@ -1200,7 +1200,7 @@
         "title": "",
         "imageUrl": ""
       },
-      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS",
+      "l": "arn:aws:lambda:us-east-1:263578347602:function:qna-elasticsearch-hook",
       "type": "qna",
       "q": [
         "Where can I print lecture notes",
@@ -1226,7 +1226,7 @@
         "markdown": "",
         "ssml": "<speak><say-as interpret-as=\"spell-out\">67904616</say-as> for student billing, and <say-as interpret-as=\"spell-out\">67904619</say-as> for financial assistance</speak>"
       },
-      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS",
+      "l": "arn:aws:lambda:us-east-1:263578347602:function:qna-elasticsearch-hook",
       "qid": "financial.002",
       "type": "qna",
       "q": [
@@ -1251,7 +1251,7 @@
         "markdown": "",
         "ssml": "<speak>You can have your password reset by <say-as interpret-as=\"spell-out\">SMS</say-as>, fax or walk-in at <say-as interpret-as=\"spell-out\">IT</say-as> service counters. Please contact <say-as interpret-as=\"spell-out\">93722830</say-as> for more information.</speak>"
       },
-      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS",
+      "l": "arn:aws:lambda:us-east-1:263578347602:function:qna-elasticsearch-hook",
       "qid": "it.001",
       "type": "qna",
       "q": [
@@ -1277,7 +1277,7 @@
         "markdown": "",
         "ssml": "<speak>The dean's list is compiled on a yearly basis. The top 5% of the cohort, subject to attaining a minimum <say-as interpret-as=\"spell-out\">YGPA</say-as> of 4.50 and the specified <say-as interpret-as=\"spell-out\">AU</say-as> of graded courses by curriculum type taken in <say-as interpret-as=\"spell-out\">NTU</say-as> in the academic year, is eligible for the dean's list. Full-time single degree students have to complete at least 15 <say-as interpret-as=\"spell-out\">AU</say-as> of graded courses. Courses that are graded as satisfactory or unsatisfactory and pass or fail or those with grades exempted and leave of absence are not counted in the <say-as interpret-as=\"spell-out\">AU</say-as> of graded courses for the purpose of determining the dean's list. Besides this, final year students must attain at least a second upper honours or honours degree in order to be considered for the dean's list.</speak>"
       },
-      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS",
+      "l": "arn:aws:lambda:us-east-1:263578347602:function:qna-elasticsearch-hook",
       "qid": "ungradAcademic.008",
       "type": "qna",
       "q": [
@@ -1302,7 +1302,7 @@
         "markdown": "",
         "ssml": "<speak><say-as interpret-as=\"spell-out\">NTU</say-as> has only 1 intake per year. The academic term usually commence in early August.</speak>"
       },
-      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS",
+      "l": "arn:aws:lambda:us-east-1:263578347602:function:qna-elasticsearch-hook",
       "qid": "ungradAcademic.009",
       "type": "qna",
       "q": [
@@ -1338,7 +1338,7 @@
         "markdown": "",
         "ssml": ""
       },
-      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS",
+      "l": "arn:aws:lambda:us-east-1:263578347602:function:qna-elasticsearch-hook",
       "qid": "Admin.001",
       "type": "qna",
       "q": [
@@ -1352,7 +1352,7 @@
         "title": "",
         "imageUrl": ""
       },
-      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS",
+      "l": "arn:aws:lambda:us-east-1:263578347602:function:qna-elasticsearch-hook",
       "type": "qna",
       "q": [
         "How do I look for housing for my gem explorer exchange semester",
@@ -1366,7 +1366,7 @@
         "title": "",
         "imageUrl": ""
       },
-      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS",
+      "l": "arn:aws:lambda:us-east-1:263578347602:function:qna-elasticsearch-hook",
       "type": "qna",
       "q": [
         "I missed the application deadline, can I still apply for gem explorer",
@@ -1381,7 +1381,7 @@
         "title": "",
         "imageUrl": ""
       },
-      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS",
+      "l": "arn:aws:lambda:us-east-1:263578347602:function:qna-elasticsearch-hook",
       "type": "qna",
       "q": [
         "I want to read more than just my lecture notes. What should I do",
@@ -1396,7 +1396,7 @@
         "title": "",
         "imageUrl": ""
       },
-      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS",
+      "l": "arn:aws:lambda:us-east-1:263578347602:function:qna-elasticsearch-hook",
       "type": "qna",
       "q": [
         "I am unable to attend classes during term time, what should I do",
@@ -1421,7 +1421,7 @@
         "markdown": "",
         "ssml": "<speak>The undergraduate research experience on campus, or <phoneme alphabet=\"ipa\" ph=\"jʊ'rikə\">URECA</phoneme>, has been established to promote research culture among able students. <phoneme alphabet=\"ipa\" ph=\"jʊ'rikə\">URECA</phoneme> is eligible only to second and third year undergraduates who have excelled in their examinations, so it is by invitation only.</speak>"
       },
-      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS",
+      "l": "arn:aws:lambda:us-east-1:263578347602:function:qna-elasticsearch-hook",
       "qid": "eeefaq.005",
       "type": "qna",
       "q": [
@@ -1448,7 +1448,7 @@
         "markdown": "",
         "ssml": "<speak>All full time students who have missed classes due to illness must send the original medical certificate to the triple E undergraduate programme office no later than 7 working days after their medical leave. Students who missed any quiz or lab sessions on the grounds of medical leave would be allowed to do a makeup for the missed session, unless stated otherwise by the tutors. Students are also advised not to give their original <say-as interpret-as=\"spell-out\">MC</say-as> to the respective tutors. The medical certificate submission form is available at the undergraduate programme office.</speak>"
       },
-      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS",
+      "l": "arn:aws:lambda:us-east-1:263578347602:function:qna-elasticsearch-hook",
       "qid": "eeefaq.019",
       "type": "qna",
       "q": [
@@ -1476,7 +1476,7 @@
         "markdown": "",
         "ssml": ""
       },
-      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS",
+      "l": "arn:aws:lambda:us-east-1:263578347602:function:qna-elasticsearch-hook",
       "qid": "exchange.002",
       "type": "qna",
       "q": [
@@ -1501,7 +1501,7 @@
         "markdown": "",
         "ssml": ""
       },
-      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS",
+      "l": "arn:aws:lambda:us-east-1:263578347602:function:qna-elasticsearch-hook",
       "qid": "financial.001",
       "type": "qna",
       "q": [
@@ -1526,7 +1526,7 @@
         "markdown": "",
         "ssml": "<speak>For admission requirements of graduate programs, please visit: tiny<say-as interpret-as=\"spell-out\">url</say-as>.com/<say-as interpret-as=\"spell-out\">ydch5mz4</say-as></speak>"
       },
-      "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS",
+      "l": "arn:aws:lambda:us-east-1:263578347602:function:qna-elasticsearch-hook",
       "qid": "ungradAcademic.007",
       "type": "qna",
       "q": [
