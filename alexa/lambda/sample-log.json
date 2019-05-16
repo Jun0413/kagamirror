@@ -183,7 +183,7 @@
                 "markdown": "",
                 "ssml": ""
             },
-            "l": "arn:aws:lambda:us-east-1:251102793405:function:qna-QnABot-hello-JS",
+            "l": "arn:aws:lambda:us-east-1:263578347602:function:qna-elasticsearch-hook",
             "qid": "Admin.001",
             "type": "qna"
         },
